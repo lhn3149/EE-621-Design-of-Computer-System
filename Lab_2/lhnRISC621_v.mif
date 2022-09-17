@@ -1,0 +1,37 @@
+-- Memory File
+-- This is Test Program 1 for single core,
+-- non-pipelined dxpRISC521 test
+
+WIDTH = 14;
+DEPTH = 1024;
+
+ADDRESS_RADIX = HEX;	% Can be HEX, BIN or DEC %
+DATA_RADIX = HEX;	% Can be HEX, BIN or DEC %
+% old Op 4 bit, Ri 6 bit, Rj 6 bit%
+CONTENT BEGIN
+0	:	0622; % SUB R2, R2; R2 = 0  0110 0000 10 00 0010 | b 0000 0110 0010 0010 %
+1	:	0633; % SUB R3, R3; R3 = 0  0110 0000 11 00 0011 | b 0000 0110 0011 0011 %
+2	:	0723; % ADDC R2, #0x3; R2 = 0x3  1000 0000 10 00 0011 | b 0000 0111 0010 0011 %
+3	:	0722; % ADDC R2, #0x2; R2 = 0x5  0111 0000 10 00 0010 | b 0000 0111 0010 0010%
+4	:	0532; % ADD R3, R2; R3 = 0x5  0101 0000 11 00 0010    | b 0000 0101 0011 0010%
+5	:	0832; % SUBC R3, #0x2; R3 = 0x3 %
+6	: 	0932; % MUL R3, R2, R3 = 0xF %
+7	:	0A32; % DIV R3, R2, R3 = 0x3 %
+8	:	0732; % ADDC R3. #0x2, R3 = 0x5%
+9	:	0B20; % NOT R2; R2 = 0x3FFA  1001 0000 10 00 0000     | b 0000 1011 0010 0000%
+A	:	0D32; % OR R3, R2; R3 = 0x3FFF b 0000 1101 0011 0010 %
+B	:	0632; % SUB R3, R2 %
+C	:	0C32; % AND R3, R2; R3 = R2 = 0x3FFa  1010 0000 11 00 0010| b 0000 1100 0011 0010%
+D	:	0E32; % XOR R3, R2 --> R3 3FF5 %
+E	:	1031; % SHRA R3, #0x1; R3 = 0x3FFD  0011 1111 1111 1101| b 0001 0000 0011 0001%
+F	:	0F32; % SLRL R3, #0x2  R3 = 0FFF%
+10	:	1121; % ROTL R2, #0x1  R2 = 3FF5; 0011 1111 1111 1010 %
+11	:	1221; % ROTR R2, #0x1; R2 = 0x3FFA| b 0001 0010 0010 0001 %
+12	:	1322; % RLN R2, #0x2 through N [0110] %
+13	: 	1422; % RLZ R2, #0x2 through Z [0111] % 
+14	:	1522; % RRC R2, #0x2 rotate through C [1111]  %
+15	:	1622; % RRV R2, #0x2 rotate through V [1111] %
+16	:	0332; % SWAP R3, R2; R3 = 0x3FFE, R2 = 0xFFFD %
+17	:	0232; % CPY R3, R2 0010 0000 11 00 0010	%
+[18 .. 3FF] : 0; % Fill all other locations with 0, 1K memory %
+END;
