@@ -1,17 +1,12 @@
-Analysis & Synthesis Status : Successful - Sat Sep 17 10:59:18 2022
+Analysis & Synthesis Status : Failed - Mon Sep 19 19:00:56 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : lhnRISC621_v
 Top-level Entity Name : lhnRISC621_v
 Family : Cyclone V
-Logic utilization (in ALMs) : N/A
-Total registers : 473
-Total pins : 111
-Total virtual pins : 0
-Total block memory bits : 14,336
-Total DSP Blocks : 1
-Total HSSI RX PCSs : 0
-Total HSSI PMA RX Deserializers : 0
-Total HSSI TX PCSs : 0
-Total HSSI PMA TX Serializers : 0
-Total PLLs : 0
-Total DLLs : 0
+Logic utilization (in ALMs) : N/A until Partition Merge
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total block memory bits : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge
+Total DLLs : N/A until Partition Merge

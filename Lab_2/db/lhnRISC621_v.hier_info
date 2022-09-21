@@ -822,6 +822,7 @@ Resetn_pin => ICis.OUTPUTSELECT
 Resetn_pin => ICis.OUTPUTSELECT
 Resetn_pin => ICis.OUTPUTSELECT
 Resetn_pin => ICis.OUTPUTSELECT
+Resetn_pin => ICis.OUTPUTSELECT
 Clock_pin => ICis[0]~reg0.CLK
 Clock_pin => ICis[1]~reg0.CLK
 Clock_pin => ICis[2]~reg0.CLK

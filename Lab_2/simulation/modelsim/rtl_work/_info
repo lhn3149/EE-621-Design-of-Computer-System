@@ -7,94 +7,94 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/simulation/modelsim
+Z0 dE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/simulation/modelsim
 vlhn_ir2assembly_v
-Z1 !s110 1663427871
+Z1 !s110 1663595500
 !i10b 1
 !s100 HK0gBMK=1n;`]O;W<f3XF1
-IRfl4mahCa9D`KG@JS]I[;0
+IEm1a5>C^Z2LOG5^_RA9AX2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1663427425
-8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhn_ir2assembly_v.v
-FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhn_ir2assembly_v.v
+Z3 w1663428488
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_ir2assembly_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_ir2assembly_v.v
 L0 1
-Z3 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1663427871.000000
-!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhn_ir2assembly_v.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhn_ir2assembly_v.v|
+Z5 !s108 1663595500.000000
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_ir2assembly_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_ir2assembly_v.v|
 !i113 1
-Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2}
-Z7 tCvgOpt 0
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2
+Z8 tCvgOpt 0
 vlhn_mm
-R1
+Z9 !s110 1663595501
 !i10b 1
 !s100 @CnP[]XCa]VO6nSHk`kcH0
-I5^AAbLY`ij]W@Q_7fRUXf3
+IJWR=z6?;1:@L1EZz>c3d91
 R2
 R0
-w1663389692
-8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhn_mm.v
-FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhn_mm.v
-L0 39
 R3
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.v
+L0 39
+R4
 r1
 !s85 0
 31
-R4
-!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhn_mm.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhn_mm.v|
-!i113 1
 R5
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.v|
+!i113 1
 R6
 R7
+R8
 vlhnRISC621_v
 R1
 !i10b 1
-!s100 lE13RU;FCSO`hYdHD01fP3
-I^JbPc^Z^3EO^b]>VH>UF72
+!s100 @D?0?>W:>i49l7QiHee1e0
+IiG^F_@14n43n^0>o13[YF1
 R2
 R0
-w1663427780
-8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhnRISC621_v.v
-FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhnRISC621_v.v
-L0 16
 R3
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v
+L0 16
+R4
 r1
 !s85 0
 31
-R4
-!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhnRISC621_v.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhnRISC621_v.v|
-!i113 1
 R5
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v|
+!i113 1
 R6
 R7
+R8
 nlhn@r@i@s@c621_v
 vlhnRISC621_v_tb
-R1
+R9
 !i10b 1
 !s100 P6B6@M8odFKOm2?Yj5gah2
-IoAX8bCH>mFAkD8ah0bD;73
+I?0D`[;Fzd:f;M[0HWg24J0
 R2
 R0
-w1663389464
-8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhnRISC621_v_tb.v
-FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhnRISC621_v_tb.v
-L0 5
 R3
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v_tb.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v_tb.v
+L0 5
+R4
 r1
 !s85 0
 31
-R4
-!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhnRISC621_v_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/DCS/Lab_2/lhnRISC621_v_tb.v|
+!s108 1663595501.000000
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v_tb.v|
 !i113 1
-R5
 R6
 R7
+R8
 nlhn@r@i@s@c621_v_tb
