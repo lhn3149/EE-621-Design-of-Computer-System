@@ -46,8 +46,8 @@ else case (IR[13:8])
 	6'b000000 : ICis = {8'h4C, 8'h44, 8'h20, 8'h52, IR5to0, 8'h2c, 8'h20, 8'h4D, 8'h41,  8'h72, IR11to6, 8'h3B}; //LD
 	6'b000001 : ICis = {8'h53, 8'h54, 8'h20, 8'h52, IR5to0, 8'h2c, 8'h20, 8'h4D, 8'h41,  8'h72, IR11to6, 8'h3B}; //ST
 	6'b000010 : ICis = {8'h43, 8'h50, 8'h59, 8'h20, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h52, IR5to0, 8'h3B}; //CPY
-	6'b000011 : ICis = {8'h53, 8'h57, 8'h41, 8'h50, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h52, IR5to0, 8'h3B}; //SWAP
-	6'b000100 : ICis = {8'h4A, 8'h55, 8'h4D, 8'h50, 8'h20, 8'h69, 8'h66, 	8'h20, sbit,  8'h3D, sbit_val,  8'h3B}; //JUMP
+	6'b000100 : ICis = {8'h53, 8'h57, 8'h41, 8'h50, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h52, IR5to0, 8'h3B}; //SWAP
+	6'b011000 : ICis = {8'h4A, 8'h55, 8'h4D, 8'h50, 8'h20, 8'h69, 8'h66, 	8'h20, sbit,  8'h3D, sbit_val,  8'h3B}; //JUMP
 	6'b000101 : ICis = {8'h41, 8'h44, 8'h44, 8'h20, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h52, IR5to0, 8'h3B}; //ADD
 	6'b000110 : ICis = {8'h53, 8'h55, 8'h42, 8'h20, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h52, IR5to0, 8'h3B}; //SUB
 	6'b000111 : ICis = {8'h41, 8'h44, 8'h44, 8'h43, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h23, IR5to0, 8'h3B}; //ADDC
@@ -71,8 +71,14 @@ else case (IR[13:8])
 	6'b010101 : ICis = {8'h52, 8'h52, 8'h43, 8'h20, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h23, IR5to0, 8'h3B}; //RRC
 	6'b010110 : ICis = {8'h52, 8'h52, 8'h56, 8'h20, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h23, IR5to0, 8'h3B}; //RRV
 	
-	6'b010111 : ICis = {8'h56, 8'h41, 8'h44, 8'h44, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h52, IR5to0, 8'h3B}; //VADD
-	6'b011000 : ICis = {8'h56, 8'h53, 8'h55, 8'h42, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h52, IR5to0, 8'h3B}; //VSUB
+	6'b011011 : ICis = {8'h49, 8'h4e, 8'h20, 8'h52, IR5to0, 8'h3B}; //IN
+	6'b011100 : ICis = {8'h4f, 8'h55, 8'h54, 8'h20, 8'h52, IR5to0, 8'h3B }; //OUT
+	
+	6'b011001 : ICis = {8'h43, 8'h41, 8'h4c, 8'h4c, 8'h20, 8'h52, IR5to0, 8'h3B}; //CALL
+	6'b011010 : ICis = {8'h52, 8'h45, 8'h54, 8'h20, 8'h52, IR5to0, 8'h3B }; //RET
+	
+	6'b010110 : ICis = {8'h56, 8'h41, 8'h44, 8'h44, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h52, IR5to0, 8'h3B}; //VADD
+	6'b010111 : ICis = {8'h56, 8'h53, 8'h55, 8'h42, 8'h20, 8'h52, IR11to6, 8'h2c, 8'h20, 8'h52, IR5to0, 8'h3B}; //VSUB
 	default : ICis = {8'h4E, 8'h44, 8'h45, 8'h46}; //NDEF
 	endcase
 end

@@ -1,0 +1,15 @@
+file:E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm_bb.v
+ts:1663428488
+init:E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.mif
+file:E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v_tb.v
+ts:1663428488
+init:
+file:E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.v
+ts:1663627945
+init:E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lab3_v.mif E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.mif
+file:E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_ir2assembly_v.v
+ts:1663428488
+init:
+file:E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v
+ts:1663769114
+init:

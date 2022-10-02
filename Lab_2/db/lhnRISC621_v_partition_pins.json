@@ -152,11 +152,19 @@
 					"strict" : false
 				},
 				{
+					"name" : "ICis[33]",
+					"strict" : false
+				},
+				{
 					"name" : "ICis[34]",
 					"strict" : false
 				},
 				{
 					"name" : "ICis[35]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[36]",
 					"strict" : false
 				},
 				{
@@ -245,6 +253,10 @@
 				},
 				{
 					"name" : "ICis[61]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[62]",
 					"strict" : false
 				},
 				{

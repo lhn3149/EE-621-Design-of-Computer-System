@@ -24,23 +24,25 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 //-- Declare machine cycle and instruction cycle parameters
 //----------------------------------------------------------------------------
 	parameter [1:0] MC0=2'b00, MC1=2'b01, MC2=2'b10, MC3=2'b11; //machine cycles
-	parameter [5:0] 	LD_IC=6'b0000	  , 	ST_IC  =6'b000001, 	//reg-mem data transfer instruction cycles
+	parameter [5:0] 	LD_IC = 6'b000000, 	ST_IC  =6'b000001, 	//reg-mem data transfer instruction cycles
 							CPY_IC =6'b000010, 	SWAP_IC=6'b000011, 	//reg-reg data transfer instruction cycles
-							//JMP_IC =6'b000100, 							//flow control instruction cycle
+							JMP_IC =6'b000100, 							//flow control instruction cycle
 							ADD_IC =6'b000101, 	SUB_IC =6'b000110, 	//arithmetic manipulation instruction
 							ADDC_IC=6'b000111, 	SUBC_IC=6'b001000, //cycles
 							
 							MUL_IC =6'b001001,	DIV_IC =6'b001010, //mul div
 							NOT_IC =6'b001011, 	AND_IC =6'b001100,  	//logic manipulation instruction 
 							OR_IC  =6'b001101,	XOR_IC =6'b001110,	//cycles
+							
 							SRL_IC =6'b001111,	SRA_IC =6'b010000,    //shift right logic/algorithm Ri by Rj field value positions
 							ROTL_IC=6'b010001,	ROTR_IC=6'b010010,	// rptate left/right by Rj field value positions
 							RLN_IC =6'b010011,	RLZ_IC =6'b010100,	// rotate left through status bit Ri by Rj_field value
 							RRC_IC =6'b010101,	RRV_IC =6'b010110, 	// rotate right through status bit Ri by Rj_field value
-							VADD_IC=6'b001110, 	VSUB_IC=6'b001111,
-							JMP_IC =6'b010000,	CALL_IC=6'b010001,											//SIMD (vector) instruction cycles 
-							RET_IC =6'b010010,	
-							IN_IC = 6'b010011,	OUT_IC =6'b010100;		//cycles - to be implemented later
+							//VADD_IC=6'b010110, 	VSUB_IC=6'b010111,
+							//JMP_IC =6'b011000,	
+							CALL_IC=6'b011001,											//SIMD (vector) instruction cycles 
+							RET_IC =6'b011010,	
+							IN_IC = 6'b011011,	OUT_IC =6'b011100;		//cycles - to be implemented later
 							
 	parameter [3:0] JU=4'b0000, JC1=4'b1000, JN1=4'b0100, JV1=4'b0010, //Jump condition(s) 
 		JZ1=4'b0001, JC0=4'b0111, JN0=4'b1011, JV0=4'b1101, JZ0=4'b1110; //definition(s)
@@ -55,12 +57,14 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 	reg [1:0] MC;
 	reg [28:0] res;
 	reg [13:0] PC, IR, MAB, MAX, MA, DM_in, MAeff;
+	reg [13:0] SP ; // Stack pointer
 	reg [13:0] TA, TB, TALUH, TALUL;
 	reg [11:0] TSR, SR;
 	reg [7:0] Display_pin;
 	reg [14:0]	TALUout;
 	wire [13:0]	PM_out, DM_out;
 	wire 			C, Clock_not;
+	//integer Call_count;
 	integer Ri, Rj;
 	integer IPA, OPA; // address for I/O Peripheral field. 
 	integer k;
@@ -107,15 +111,17 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 //----------------------------------------------------------------------------
 				if (Resetn_pin == 0)
 					begin	
-					PC = 14'h0000; //Initialize the PC to point to the location of 
-					//the FIRST instruction to be executed; loaction 0000 is arbitrary!
+					PC = 14'h0000; // Initialize the PC to point to the location of 
+					// the FIRST instruction to be executed; loaction 0000 is arbitrary!
 					// 64 16-bit: R[0] = 0; R[1] = 0; R[2] = 0; R[3] = 0; // Necessary for sim
 					for (k = 0; k < 15; k = k+1) begin R[k] = 0; end
 						
-					MC = MC0; //The first MC executed after Reset is MC0 i.e., IF 
+					
 					MAB = 14'h0000; MAX = 14'h0000; DM_in = 14'h0000;
 					TA = 14'h0000; TB = 14'h0000; MAeff = 14'h0000; TALUH = 14'h0000; TALUL = 14'h0000;
 					TSR = 11'b000; SR = 11'b000; TALUout = 15'h00000;
+					SP = 14'h3FFF;
+					MC = MC0; // The first MC executed after Reset is MC0 i.e., IF 
 					end
 				else	begin
 //----------------------------------------------------------------------------
@@ -125,6 +131,7 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 					case (MC)
 						MC0: //MC0 or IF = Instruction Fetch // for jump is different
 							begin
+								//MAeff = PC ;
 								IR = PM_out; 	//Load IR with IW fetched from the output 
 													//of the PM (program memory)
 													// 14 bits 5
@@ -133,9 +140,10 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 								
 								PC = PC + 1'b1;	//Increment the PC to point to the 
 														//location of the next IW
-								MAeff = PC ; 
 								WR_DM = 1'b0;	//Keep the DM in RD mode
+								MAeff = PC ;
 								MC = MC1;	//Unconditionally go to MC1
+								
 							end
 //----------------------------------------------------------------------------
 // The second level CASE statements select assignments based on the OpCodes.
@@ -148,14 +156,31 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 							case (IR[13:8])	//Decode the OpCode of the IW
 								LD_IC, ST_IC, JMP_IC:
 									begin
-										PC = PC + 1'b1;
 										MAeff = PC;
 										MAB = PM_out;
+										PC = PC + 1'b1;
 										if (Ri == 0) MAX = 0; else MAX = R[Ri]; //Load MAX
 									end
 								CALL_IC:
 									begin
-										
+										MAeff = PC;
+										MAB = PM_out;										 
+										if (Ri == 0) MAX = 0; 
+										else if (Ri == 1) MAX = PC;
+										else if (Ri == 2) MAX = SP;
+										else MAX = R[Ri]; //Load MAX
+										PC = PC + 1'b1;
+										SP = SP - 1'b1;
+										//Call_count = Call_count + 1'b1;
+									end
+								RET_IC:
+									begin
+										if (SP != 14'h3FFF)
+											begin 				
+												MAeff = SP ;
+												SP = SP + 1'b1;
+											end
+										else MC = MC2;
 									end
 								CPY_IC:
 									begin
@@ -176,7 +201,7 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 									end
 								OUT_IC:
 									begin
-										TA = Ri;
+										TA = R[Ri];
 									end
 								default: 	
 									begin
@@ -198,6 +223,25 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 									begin
 										MAeff = MAB + MAX;
 										WR_DM = 1'b0;		
+									end
+								CALL_IC:
+									begin
+										// write to main memory 
+										MAeff = SP;
+										WR_DM = 1'b1;
+										DM_in = PC ; 
+										SP = SP - 1'b1;
+										
+									end
+								RET_IC:
+									begin
+										if (SP != 14'h3FFF)
+											begin												
+												SR = PM_out;
+												MAeff = SP;
+											end
+										else MC = MC3;
+										
 									end
 								CPY_IC:
 									begin
@@ -496,8 +540,27 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 								 ST_IC:
 									begin
 										WR_DM = 1'b1;
-										PM_out = {10'd0,Rj};
+										DM_in = {10'd0,Rj};
 										MC = MC0;
+									end
+								 RET_IC:
+									begin
+										PC = PM_out;
+										//MAeff = PC;
+										if (SP != 14'h3FFF) 
+											begin
+												SP = SP + 1'b1; 
+											end
+										else MAeff = PC;
+									end 
+							
+								 CALL_IC:
+									begin
+										MAeff = SP;
+										DM_in = {2'd0,SR};
+										WR_DM = 1'b0; // don't write
+										MAeff = MAB + MAX;
+										PC = MAeff;
 									end
 								 CPY_IC:
 									begin
@@ -547,11 +610,12 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 								 default:
 									MC = MC0;
 							endcase
+							WR_DM = 1'b0;
 							MC = MC0;
+							MAeff = PC;
 						 end
 						 default:
 							MC = MC0;
-							
 					endcase
 				end
 endmodule

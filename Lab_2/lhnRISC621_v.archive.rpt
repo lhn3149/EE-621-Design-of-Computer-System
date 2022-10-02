@@ -1,0 +1,96 @@
+Archive Project report for lhnRISC621_v
+Wed Sep 21 10:05:16 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Wed Sep 21 10:05:16 2022 ;
+; Revision Name          ; lhnRISC621_v                          ;
+; Top-level Entity Name  ; lhnRISC621_v                          ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Warning: Excluding 'Automatically detected source files' The Quartus Prime software may not be able to automatically locate all project files.
+Info: Parsing: lhnRISC621_v.v
+Info: Parsing: lhnRISC621_v_tb.v
+Info: Parsing: lhn_ir2assembly_v.v
+Info: Parsing: lhn_mm.v
+Info: Discovered: ./lab3_v.mif
+Info: Discovered: ./lhnRISC621_v.mif
+Info: Parsing: lhn_mm_bb.v
+Info: Discovered: ./lhnRISC621_v.mif
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_lab3_v.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'lhnRISC621_v.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4823 megabytes
+    Info: Processing ended: Wed Sep 21 10:05:16 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++--------------------------------------------------------------+
+; Files Archived                                               ;
++--------------------------------------------------------------+
+; File Name                                                    ;
++--------------------------------------------------------------+
+; c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf ;
+; lab3_v.mif                                                   ;
+; lhn_ir2assembly_v.v                                          ;
+; lhn_mm.bsf                                                   ;
+; lhn_mm.qip                                                   ;
+; lhn_mm.v                                                     ;
+; lhn_mm_bb.v                                                  ;
+; lhnRISC621_v.mif                                             ;
+; lhnRISC621_v.qpf                                             ;
+; lhnRISC621_v.qsf                                             ;
+; lhnRISC621_v.v                                               ;
+; lhnRISC621_v_tb.v                                            ;
++--------------------------------------------------------------+
+
+
