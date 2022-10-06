@@ -16,7 +16,8 @@ FILE *int1_fname; FILE *int2_fname; FILE *int3_fname; FILE	*out1_fname;
 	const char *crt_rjfv[16]; const char *crt_mri[16];
 	{
 	FILE	*prev_line;
-	char	crt_line[81], crt_iw0[17], crt_char[6], crt_iw1_string[18];
+	char	crt_line[81], crt_iw0[17], crt_char[19], crt_iw1_string[18];
+	char	crt_line1[81];
 	char	*endptr;
 	int		crt_val, test, crt_mif_addrs=0, crt_jca=0, crt_iw1=0, crt_jao=0 ;
 	char	first_syllable[20], second_syllable[20], \
@@ -46,6 +47,42 @@ FILE *int1_fname; FILE *int2_fname; FILE *int3_fname; FILE	*out1_fname;
 /*---------------------------------------------------------------------------*/
 /* Read the code.txt file and assemble into *.mif*/
 /*---------------------------------------------------------------------------*/
+	crt_mif_addrs = 0;
+	while (crt_line1[0] != '\n')
+	{
+		fgets(crt_line1,81,int1_fname);
+		++code_line_number;
+		sscanf(crt_line1, "%3u %s %s %s %s %s", &asf_line_number, first_syllable, \
+		&second_syllable, &third_syllable, &fourth_syllable, &fifth_syllable);
+		if (first_syllable[0] == '@')
+		{
+			strcat(first_syllable, ";");
+/*---------------------------------------------------------------------------*/
+/* Store the current label and associated mif file address
+/*---------------------------------------------------------------------------*/
+			strcpy(jca[crt_iw1].jca_label, first_syllable); // jca label and number
+			printf("Jump label %s has address %04x \n", first_syllable,crt_mif_addrs);
+			jca[crt_iw1].jca_num = crt_mif_addrs;
+/*---------------------------------------------------------------------------*/
+/* Shift syllables to account for the label
+/*---------------------------------------------------------------------------*/
+			strcpy(first_syllable, second_syllable);
+			strcpy(second_syllable, third_syllable);
+			strcpy(third_syllable, fourth_syllable);
+			strcpy(fourth_syllable, fifth_syllable);
+			++crt_iw1;
+		}
+		printf("First syllable: %s, crt_im: %s %s %s %s \n", first_syllable,crt_im[4],crt_im[0],crt_im[1],crt_im[25]);
+		if ((strcmp(first_syllable, crt_im[4]) == 0) || (strcmp(first_syllable,crt_im[0])==0)|| (strcmp(first_syllable,crt_im[1])==0)||(strcmp(first_syllable,crt_im[25])==0))
+				{
+					printf("Address %04x \n", crt_mif_addrs);
+					++crt_mif_addrs;
+				}
+		++crt_mif_addrs;
+	}
+	code_line_number = 0;
+	crt_mif_addrs = 0;
+	rewind(int1_fname);
 	while (crt_line[0] != '\n')
 		{
 /*---------------------------------------------------------------------------*/
@@ -54,10 +91,6 @@ FILE *int1_fname; FILE *int2_fname; FILE *int3_fname; FILE	*out1_fname;
 		fgets(crt_line, 81, int1_fname); 
 		++code_line_number;
 		if (crt_line[0] == '\n') { printf("\nDone assembly!"); break; }
-#ifdef dxpDEBUG
-		test = strlen(crt_line); printf("\nThe length is:= %3u", test);
-		printf("\n\nParsing code line %3u:\n %s\n", code_line_number, crt_line);
-#endif
 		strcpy(first_syllable, "N/A"); strcpy(second_syllable, "N/A");
 		strcpy(third_syllable, "N/A"); strcpy(fourth_syllable, "N/A");
 		strcpy(fifth_syllable, "N/A");
@@ -197,13 +230,7 @@ Assemble JMP U - unconditional,
 ===========================================================================*/
 		i = 4;
 		if (strcmp(first_syllable, crt_im[i]) == 0)
-/*---------------------------------------------------------------------------*/
-/* If the mnemonic matches concatenate the OpCode field to the IW.
-/*---------------------------------------------------------------------------*/
 		{ strcpy(crt_iw0, crt_opcode[i]); match1 = 1; k = 0;
-/*---------------------------------------------------------------------------*/
-/* Determine the kind of JUMP and complete the IW.
-/*---------------------------------------------------------------------------*/
 	if 		(second_syllable[0] == 'U') 
 				{ strcat(crt_iw0, "00000000"); match2 = 1;}
 	else if (second_syllable[0] == 'C' && second_syllable[1] == '1') 
@@ -242,8 +269,10 @@ Assemble JMP U - unconditional,
 	if (third_syllable[0] != '@') { ErrorJCAfield; break; }
 		while (k < 10)
 		{ if (strcmp(third_syllable, jca[k].jca_label) == 0)
-			{ crt_jao = jca[k].jca_num - (crt_mif_addrs);
-			lhn_int2binstr(crt_jao, 14, crt_char); match3 = 1; break; } ++k;	}
+			{ crt_jao = jca[k].jca_num;
+			lhn_int2binstr(crt_jao, 14, crt_char); match3 = 1; break; 
+			}
+			 ++k;}
 		if (match3 == 0) { printf("\n this is a forward jump \n"); 
 											strcpy(crt_char, "xxxxxxxx"); }
 /*---------------------------------------------------------------------------*/
@@ -274,7 +303,7 @@ while(i != 29){
 				{ strcat(crt_iw0, crt_rifv[k]); match2 = 1; } ++k; }
 			if (match2 == 0) { ErrorRifield; } k = 0;
 /*---------------------------------------------------------------------------*/
-/* Concatenate to IW[5:0] zeros
+/* Concatenate to IW[3:0] zeros
 /*---------------------------------------------------------------------------*/
 			crt_val = 0;
 			lhn_int2binstr(crt_val, 4, crt_char); 
@@ -292,13 +321,32 @@ while(i != 29){
 		fprintf(out1_fname, "%04x : %s; %% %s %s %s %% \n", \
 	crt_mif_addrs, crt_iw0, first_syllable, second_syllable, third_syllable);
 		++crt_mif_addrs;	}
-			if (match1 == 0) { ErrorMnemonic; break; }	
 	
 	if (i == 11) { i = 27; } else { ++i; }	}
 	
 }
-
-		
+/*===========================================================================
+Assemble RET 
+===========================================================================*/
+i = 26;
+	if (strcmp(first_syllable, crt_im[i]) == 0)
+		{ strcpy(crt_iw0, crt_opcode[i]); match1 = 1; k = 0; 		
+			crt_val = 0;
+			lhn_int2binstr(crt_val, 8, crt_char); 
+			strcat(crt_iw0, crt_char); 
+/*---------------------------------------------------------------------------*/
+/* Printf for debugging purposes.
+/*---------------------------------------------------------------------------*/
+#ifdef dxpDEBUG
+		printf("%04x : %s; %% %s %s %s %% \n", \
+	crt_mif_addrs, crt_iw0, first_syllable, second_syllable, third_syllable);
+#endif
+/*---------------------------------------------------------------------------*/
+/* FPrintf the IW to the *.mif file.
+/*---------------------------------------------------------------------------*/
+		fprintf(out1_fname, "%04x : %s; %% %s %s %s %% \n", \
+	crt_mif_addrs, crt_iw0, first_syllable, second_syllable, third_syllable);
+		++crt_mif_addrs;	}
 /*---------------------------------------------------------------------------*/
 /* Initialize the remaining locations in the *.mif file to 0.
 /*---------------------------------------------------------------------------*/
