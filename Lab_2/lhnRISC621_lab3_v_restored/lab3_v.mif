@@ -1,0 +1,37 @@
+-- Memory File
+-- This is Test Program 1 for single core,
+-- non-pipelined dxpRISC521 test
+
+WIDTH = 14;
+DEPTH = 1024;
+
+ADDRESS_RADIX = HEX;	% Can be HEX, BIN or DEC %
+DATA_RADIX = HEX;	% Can be HEX, BIN or DEC %
+% old Op 4 bit, Ri 6 bit, Rj 6 bit%
+CONTENT BEGIN
+0	:	0644; % SUB R4, R4; R2 = 0  0110 0000 10 00 0010 | b 0000 0110 0010 0010 %
+1	:	0633; % SUB R3, R3; R3 = 0  0110 0000 11 00 0011 | b 0000 0110 0011 0011 %
+2	:	0733; % ADDC R3, #0x3; R2 = 0x3  1000 0000 10 00 0011 | b 0000 0111 0010 0011 %
+3	:	0722; % ADDC R2, #0x2; R2 = 0x5  0111 0000 10 00 0010 | b 0000 0111 0010 0010%
+4	:	0044;  % LD IW0 Ri, Rj 
+5	:	0008;  % IW1 --> load content of 0xD to R9
+6	: 	0144;  % ST IW0
+7	:	0012;  % store from R4 to memory location 0x1A
+8	:	1020;  % JUMP unconditional, Ri=2 CNVZ = 0
+9	:	000A;  % should go to 0xB	
+A	:	0000;  % skipp
+B	:	0000;
+C	:	0644; % SUB R4, R4; Z should be 1
+D	:	1021; % JZ1 
+E	:	000E; %  skip F
+F	:	0000;
+10	:	1340; % Rj should be irrelevant
+11	:	1440; % output will be content of R4.
+12	:	0
+13	: 	0
+14	:	0
+15	:	0
+16	:	0
+17	:	0
+[18 .. 3FF] : 0; % Fill all other locations with 0, 1K memory %
+END;

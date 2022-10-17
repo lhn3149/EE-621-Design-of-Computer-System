@@ -1,5 +1,5 @@
 Flow report for lhnRISC621_v
-Thu Sep 22 22:20:39 2022
+Sun Oct 16 20:19:08 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Thu Sep 22 22:20:39 2022       ;
+; Flow Status                     ; Successful - Sun Oct 16 20:19:08 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; lhnRISC621_v                                ;
 ; Top-level Entity Name           ; lhnRISC621_v                                ;
@@ -48,7 +48,7 @@ refer to the applicable agreement for further details.
 ; Device                          ; 5CGXFC7C7F23C8                              ;
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 523                                         ;
+; Total registers                 ; 566                                         ;
 ; Total pins                      ; 111                                         ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 14,336                                      ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/22/2022 22:20:26 ;
+; Start date & time ; 10/16/2022 20:18:52 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lhnRISC621_v        ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id      ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------+
-; COMPILER_SIGNATURE_ID                ; 79602623345315.166389962604512         ; --            ; --          ; --              ;
+; COMPILER_SIGNATURE_ID                ; 79602623345315.166596593213120         ; --            ; --          ; --              ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; lhnRISC621_v_tb ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; lhnRISC621_v_tb                        ; --            ; --          ; eda_simulation  ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation  ;
@@ -106,8 +106,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 4912 MB             ; 00:00:22                           ;
-; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:22                           ;
+; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 4913 MB             ; 00:00:24                           ;
+; Total                ; 00:00:17     ; --                      ; --                  ; 00:00:24                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

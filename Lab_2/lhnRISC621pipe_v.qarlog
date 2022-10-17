@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621pipe_v.qarlog
+
+Archive:	E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621pipe_v.qar
+Date:		Mon Oct 17 01:30:17 2022
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lab3_v.mif
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.mif
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.qpf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.qsf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v_tb.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_ir2assembly_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.bsf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.qip
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm_bb.v
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
