@@ -1,0 +1,43 @@
+-- Memory File
+-- This is Test Program 1 for single core,
+-- non-pipelined dxpRISC521 test
+
+WIDTH = 14;
+DEPTH = 1024;
+
+ADDRESS_RADIX = HEX;	% Can be HEX, BIN or DEC %
+DATA_RADIX = HEX;	% Can be HEX, BIN or DEC %
+% old Op 4 bit, Ri 6 bit, Rj 6 bit%
+CONTENT BEGIN
+0	:	0644; % SUB R4, R4; R2 = 0  0110 0000 10 00 0010 | b 0000 0110 0010 0010 %
+1	:	0633; % SUB R3, R3; R3 = 0  0110 0000 11 00 0011 | b 0000 0110 0011 0011 %
+2	:	0733; % ADDC R3, #0x3; R2 = 0x3  1000 0000 10 00 0011 | b 0000 0111 0010 0011 %
+3	:	0722; % ADDC R2, #0x2; R2 = 0x5  0111 0000 10 00 0010 | b 0000 0111 0010 0010%
+4	:	0004;  % LD IW0 Ri, Rj  %
+5	:	0008;  % IW1 --> load content of 0xD to R4 %
+6	: 	0104;  % ST IW0 %
+7	:	0022;  % store from R4 to memory location 0x1A %
+8	:	1820;  % JUMP unconditional, Ri=2 CNVZ = 0 %
+9	:	0642;% should go to 0xB	 %
+A	:	0642; % skipp %
+B	:	0742; % skip %
+C	:	0644; % SUB R4, R4; Z shoiuld be 1%
+D	:	0421; % JZ1 %
+E	:	000E; %  skip F%
+F	:	0000;
+10	:	1B40; % IN - IPDR = {9'd0, SW_pin} - R4 %
+11	:	0745; % ADDC R4 0x5 %
+12	:	1C40; % OUT Display R4 %
+13	:	1910; % CALL Ri=1 --> Ri=PC --> emulates PC-relative % 
+14	: 	0005 ;
+15	:	0741; % ADDC R4 0x1 % 
+16	:	0842; % SUBC R4 0x2 % 
+17	:	0743; % ADDC R4 0x3 % 
+18	:	0844; % SUBC R4 0x4 % 
+19	:	0745; % ADDC R4 0x5 % 
+1A	:	0846; % SUBC R4 0x6 %
+1B	:	0747; % ADDC R4 0x7 %
+1C	:	1A00; % RETurn to h'15%
+1D	:	0748; % ADDC R4 0x8 % 
+[1E .. 3FF] : 0; % Fill all other locations with 0, 1K memory %
+END;

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lhnRISC621_v
-Sun Oct 16 20:19:08 2022
+Wed Oct 19 18:34:06 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -55,7 +55,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Oct 16 20:19:08 2022       ;
+; Analysis & Synthesis Status     ; Successful - Wed Oct 19 18:34:06 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; lhnRISC621_v                                ;
 ; Top-level Entity Name           ; lhnRISC621_v                                ;
@@ -220,14 +220,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------------+
 ; Resource                                    ; Usage           ;
 +---------------------------------------------+-----------------+
-; Estimate of Logic utilization (ALMs needed) ; 1350            ;
+; Estimate of Logic utilization (ALMs needed) ; 1366            ;
 ;                                             ;                 ;
-; Combinational ALUT usage for logic          ; 2098            ;
-;     -- 7 input functions                    ; 25              ;
-;     -- 6 input functions                    ; 528             ;
-;     -- 5 input functions                    ; 832             ;
-;     -- 4 input functions                    ; 305             ;
-;     -- <=3 input functions                  ; 408             ;
+; Combinational ALUT usage for logic          ; 2112            ;
+;     -- 7 input functions                    ; 26              ;
+;     -- 6 input functions                    ; 544             ;
+;     -- 5 input functions                    ; 819             ;
+;     -- 4 input functions                    ; 312             ;
+;     -- <=3 input functions                  ; 411             ;
 ;                                             ;                 ;
 ; Dedicated logic registers                   ; 566             ;
 ;                                             ;                 ;
@@ -239,7 +239,7 @@ refer to the applicable agreement for further details.
 ;                                             ;                 ;
 ; Maximum fan-out node                        ; Clock_pin~input ;
 ; Maximum fan-out                             ; 580             ;
-; Total fan-out                               ; 12177           ;
+; Total fan-out                               ; 12234           ;
 ; Average fan-out                             ; 4.20            ;
 +---------------------------------------------+-----------------+
 
@@ -249,7 +249,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                           ; Entity Name         ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |lhnRISC621_v                             ; 2098 (1525)         ; 566 (484)                 ; 14336             ; 1          ; 111  ; 0            ; |lhnRISC621_v                                                                                                 ; lhnRISC621_v        ; work         ;
+; |lhnRISC621_v                             ; 2112 (1539)         ; 566 (484)                 ; 14336             ; 1          ; 111  ; 0            ; |lhnRISC621_v                                                                                                 ; lhnRISC621_v        ; work         ;
 ;    |lhn_ir2assembly_v:IWdecode|           ; 114 (114)           ; 82 (82)                   ; 0                 ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_ir2assembly_v:IWdecode                                                                      ; lhn_ir2assembly_v   ; work         ;
 ;    |lhn_mm:main_memory|                   ; 0 (0)               ; 0 (0)                     ; 14336             ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_mm:main_memory                                                                              ; lhn_mm              ; work         ;
 ;       |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 14336             ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_mm:main_memory|altsyncram:altsyncram_component                                              ; altsyncram          ; work         ;
@@ -331,7 +331,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Total registers                              ; 566   ;
 ; Number of registers using Synchronous Clear  ; 427   ;
-; Number of registers using Synchronous Load   ; 73    ;
+; Number of registers using Synchronous Load   ; 63    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 180   ;
@@ -365,9 +365,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 22:1               ; 4 bits    ; 56 LEs        ; 48 LEs               ; 8 LEs                  ; Yes        ; |lhnRISC621_v|TB[0]                               ;
 ; 98:1               ; 2 bits    ; 130 LEs       ; 46 LEs               ; 84 LEs                 ; Yes        ; |lhnRISC621_v|DM_in[12]                           ;
 ; 98:1               ; 12 bits   ; 780 LEs       ; 264 LEs              ; 516 LEs                ; Yes        ; |lhnRISC621_v|DM_in[0]                            ;
-; 34:1               ; 10 bits   ; 220 LEs       ; 40 LEs               ; 180 LEs                ; Yes        ; |lhnRISC621_v|MAeff[9]                            ;
+; 35:1               ; 10 bits   ; 230 LEs       ; 60 LEs               ; 170 LEs                ; Yes        ; |lhnRISC621_v|MAeff[9]                            ;
 ; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; No         ; |lhnRISC621_v|PC                                  ;
-; 16:1               ; 14 bits   ; 140 LEs       ; 140 LEs              ; 0 LEs                  ; No         ; |lhnRISC621_v|Mux116                              ;
+; 16:1               ; 14 bits   ; 140 LEs       ; 140 LEs              ; 0 LEs                  ; No         ; |lhnRISC621_v|Mux117                              ;
 ; 52:1               ; 14 bits   ; 476 LEs       ; 42 LEs               ; 434 LEs                ; No         ; |lhnRISC621_v|R                                   ;
 ; 52:1               ; 14 bits   ; 476 LEs       ; 42 LEs               ; 434 LEs                ; No         ; |lhnRISC621_v|R                                   ;
 ; 52:1               ; 14 bits   ; 476 LEs       ; 42 LEs               ; 434 LEs                ; No         ; |lhnRISC621_v|R                                   ;
@@ -385,7 +385,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 52:1               ; 14 bits   ; 476 LEs       ; 42 LEs               ; 434 LEs                ; No         ; |lhnRISC621_v|R                                   ;
 ; 52:1               ; 14 bits   ; 476 LEs       ; 42 LEs               ; 434 LEs                ; No         ; |lhnRISC621_v|R                                   ;
 ; 88:1               ; 4 bits    ; 232 LEs       ; 8 LEs                ; 224 LEs                ; No         ; |lhnRISC621_v|PC                                  ;
-; 44:1               ; 10 bits   ; 290 LEs       ; 20 LEs               ; 270 LEs                ; No         ; |lhnRISC621_v|PC                                  ;
+; 45:1               ; 10 bits   ; 300 LEs       ; 20 LEs               ; 280 LEs                ; No         ; |lhnRISC621_v|PC                                  ;
 ; 36:1               ; 2 bits    ; 48 LEs        ; 20 LEs               ; 28 LEs                 ; No         ; |lhnRISC621_v|TALUH                               ;
 ; 36:1               ; 2 bits    ; 48 LEs        ; 22 LEs               ; 26 LEs                 ; No         ; |lhnRISC621_v|TALUH                               ;
 ; 37:1               ; 4 bits    ; 96 LEs        ; 44 LEs               ; 52 LEs                 ; No         ; |lhnRISC621_v|TALUH                               ;
@@ -594,12 +594,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; arriav_ff             ; 566                         ;
 ;     ENA               ; 47                          ;
-;     ENA SCLR          ; 113                         ;
-;     ENA SCLR SLD      ; 20                          ;
+;     ENA SCLR          ; 123                         ;
+;     ENA SCLR SLD      ; 10                          ;
 ;     SCLR              ; 294                         ;
 ;     SLD               ; 53                          ;
 ;     plain             ; 39                          ;
-; arriav_lcell_comb     ; 2099                        ;
+; arriav_lcell_comb     ; 2113                        ;
 ;     arith             ; 355                         ;
 ;         0 data inputs ; 45                          ;
 ;         1 data inputs ; 14                          ;
@@ -607,16 +607,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;         3 data inputs ; 42                          ;
 ;         4 data inputs ; 28                          ;
 ;         5 data inputs ; 176                         ;
-;     extend            ; 25                          ;
-;         7 data inputs ; 25                          ;
-;     normal            ; 1686                        ;
+;     extend            ; 26                          ;
+;         7 data inputs ; 26                          ;
+;     normal            ; 1699                        ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 5                           ;
-;         2 data inputs ; 89                          ;
-;         3 data inputs ; 136                         ;
-;         4 data inputs ; 271                         ;
-;         5 data inputs ; 656                         ;
-;         6 data inputs ; 528                         ;
+;         2 data inputs ; 87                          ;
+;         3 data inputs ; 141                         ;
+;         4 data inputs ; 278                         ;
+;         5 data inputs ; 643                         ;
+;         6 data inputs ; 544                         ;
 ;     shared            ; 33                          ;
 ;         0 data inputs ; 7                           ;
 ;         2 data inputs ; 20                          ;
@@ -626,7 +626,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; stratixv_ram_block    ; 14                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 31.10                       ;
-; Average LUT depth     ; 11.95                       ;
+; Average LUT depth     ; 12.06                       ;
 +-----------------------+-----------------------------+
 
 
@@ -635,7 +635,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:09     ;
+; Top            ; 00:00:10     ;
 +----------------+--------------+
 
 
@@ -645,14 +645,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Oct 16 20:18:51 2022
+    Info: Processing started: Wed Oct 19 18:33:48 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lhnRISC621_v -c lhnRISC621_v
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
-Warning (10229): Verilog HDL Expression warning at lhnRISC621_v.v(379): truncated literal to match 14 bits File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 379
-Warning (10229): Verilog HDL Expression warning at lhnRISC621_v.v(383): truncated literal to match 14 bits File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 383
-Warning (10229): Verilog HDL Expression warning at lhnRISC621_v.v(387): truncated literal to match 14 bits File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 387
-Warning (10229): Verilog HDL Expression warning at lhnRISC621_v.v(394): truncated literal to match 14 bits File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 394
+Warning (10229): Verilog HDL Expression warning at lhnRISC621_v.v(381): truncated literal to match 14 bits File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 381
+Warning (10229): Verilog HDL Expression warning at lhnRISC621_v.v(385): truncated literal to match 14 bits File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 385
+Warning (10229): Verilog HDL Expression warning at lhnRISC621_v.v(389): truncated literal to match 14 bits File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 389
+Warning (10229): Verilog HDL Expression warning at lhnRISC621_v.v(396): truncated literal to match 14 bits File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 396
 Info (12021): Found 1 design units, including 1 entities, in source file lhnrisc621_v.v
     Info (12023): Found entity 1: lhnRISC621_v File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file lhnrisc621_v_tb.v
@@ -663,8 +663,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file lhn_mm.
     Info (12023): Found entity 1: lhn_mm File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.v Line: 39
 Info (12127): Elaborating entity "lhnRISC621_v" for the top level hierarchy
 Warning (10230): Verilog HDL assignment warning at lhnRISC621_v.v(72): truncated value with size 16 to match size of target (14) File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 72
-Warning (10230): Verilog HDL assignment warning at lhnRISC621_v.v(131): truncated value with size 14 to match size of target (8) File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 131
-Warning (10230): Verilog HDL assignment warning at lhnRISC621_v.v(352): truncated value with size 14 to match size of target (12) File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 352
+Warning (10230): Verilog HDL assignment warning at lhnRISC621_v.v(132): truncated value with size 14 to match size of target (8) File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 132
+Warning (10230): Verilog HDL assignment warning at lhnRISC621_v.v(354): truncated value with size 14 to match size of target (12) File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 354
 Info (12128): Elaborating entity "lhn_mm" for hierarchy "lhn_mm:main_memory" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 59
 Info (12128): Elaborating entity "altsyncram" for hierarchy "lhn_mm:main_memory|altsyncram:altsyncram_component" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.v Line: 85
 Info (12130): Elaborated megafunction instantiation "lhn_mm:main_memory|altsyncram:altsyncram_component" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.v Line: 85
@@ -690,10 +690,10 @@ Info (12128): Elaborating entity "altsyncram_m0p1" for hierarchy "lhn_mm:main_me
 Info (12128): Elaborating entity "lhn_ir2assembly_v" for hierarchy "lhn_ir2assembly_v:IWdecode" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 61
 Warning (10272): Verilog HDL Case Statement warning at lhn_ir2assembly_v.v(80): case item expression covers a value already covered by a previous case item File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhn_ir2assembly_v.v Line: 80
 Info (278001): Inferred 2 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 194
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 195
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 194
-Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 194
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 196
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 197
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 196
+Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 196
     Info (12134): Parameter "LPM_WIDTHN" = "14"
     Info (12134): Parameter "LPM_WIDTHD" = "14"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -704,8 +704,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_9nh File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/db/sign_div_unsign_9nh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_o2f.tdf
     Info (12023): Found entity 1: alt_u_div_o2f File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/db/alt_u_div_o2f.tdf Line: 22
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 195
-Info (12133): Instantiated megafunction "lpm_divide:Mod0" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 195
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 197
+Info (12133): Instantiated megafunction "lpm_divide:Mod0" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v Line: 197
     Info (12134): Parameter "LPM_WIDTHN" = "14"
     Info (12134): Parameter "LPM_WIDTHD" = "14"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -731,15 +731,15 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 2591 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2605 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 7 input pins
     Info (21059): Implemented 104 output pins
-    Info (21061): Implemented 2465 logic cells
+    Info (21061): Implemented 2479 logic cells
     Info (21064): Implemented 14 RAM segments
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 25 warnings
-    Info: Peak virtual memory: 4913 megabytes
-    Info: Processing ended: Sun Oct 16 20:19:09 2022
+    Info: Peak virtual memory: 4917 megabytes
+    Info: Processing ended: Wed Oct 19 18:34:06 2022
     Info: Elapsed time: 00:00:18
     Info: Total CPU time (on all processors): 00:00:24
 

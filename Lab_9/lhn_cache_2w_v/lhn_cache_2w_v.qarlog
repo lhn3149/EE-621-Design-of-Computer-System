@@ -1,0 +1,28 @@
+Quartus Prime Archive log --	E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_2w_v.qarlog
+
+Archive:	E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_2w_v.qar
+Date:		Thu Nov 03 10:47:20 2022
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhnRISC621_ram.qip
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhnRISC621_ram.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhnRISC621_ram_bb.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_3to8_dec.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_CAM_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_2w_v.qpf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_2w_v.qsf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_2w_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_2w_v_tb.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_v.bsf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_v.qip
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_v_bb.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_pll_3_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_pll_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhnrisc621_rom.mif
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 17 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

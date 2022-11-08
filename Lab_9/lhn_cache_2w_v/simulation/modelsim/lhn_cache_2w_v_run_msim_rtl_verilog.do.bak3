@@ -1,0 +1,23 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_2w_v.v}
+vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_3to8_dec.v}
+vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_CAM_v.v}
+vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_v.v}
+vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_pll_3_v.v}
+vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhnRISC621_ram.v}
+vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/db/lhn_pll_3_v_altpll.v}
+
+vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v/lhn_cache_2w_v_tb.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb.v
+
+add wave *
+view structure
+view signals
+run -all

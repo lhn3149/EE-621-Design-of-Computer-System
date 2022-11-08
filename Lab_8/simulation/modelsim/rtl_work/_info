@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/simulation/modelsim
+vlhn_CAM_v
+!s110 1666966629
+!i10b 1
+!s100 hl>S]m6HY2Z6>KTIf96]Q0
+I>m<WS4T62e0NXEgEA^=OX2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1666966473
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1666966629.000000
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v|
+!i113 1
+Z3 o-vlog01compat -work work
+Z4 !s92 -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8
+Z5 tCvgOpt 0
+nlhn_@c@a@m_v
+vlhn_CAM_v_tb
+!s110 1666966510
+!i10b 1
+!s100 Xc=b9@zeRPY;QH8V3f5BK2
+IaSjMTmf96e5LlciH;bL@:3
+R1
+R0
+w1666966336
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v_tb.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v_tb.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1666966510.000000
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v_tb.v|
+!i113 1
+R3
+R4
+R5
+nlhn_@c@a@m_v_tb

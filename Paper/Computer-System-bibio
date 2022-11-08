@@ -1,0 +1,11 @@
+{\rtf \tx384 \li384 \fi-384 \sl240 \slmult1 \sa0 [1]\tab D. Alpert and D. Avnon, \uc0\u8220{}Architecture of the Pentium microprocessor,\uc0\u8221{} {\i{}IEEE Micro}, vol. 13, no. 3, pp. 11\uc0\u8211{}21, Jun. 1993, doi: 10.1109/40.216745.
+\
+[2]\tab S. Gochman, A. Mendelson, A. Naveh, and E. Rotem, \uc0\u8220{}Introduction to Intel\uc0\u174{} CoreTM Duo Processor Architecture,\uc0\u8221{} {\i{}Intel Technology Journal}, vol. 10, no. 2, p. 8, 2006.
+\
+[3]\tab D. Molka, D. Hackenberg, R. Schone, and M. S. Muller, \uc0\u8220{}Memory Performance and Cache Coherency Effects on an Intel Nehalem Multiprocessor System,\uc0\u8221{} in {\i{}2009 18th International Conference on Parallel Architectures and Compilation Techniques}, Sep. 2009, pp. 261\uc0\u8211{}270. doi: 10.1109/PACT.2009.22.
+\
+[4]\tab H. A. Maruf {\i{}et al.}, \uc0\u8220{}TPP: Transparent Page Placement for CXL-Enabled Tiered Memory.\uc0\u8221{} arXiv, Jun. 06, 2022. Accessed: Oct. 31, 2022. [Online]. Available: http://arxiv.org/abs/2206.02878
+\
+[5]\tab H. A. Maruf {\i{}et al.}, \uc0\u8220{}TPP: Transparent Page Placement for CXL-Enabled Tiered Memory.\uc0\u8221{} arXiv, Jun. 06, 2022. doi: 10.48550/arXiv.2206.02878.
+\
+}

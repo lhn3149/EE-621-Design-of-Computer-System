@@ -1,0 +1,28 @@
+Quartus Prime Archive log --	E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.qarlog
+
+Archive:	E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.qar
+Date:		Fri Nov 04 00:09:28 2022
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/assignment_defaults.qdf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.qip
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram_bb.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_rom.mif
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.qpf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.qsf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.bsf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.qip
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v_bb.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_v.v
+	======= Total: 17 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

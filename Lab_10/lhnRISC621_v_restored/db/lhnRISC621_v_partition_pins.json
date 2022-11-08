@@ -1,0 +1,397 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Display_pin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[16]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[17]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[18]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[19]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[20]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[21]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[22]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[24]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[25]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[26]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[27]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[28]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[29]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[30]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[32]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[33]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[34]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[35]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[36]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[37]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[38]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[40]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[41]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[42]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[43]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[44]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[45]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[46]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[48]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[49]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[50]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[51]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[52]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[53]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[54]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[56]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[57]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[58]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[59]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[60]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[61]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[62]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[64]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[65]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[66]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[67]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[68]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[69]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[70]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[72]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[73]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[74]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[75]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[76]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[77]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[78]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[80]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[81]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[82]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[83]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[84]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[86]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[88]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[89]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[90]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[91]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[92]",
+					"strict" : false
+				},
+				{
+					"name" : "ICis[94]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock_pin",
+					"strict" : false
+				},
+				{
+					"name" : "Resetn_pin",
+					"strict" : false
+				},
+				{
+					"name" : "SW_pin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_pin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_pin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_pin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_pin[4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

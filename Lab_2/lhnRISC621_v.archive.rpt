@@ -1,5 +1,5 @@
 Archive Project report for lhnRISC621_v
-Mon Oct 17 01:30:17 2022
+Wed Oct 19 18:46:03 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -35,7 +35,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Mon Oct 17 01:30:17 2022 ;
+; Archive Project Status ; Successful - Wed Oct 19 18:46:03 2022 ;
 ; Revision Name          ; lhnRISC621_v                          ;
 ; Top-level Entity Name  ; lhnRISC621_v                          ;
 ; Family                 ; Cyclone V                             ;
@@ -53,14 +53,14 @@ Info: Archive will store files relative to the closest common parent directory
 Info (13213): Using common directory E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
-Info: Generated archive 'E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621pipe_v.qar'
+Info: Generated archive 'E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.qar'
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'lhnRISC621_v.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4824 megabytes
-    Info: Processing ended: Mon Oct 17 01:30:17 2022
+    Info: Processing ended: Wed Oct 19 18:46:03 2022
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

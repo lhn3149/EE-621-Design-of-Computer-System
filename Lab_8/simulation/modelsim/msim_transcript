@@ -1,0 +1,107 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lhn_CAM_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8 {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:15:10 on Oct 28,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v(40): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 10:15:10 on Oct 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8 {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:15:10 on Oct 28,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v_tb.v 
+# -- Compiling module lhn_CAM_v_tb
+# 
+# Top level modules:
+# 	lhn_CAM_v_tb
+# End time: 10:15:10 on Oct 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_CAM_v_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_CAM_v_tb 
+# Start time: 10:15:10 on Oct 28,2022
+# Loading work.lhn_CAM_v_tb
+# Loading work.lhn_CAM_v
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v_tb.v(13): [PCDPC] - Port size (16) does not match connection size (5) for port 'mbits'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_CAM_v_tb/dut File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do reload.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:15:17 on Oct 28,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v(40): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 10:15:17 on Oct 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# ** Error: (vish-4014) No objects found matching '/lhn_CAM_v_tb/dut/int_addrs'.
+# Executing ONERROR command at macro ./lab8.do line 20
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do lab8.do
+# ** Error: (vish-4014) No objects found matching '/lhn_CAM_v_tb/dut/int_addrs'.
+# Executing ONERROR command at macro ./lab8.do line 20
+do lab8.do
+# ** Error: (vish-4014) No objects found matching '/lhn_CAM_v_tb/dut/int_addrs'.
+# Executing ONERROR command at macro ./lab8.do line 20
+do lab8.do
+do lab8.do
+do reload.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:17:09 on Oct 28,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v(40): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 10:17:09 on Oct 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position insertpoint  \
+sim:/lhn_CAM_v_tb/dut/we_n \
+sim:/lhn_CAM_v_tb/dut/rd_n \
+sim:/lhn_CAM_v_tb/dut/din \
+sim:/lhn_CAM_v_tb/dut/argin \
+sim:/lhn_CAM_v_tb/dut/addrs \
+sim:/lhn_CAM_v_tb/dut/dout \
+sim:/lhn_CAM_v_tb/dut/mbits \
+sim:/lhn_CAM_v_tb/dut/cam_mem \
+sim:/lhn_CAM_v_tb/dut/i \
+sim:/lhn_CAM_v_tb/dut/j \
+sim:/lhn_CAM_v_tb/dut/tag \
+sim:/lhn_CAM_v_tb/dut/grp
+restart
+# Loading work.lhn_CAM_v
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v_tb.v(13): [PCDPC] - Port size (16) does not match connection size (5) for port 'mbits'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_CAM_v_tb/dut File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v
+run -all
+restart
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v_tb.v(13): [PCDPC] - Port size (16) does not match connection size (5) for port 'mbits'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_CAM_v_tb/dut File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_8/lhn_CAM_v.v
+run -all

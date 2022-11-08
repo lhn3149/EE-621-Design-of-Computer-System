@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 04 09:59:37 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : lhn_cache_2w_v
+Top-level Entity Name : lhn_cache_2w_v
+Family : Cyclone IV E
+Total logic elements : 559
+    Total combinational functions : 525
+    Dedicated logic registers : 105
+Total registers : 105
+Total pins : 46
+Total virtual pins : 0
+Total memory bits : 231,168
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

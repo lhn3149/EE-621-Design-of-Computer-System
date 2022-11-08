@@ -1,0 +1,188 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim
+vlhn_3to8_dec
+Z1 !s110 1667570391
+!i10b 1
+!s100 8QBON@4_cm:<jh9KfNeCB0
+IUIC5Nd2[Ni9cT217?g87O3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1667463899
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1667570391.000000
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored
+Z7 tCvgOpt 0
+vlhn_cache_2w_v
+R1
+!i10b 1
+!s100 aiNUUH?jVzOFXL]2IRGCL0
+I=1__XcL`=M`93j9?F^AW_3
+R2
+R0
+w1667522254
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v|
+!i113 1
+R5
+R6
+R7
+vlhn_cache_2w_v_tb
+R1
+!i10b 1
+!s100 ZiT1``j1EgPo9B:KX9eII1
+I3:P^[Rb3dgaWGAn]k1gJg1
+R2
+R0
+w1667522738
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v|
+!i113 1
+R5
+R6
+R7
+vlhn_cache_v
+R1
+!i10b 1
+!s100 ?0KLe;=bkfXmFM@Tz9HTz0
+IB>V>QLM2^4kT^ESV`F>H41
+R2
+R0
+w1667464934
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v
+Z8 L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v|
+!i113 1
+R5
+R6
+R7
+vlhn_CAM_v
+R1
+!i10b 1
+!s100 SCF7BI1`D_JM;K_MIM;i61
+IB@OK2_;@]IJCn=BQUECeQ1
+R2
+R0
+w1667466596
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v|
+!i113 1
+R5
+R6
+R7
+nlhn_@c@a@m_v
+vlhn_pll_3_v
+R1
+!i10b 1
+!s100 fmC2j:4]mC_W8ahkHDnhH3
+I2z4^ci]DWQHEY9`a@C6fB1
+R2
+R0
+w1667465189
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v|
+!i113 1
+R5
+R6
+R7
+vlhn_pll_3_v_altpll
+R1
+!i10b 1
+!s100 <SSa`5o1g<i2UFWD?L^QH1
+IJ`UoQF1zDRcn>?bfnUeV01
+R2
+R0
+w1667510692
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db
+R7
+vlhnRISC621_ram
+R1
+!i10b 1
+!s100 9IQd`MoeAJ40z`Z7<S=oi1
+IY<fbJ@YASe8U;>M0]]k;N3
+R2
+R0
+w1667466328
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v|
+!i113 1
+R5
+R6
+R7
+nlhn@r@i@s@c621_ram
