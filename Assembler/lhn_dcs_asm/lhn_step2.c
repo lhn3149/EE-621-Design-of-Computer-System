@@ -54,6 +54,7 @@ FILE *int1_fname; FILE *int2_fname; FILE *int3_fname; FILE	*out1_fname;
 		++code_line_number;
 		sscanf(crt_line1, "%3u %s %s %s %s %s", &asf_line_number, first_syllable, \
 		&second_syllable, &third_syllable, &fourth_syllable, &fifth_syllable);
+		printf("First syllable: %s \n", first_syllable);
 		if (first_syllable[0] == '@')
 		{
 			strcat(first_syllable, ";");
@@ -72,7 +73,7 @@ FILE *int1_fname; FILE *int2_fname; FILE *int3_fname; FILE	*out1_fname;
 			strcpy(fourth_syllable, fifth_syllable);
 			++crt_iw1;
 		}
-		printf("First syllable: %s, crt_im: %s %s %s %s \n", first_syllable,crt_im[4],crt_im[0],crt_im[1],crt_im[25]);
+		printf("First syllable: %s \n", first_syllable);
 		if ((strcmp(first_syllable, crt_im[4]) == 0) || (strcmp(first_syllable,crt_im[0])==0)|| (strcmp(first_syllable,crt_im[1])==0)||(strcmp(first_syllable,crt_im[25])==0))
 				{
 					printf("Address %04x \n", crt_mif_addrs);
@@ -136,7 +137,7 @@ JUMP Label Check and Update
 Assemble 2-Operand instructions: ADD, SUB, AND, OR, COPY,
 ===========================================================================*/
 	i = 2;
-	while(i != 15)	{ // 2, 3 5, 6, 7, 10, 11  | CPY SWAP ADD SUB MUL,DIV, AND, OR, XOR, SRL, SRA, ROTL, ROTR, 
+	while(i != 25)	{ // 2, 3 5, 6, 7, 10, 11 23 24 | CPY SWAP ADD SUB MUL,DIV, AND, OR, XOR, SRL, SRA, ROTL, ROTR, 
 		if (strcmp(first_syllable, crt_im[i]) == 0)
 		{ 
 		   strcpy(crt_iw0, crt_opcode[i]); match1 = 1; k = 0;
@@ -161,7 +162,7 @@ Assemble 2-Operand instructions: ADD, SUB, AND, OR, COPY,
 	crt_mif_addrs, crt_iw0, first_syllable, second_syllable, third_syllable);
 			++crt_mif_addrs;	
 			}	
-	if (i == 3) { i = 5; } else if ( i == 6) { i = 9;} else if (i==10){i= 12;
+	if (i == 3) { i = 5; } else if ( i == 6) { i = 9;} else if (i==10){i= 12;} else if(i==14){i=23;
 	} else { ++i; }	}
 	
 /*===========================================================================
@@ -201,8 +202,10 @@ Assemble LD and ST
 			{ if (strcmp(third_syllable, crt_mri[k]) == 0)
 				{ strcat(crt_iw0, crt_rjfv[k]); match3 = 1;	break; } ++k; }
 			if (match3 == 0) { Errormrifield; break; }
+			k = 0;
 			while (k < 16 && match2 == 0)
-			{ if (strcmp(second_syllable, crt_ri[k]) == 0)
+			{   
+				if (strcmp(second_syllable, crt_ri[k]) == 0)
 				{ strcat(crt_iw0, crt_rifv[k]); match2 = 1; } ++k; }
 			if (match2 == 0) { ErrorRifield; break; } k = 0;
 #ifdef dxpDEBUG

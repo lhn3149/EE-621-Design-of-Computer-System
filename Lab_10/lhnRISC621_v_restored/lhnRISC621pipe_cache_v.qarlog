@@ -1,0 +1,32 @@
+Quartus Prime Archive log --	E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621pipe_cache_v.qarlog
+
+Archive:	E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621pipe_cache_v.qar
+Date:		Mon Nov 14 23:47:50 2022
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/assignment_defaults.qdf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.mif
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.qpf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.qsf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v_tb.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_3to8_dec.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_CAM_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_v.bsf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_v.qip
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_v_bb.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.bsf
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.qip
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm_bb.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_part1.mif
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_pll_3_v.v
+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_pll_v.v
+	======= Total: 21 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

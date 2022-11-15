@@ -1,7 +1,7 @@
 module lhn_3to8_dec (data_in, eq);
 
 input [2:0] data_in;
-output reg	[13:0] eq;
+output reg	[7:0] eq;
 
 always @ (data_in)
 	case (data_in)

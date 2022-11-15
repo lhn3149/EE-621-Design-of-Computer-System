@@ -1,24 +1,20 @@
- 29   @Loop		ADDC 	R4, 0x3;
- 30   		LD	R4, M[R4, 0x08];
- 31   		ST	R4, M[R4, 0x55];
- 33   		JMP	U, @Label1;
- 34   		ADDC	R2, 0x3;
- 35   @Label1		SUB	R4, R4;
- 37   		JMP	Z1, @Label2;
- 38   		ADDC	R2, 0x3;
- 39   @Label2 	IN 	R4;
- 40   		ADDC	R4, 0x5;
- 41   		OUT	R4;
- 43   		CALL	@Label3;
- 44   		ADDC 	R4, 0x1;
- 45   @Label4		SUBC	R4, 0x2;
- 46   		ADDC	R4, 0x3;
- 47   		SUB 	R4, R4;
- 49   		JMP	Z1, @Label4;	
- 50   		NOT	R4;
- 51   		OR	R4;
- 53   		JMP	U, @Loop;
- 55   @Label3		ADDC	R3, 0x5;
- 56   		SWAP	R3, R2;
- 57   		RET
+ 38   		SUB	R2, R2;	
+ 39   		SUB 	R3, R3;
+ 40   		LD	R1, M[R2, 0x013D];
+ 41   
+ 43   @Segment	LD	R4, M[R2, 0x0140];
+ 44   		ADDC	R2, 0x1;
+ 45   		LD	R5, M[R2, 0x0140];
+ 46   		ADDC	R2, 0x1;
+ 47   		LD	R6, M[R2, 0x0140];
+ 48   		ADDC	R2, 0x1;
+ 49   
+ 50   		ST	R4, M[R3, 0x0240];
+ 52   		ST	R5, M[R3, 0x0280];
+ 54   		ST	R6, M[R3, 0x02C0];
+ 57   		ADDC	R2, 0x1;
+ 58   		ADDC	R3, 0x1;
+ 59   		SUBC	R1, 0x1;
+ 60   		JMP	Z0, @Segment;
+ 61   
 

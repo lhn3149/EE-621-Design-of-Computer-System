@@ -57,53 +57,31 @@ reg	[cam_depth_max-1:0] cam0_dirty_bit, cam1_dirty_bit; // to record if
 // grp_addrs_field is used to capture the value of the group address field
 //----------------------------------------------------------------------------
 integer	grp_addrs_field;
-//----------------------------------------------------------------------------
-// 7-bit Block Address | 4-bit Group Address | 5-bit Word Address
-//----------------------------------------------------------------------------
-// Structural part of the code = memory subsystem "data path"
-//----------------------------------------------------------------------------
-// The PLL unit/block generates three clock phases to sequence all events
-//----------------------------------------------------------------------------
+
 	lhn_pll_3_v	my_pll 	(Clock, c0, c1, c2);
 //----------------------------------------------------------------------------
 // I'm using two separate CAM memories for the two-way TAG identification
 //----------------------------------------------------------------------------
 	lhn_CAM_v	my_cam0	(we0, 1'b1, din0, MEM_address[ma_max-1:6], MEM_address[5:3], dout0, mbits0);
-	// (we, rd, din, argin, addrs, dout, mbits)
+	// 						(we, rd, 	din, 	argin, 						addrs, 				dout, 	mbits)
 	lhn_CAM_v	my_cam1	(we1, 1'b1, din1, MEM_address[ma_max-1:6], MEM_address[5:3], dout1, mbits1);
-//----------------------------------------------------------------------------
-// This is the actual MEM; an intitialized RAM; the same one that was used 
-// before as a monolithic memory; notice that for a READ access this is driven
-// by the c1 phase of the clock, while for a WRITE access by c2.
-//----------------------------------------------------------------------------
+
 	assign mem_clk = WRint ? c2 : c1;
 	assign MEMint_address = writeback ? MEMint_WRaddress : MEMint_RDaddress;
-	lhn_mn	my_ram	(MEMint_address[ma_max-1:0], mem_clk, CACHE_out, WRint, MEMint_out);
+	lhn_mm	my_ram	(MEMint_address[ma_max-1:0], mem_clk, CACHE_out, WRint, MEMint_out);
 	//address, clock, data, wren, q);
-//----------------------------------------------------------------------------
-// This is the actual cache memory, implemented as a RAM; notice that for a 
-// READ access this is driven by the c2 phase of the clock, while for a WRITE
-// access by c1.
-//----------------------------------------------------------------------------
+
 	assign cache_clk = WRint ? c1 : c2;
 	assign CACHE_in = ((hit0 || hit1) && WR) ? MEM_in : MEMint_out; // WRITE HIT or READ HIT
 	lhn_cache_v			my_cache	(CACHE_address, cache_clk, CACHE_in, wren, CACHE_out);
 		//address, clock, data, wren, q);
 	assign MEM_out = Done ? CACHE_out : {cam_depth_max{1'bz}};
-//----------------------------------------------------------------------------
-// This 3to8 decoder identifies the group being accessed
-//----------------------------------------------------------------------------
+
 	lhn_3to8_dec	my_dec	(MEM_address[5:3], grp);
-//----------------------------------------------------------------------------
-// Behavioral part of the code = memory subsystem "control unit"
-//----------------------------------------------------------------------------
+
 always @ (posedge c0) begin
 	if (Resetn == 0) begin
-//----------------------------------------------------------------------------
-// Memory subsystem initialization; after a reset the cache content is
-//    random, and thus the miss signal is set to 1; this in turn will trigger
-//    the transfer of the first block from MEM into the cache.
-//----------------------------------------------------------------------------
+
 		miss = 1'b1; transfer_count = {(t_cnt_max+1){1'b0}}; // transfer_count for 2 CAMs
 		replace = 8'h00;
 		we0 = 0; we1 = 0; hit0 = 0; hit1 = 0; Done = 0; WRint = 0;
@@ -114,12 +92,7 @@ always @ (posedge c0) begin
 		end
 	else begin
 	grp_addrs_field = MEM_address[5:3];
-//----------------------------------------------------------------------------
-// The HIT if statements
-//----------------------------------------------------------------------------
-// miss == 0 means we execute these statements under the assumption that we
-//    have not yet discovered a miss.
-//----------------------------------------------------------------------------
+
 		if (miss == 0) begin
 			we0 = 0; we1 = 0; hit0 = 0; hit1 = 0; Done = 0; WRint = 0; wren = 0;
 //----------------------------------------------------------------------------

@@ -12,8 +12,8 @@
 	im[9] = "MUL";  im[10] = "DIV";	im[11]= "NOT";  im[12]= "AND";
 	im[13]= "OR" ;  im[14] = "XOR";	im[15]= "SRL";	im[16]= "SRA";
 	im[17]= "ROTL"; im[18] = "ROTR"; im[19]= "RLN"; im[20]= "RLZ";
-	im[21]= "RRC" ; im[22] = "RRV" ; im[23]= "empty";
-	im[24]= "empty"; im[25] = "CALL"; 
+	im[21]= "RRC" ; im[22] = "RRV" ; im[23]= "VADD";
+	im[24]= "VSUB"; im[25] = "CALL"; 
 	im[26] = "RET";	im[27] = "IN";	im[28] = "OUT";	im[29]= "empty";im[30]= "empty";im[31]= "empty";
 /*---------------------------------------------------------------------------*/
 /*The Ri-field string array */

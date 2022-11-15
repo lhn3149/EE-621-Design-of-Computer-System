@@ -11,11 +11,11 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 	parameter [1:0] MC0=2'b00, MC1=2'b01, MC2=2'b10, MC3=2'b11; //machine cycles
 	parameter [5:0] 	LD_IC = 6'b000000, 	ST_IC  =6'b000001, 	//reg-mem data transfer instruction cycles
 							CPY_IC =6'b000010, 	SWAP_IC=6'b000011, 	//reg-reg data transfer instruction cycles
-							JMP_IC =6'b000100, 							//flow control instruction cycle
+							JMP_IC =6'b000100, 								//flow control instruction cycle
 							ADD_IC =6'b000101, 	SUB_IC =6'b000110, 	//arithmetic manipulation instruction
-							ADDC_IC=6'b000111, 	SUBC_IC=6'b001000, //cycles
+							ADDC_IC=6'b000111, 	SUBC_IC=6'b001000, 	//cycles
 							
-							MUL_IC =6'b001001,	DIV_IC =6'b001010, //mul div
+							MUL_IC =6'b001001,	DIV_IC =6'b001010, 	//mul div
 							NOT_IC =6'b001011, 	AND_IC =6'b001100,  	//logic manipulation instruction 
 							OR_IC  =6'b001101,	XOR_IC =6'b001110,	//cycles
 							
@@ -45,7 +45,6 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 	reg [7:0] Display_pin;
 	reg [14:0]	TALUout;
 	wire [13:0]	PM_out, DM_out;
-	reg [7:0] TALUout1, TALUout2;
 	wire 	C, Clock_not, cache_done;
 	//integer Call_count;
 	integer  Ri1, Rj1, Ri2, Rj2, Ri3, Rj3;
@@ -58,8 +57,8 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 		// Von Neumann architecture
 		
 		// lhn_cache_2w_v	main_memory(MAeff[9:0], Clock_not, DM_in, WR_DM, PM_out);
-		lhn_cache_2w_v	my_cache(Resetn_pin, MAeff, DM_in, WR_DM, Clock_not, PM_out, cache_done)
-		// output [md_max-1:0] MEM_out;  output reg Done
+		lhn_cache_2w_v	my_cache(Resetn_pin, MAeff, DM_in, 	WR_DM, Clock_not, PM_out, cache_done);
+		// 							Resetn, MEM_address,MEM_in, WR, Clock, MEM_out, Done
 
 		lhn_ir2assembly_v IWdecode (IR1, Resetn_pin, Clock_pin, ICis); //IR, Resetn_pin, Clock_pin, ICis
 
@@ -72,7 +71,7 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 				for (k = 0; k < 15; k = k+1) begin R[k] = 0; end
 					
 				stall_mc0=0; stall_mc1=1; stall_mc2=1; stall_mc3=1;
-				IR1 = 16'hffff; IR2 = 16'hffff; IR3 = 16'hffff; // oxffff Don't care opCode
+				IR1 = 14'h3fff; IR2 = 14'h3fff; IR3 = 14'h3fff; // oxffff Don't care opCode
 				Ri1 = 0; Rj1 = 0; Ri2 = 0; Rj2 = 0; Ri3 = 0; Rj3 = 0;
 				MAB = 14'h0000; MAX = 14'h0000; DM_in = 14'h0000;
 				TA = 14'h0000; TB = 14'h0000; MAeff = 14'h0000; TALUH = 14'h0000; TALUL = 14'h0000;
@@ -89,22 +88,22 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 						end
 					ST_IC: begin 
 						MAeff = LDSTvalue;
-						WR_DM= 1; DM_in = R[IR3[3:0]] ; WR_DM=1'd0;
+						DM_in = R[IR3[3:0]] ; WR_DM=1'd0;
 						MAeff = PC;
 					end
 					CPY_IC: begin R[IR3[7:4]] = TALUL; end
 					JMP_IC: begin
 						MAeff = LDSTvalue;
 						case (IR3[3:0])
-							JC1: begin if (SR[11] == 1) PC = MAeff; else PC = PC; end
-							JN1: begin if (SR[10] == 1) PC = MAeff; else PC = PC; end
-							JV1: begin if (SR[9] == 1) PC = MAeff; else PC = PC; end
-							JZ1: begin if (SR[8] == 1) PC = MAeff; else PC = PC; end
+							JC1: begin if (SR[11] == 1) PC = MAeff; else MAeff = PC; end
+							JN1: begin if (SR[10] == 1) PC = MAeff; else MAeff = PC; end
+							JV1: begin if (SR[9] == 1) PC = MAeff; else MAeff = PC; end
+							JZ1: begin if (SR[8] == 1) PC = MAeff; else MAeff = PC; end
 							
-							JC0: begin if (SR[11] == 0) PC = MAeff; else PC = PC; end
-							JN0: begin if (SR[10] == 0) PC = MAeff; else PC = PC; end
-							JV0: begin if (SR[9] == 0) PC = MAeff; else PC = PC; end
-							JZ0: begin if (SR[8] == 0) PC = MAeff; else PC = PC; end
+							JC0: begin if (SR[11] == 0) PC = MAeff; else MAeff = PC; end
+							JN0: begin if (SR[10] == 0) PC = MAeff; else MAeff = PC; end
+							JV0: begin if (SR[9] == 0) PC = MAeff; else MAeff = PC; end
+							JZ0: begin if (SR[8] == 0) PC = MAeff; else MAeff = PC; end
 							JU:  begin PC = MAeff; end
 							default: PC = PC; //
 						endcase end
@@ -150,12 +149,10 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 						MAeff = MAB + MAX;
 						LDSTvalue = MAeff;
 						WR_DM = 1'b1;
-						if (Rj2 == Ri3 && IR3[13:8] != LD_IC && IR3[13:8] || ST_IC && IR3[13:8] || JMP_IC) 
-						begin DM_in = R[Ri3]; end
-						// Next, resolve the SWAP WB:
+						if (Rj2 == Ri3 && (IR3[13:8] != LD_IC) && (IR3[13:8] !=ST_IC) && (IR3[13:8] != JMP_IC) && (IR3[13:8]!=IN_IC) && (IR3[13:8]!=OUT_IC))
+							begin DM_in = R[Ri3]; end
 						else if (Rj2 == Rj3 && IR3[13:8] == SWAP_IC) DM_in = R[Rj3];
 						else DM_in = R[IR2[3:0]]; 
-						WR_DM = 1'b0;
 						end 
 
 					CPY_IC: begin TALUL = TB; end
@@ -181,19 +178,33 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 							if (TALUout[13:0] == 14'h0000) TSR[8] = 1; else TSR[8] = 0; // Zero
 							TALUH = TALUout[13:0];
 						end
-					VADD_IC, VSUB_IC:
+					VADD_IC:
 						begin
 							TALUout[7:0] = TA[6:0] + TB[6:0];
-							TALUout[6:0] = TA[13:7] + TB[13:7];
-							TSR[3] = TALUout1[7]; TSR[2] = TALUout1[6];
-							TSR[1] = ((TA[6] ~^ TB[6]) & TA[6]) ^ (TALUout1[6] & (TA[6] ~^ TB[6])); // V Overflow
-							if (TALUout1[7:0] == 8'h0000) TSR[0] = 1; else TSR[0] = 0; // Zero
-							TALUH[6:0] = TALUout1[6:0];
+							TSR[3] = TALUout[7]; TSR[2] = TALUout[6];
+							TSR[1] = ((TA[6] ~^ TB[6]) & TA[6]) ^ (TALUout[6] & (TA[6] ~^ TB[6])); // V Overflow
+							if (TALUout[7:0] == 8'h0000) TSR[0] = 1; else TSR[0] = 0; // Zero
+							TALUH[6:0] = TALUout[6:0];
 							
-							TSR[7] = TALUout2[7]; TSR[6] = TALUout2[6];
-							TSR[5] = ((TA[13] ~^ TB[13]) & TA[13]) ^ (TALUout2[13] & (TA[13] ~^ TB[13])); // V Overflow
-							if (TALUout2[7:0] == 8'h0000) TSR[4] = 1; else TSR[4] = 0; // Zero
-							TALUH[13:7] = TALUout2[6:0];
+							TALUout[14:7] = TA[13:7] + TB[13:7];
+							TSR[7] = TALUout[14]; TSR[6] = TALUout[13];
+							TSR[5] = ((TA[13] ~^ TB[13]) & TA[13]) ^ (TALUout[13] & (TA[13] ~^ TB[13])); // V Overflow
+							if (TALUout[14:7] == 8'h0000) TSR[4] = 1; else TSR[4] = 0; // Zero
+							TALUH[13:7] = TALUout[13:7];
+						end
+					VSUB_IC:
+						begin
+							TALUout[7:0] = TA[6:0] - TB[6:0];
+							TSR[3] = TALUout[7]; TSR[2] = TALUout[6];
+							TSR[1] = ((TA[6] ~^ TB[6]) & TA[6]) ^ (TALUout[6] & (TA[6] ~^ TB[6])); // V Overflow
+							if (TALUout[7:0] == 8'h0000) TSR[0] = 1; else TSR[0] = 0; // Zero
+							TALUH[6:0] = TALUout[6:0];
+							
+							TALUout[14:7] = TA[13:7] - TB[13:7];
+							TSR[7] = TALUout[14]; TSR[6] = TALUout[13];
+							TSR[5] = ((TA[13] ~^ TB[13]) & TA[13]) ^ (TALUout[13] & (TA[13] ~^ TB[13])); // V Overflow
+							if (TALUout[14:7] == 8'h0000) TSR[4] = 1; else TSR[4] = 0; // Zero
+							TALUH[13:7] = TALUout[13:7];
 						end
 					MUL_IC:
 						begin
@@ -380,8 +391,8 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 						begin
 							if (Ri1 == Ri2) TA=TALUH;
 							else TA = R[Ri1]; end // DF if needed
-					ADDC_IC, SUBC_IC, VADD_IC, VSUB_IC: begin
-							if (Ri1 == Ri2) TA = TALUH;
+					ADDC_IC, SUBC_IC: begin
+							if (Ri1 == Ri2)  TA = TALUH;
 							else TA = R[Ri1];TB = {10'b0000000000, IR1[3:0]}; end
 					IN_IC:begin TA = IPDR; end
 					OUT_IC: begin
@@ -396,22 +407,23 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 				
 
 				// resolve D/H
-				if ((IR3 == 14'hffff)&&(IR2 == 14'hffff)&&(IR1 == 14'hffff)) 
+				if ((IR3 == 14'h3fff)&&(IR2 == 14'h3fff)&&(IR1 == 14'h3fff)) 
 				begin stall_mc0 = 0; end
+				
 				if ((stall_mc2 == 0) && (IR3[13:8] != JMP_IC) && (IR3[13:8]!=LD_IC) && (IR3[13:8]!=ST_IC) &&(IR3[13:8]!=CALL_IC)&&(IR3[13:8] != RET_IC)) 
-				begin IR3 = IR2; Ri3 = Ri2; Rj3 = Ri3; stall_mc3 = 0; end 
-				else begin stall_mc2 =1; IR3 = 14'hffff; end 
+				begin IR3 = IR2; Ri3 = Ri2; Rj3 = Rj2; stall_mc3 = 0; end 
+				else begin stall_mc2 =1; IR3 = 14'h3fff; Ri3 = Ri2; Rj3 = Rj2; end 
 
 				if ((stall_mc1==0) && (IR2[13:8]!=JMP_IC) && (IR2[13:8]!=LD_IC) && (IR2[13:8] != ST_IC)&&(IR2[13:8]!=CALL_IC)&&(IR2[13:8]!=RET_IC)) 
 					begin IR2 = IR1; Ri2 = Ri1; Rj2 = Rj1; stall_mc2 = 0; end	
-				else begin stall_mc1 = 1; IR2 = 14'hffff; end
+				else begin stall_mc1 = 1; IR2 = 14'h3fff; Ri2 = Ri1; Rj2 = Rj1; end
 				
 				if ((stall_mc0 == 0) && (IR1[13:8]!=JMP_IC) && (IR1[13:8]!=LD_IC) && (IR1[13:8]!=ST_IC)&&(IR1[13:8] != CALL_IC)&&(IR1[13:8]!=RET_IC)) 
 				// ST, LD need to stall 1 MC.
 				// Below: IW0 is fetched directly into IR1, Ri1, and Rj1
 				begin IR1 = PM_out; Ri1 = PM_out[7:4];
 						Rj1 = PM_out[3:0]; PC = PC + 1'b1; stall_mc1 = 0; MAeff = PC; end 
-				else begin stall_mc0 = 1; IR1 = 14'hffff; end 
+				else begin stall_mc0 = 1; IR1 = 14'h3fff; Ri1 = 0; Rj1=0; end 
 				
 
 				

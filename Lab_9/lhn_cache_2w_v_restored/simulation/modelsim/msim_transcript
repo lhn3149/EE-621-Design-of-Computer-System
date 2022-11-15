@@ -12,90 +12,90 @@
 # 
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:59:51 on Nov 04,2022
+# Start time: 18:46:35 on Nov 14,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v 
 # -- Compiling module lhn_cache_2w_v
 # 
 # Top level modules:
 # 	lhn_cache_2w_v
-# End time: 09:59:51 on Nov 04,2022, Elapsed time: 0:00:00
+# End time: 18:46:35 on Nov 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:59:51 on Nov 04,2022
+# Start time: 18:46:35 on Nov 14,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v 
 # -- Compiling module lhn_3to8_dec
 # 
 # Top level modules:
 # 	lhn_3to8_dec
-# End time: 09:59:51 on Nov 04,2022, Elapsed time: 0:00:00
+# End time: 18:46:35 on Nov 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:59:51 on Nov 04,2022
+# Start time: 18:46:35 on Nov 14,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v 
 # -- Compiling module lhn_CAM_v
 # ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
 # 
 # Top level modules:
 # 	lhn_CAM_v
-# End time: 09:59:51 on Nov 04,2022, Elapsed time: 0:00:00
+# End time: 18:46:35 on Nov 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:59:51 on Nov 04,2022
+# Start time: 18:46:35 on Nov 14,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v 
 # -- Compiling module lhn_cache_v
 # 
 # Top level modules:
 # 	lhn_cache_v
-# End time: 09:59:51 on Nov 04,2022, Elapsed time: 0:00:00
+# End time: 18:46:35 on Nov 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:59:51 on Nov 04,2022
+# Start time: 18:46:36 on Nov 14,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v 
 # -- Compiling module lhn_pll_3_v
 # 
 # Top level modules:
 # 	lhn_pll_3_v
-# End time: 09:59:51 on Nov 04,2022, Elapsed time: 0:00:00
+# End time: 18:46:36 on Nov 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:59:51 on Nov 04,2022
+# Start time: 18:46:36 on Nov 14,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v 
 # -- Compiling module lhnRISC621_ram
 # 
 # Top level modules:
 # 	lhnRISC621_ram
-# End time: 09:59:51 on Nov 04,2022, Elapsed time: 0:00:00
+# End time: 18:46:36 on Nov 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:59:51 on Nov 04,2022
+# Start time: 18:46:36 on Nov 14,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v 
 # -- Compiling module lhn_pll_3_v_altpll
 # 
 # Top level modules:
 # 	lhn_pll_3_v_altpll
-# End time: 09:59:51 on Nov 04,2022, Elapsed time: 0:00:00
+# End time: 18:46:36 on Nov 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:59:51 on Nov 04,2022
+# Start time: 18:46:36 on Nov 14,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v 
 # -- Compiling module lhn_cache_2w_v_tb
 # 
 # Top level modules:
 # 	lhn_cache_2w_v_tb
-# End time: 09:59:51 on Nov 04,2022, Elapsed time: 0:00:00
+# End time: 18:46:36 on Nov 14,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_cache_2w_v_tb 
-# Start time: 09:59:52 on Nov 04,2022
+# Start time: 18:46:37 on Nov 14,2022
 # Loading work.lhn_cache_2w_v_tb
 # Loading work.lhn_cache_2w_v
 # Loading work.lhn_pll_3_v
@@ -124,18 +124,1411 @@
 # run -all
 #  Note : Cyclone IV E PLL locked to incoming clock
 # Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
-# Note : Cyclone IV E PLL lost lock due to loss of input clock or the input clock is not detected within the allowed time frame.
-# Note : Please run timing simulation to check whether the input clock is operating within the supported VCO range or not.
-# Time: 6780000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
-do lab9.do
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# Model check failed for address   168 expected data   168 recieved data     0
+# Model check failed for address   168 expected data   168 recieved data     0
+# Model check failed for address 15991 expected data     0 recieved data 15646
+# Model check failed for address 15991 expected data     0 recieved data 15646
+# Model check failed for address   511 expected data   160 recieved data     0
+# Model check failed for address   511 expected data   160 recieved data     0
+# Model check failed for address 15990 expected data     0 recieved data   589
+# Model check failed for address 15990 expected data     0 recieved data   589
+# Model check failed for address   306 expected data 16082 recieved data     0
+# Model check failed for address   306 expected data 16082 recieved data     0
+# Model check failed for address 15990 expected data     0 recieved data   589
+# Model check failed for address 15990 expected data     0 recieved data   589
+# Model check failed for address   142 expected data 16198 recieved data     0
+# Model check failed for address   142 expected data 16198 recieved data     0
+# Model check failed for address   141 expected data   768 recieved data 15788
+# Model check failed for address   141 expected data   768 recieved data 15788
+# Test sequence ended, check failed assertions
+# Number of failed assertions:          16
+# ------------------------------------------------------------
+# 
+# 
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(183)
+#    Time: 1226340 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 183
+do lhn_cache_2w_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:47:30 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v 
+# -- Compiling module lhn_cache_2w_v
+# 
+# Top level modules:
+# 	lhn_cache_2w_v
+# End time: 18:47:31 on Nov 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:47:31 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v 
+# -- Compiling module lhn_3to8_dec
+# 
+# Top level modules:
+# 	lhn_3to8_dec
+# End time: 18:47:31 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:47:31 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 18:47:31 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:47:31 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v 
+# -- Compiling module lhn_cache_v
+# 
+# Top level modules:
+# 	lhn_cache_v
+# End time: 18:47:31 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:47:31 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v 
+# -- Compiling module lhn_pll_3_v
+# 
+# Top level modules:
+# 	lhn_pll_3_v
+# End time: 18:47:31 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:47:31 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v 
+# -- Compiling module lhnRISC621_ram
+# 
+# Top level modules:
+# 	lhnRISC621_ram
+# End time: 18:47:31 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:47:31 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v 
+# -- Compiling module lhn_pll_3_v_altpll
+# 
+# Top level modules:
+# 	lhn_pll_3_v_altpll
+# End time: 18:47:31 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:47:31 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v 
+# -- Compiling module lhn_cache_2w_v_tb
+# 
+# Top level modules:
+# 	lhn_cache_2w_v_tb
+# End time: 18:47:31 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb
+# End time: 18:47:32 on Nov 14,2022, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_cache_2w_v_tb 
+# Start time: 18:47:32 on Nov 14,2022
+# Loading work.lhn_cache_2w_v_tb
+# Loading work.lhn_cache_2w_v
+# Loading work.lhn_pll_3_v
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.lhn_CAM_v
+# Loading work.lhnRISC621_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.lhn_cache_v
+# Loading work.lhn_3to8_dec
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v(96): [PCDPC] - Port size (14) does not match connection size (8) for port 'eq'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_cache_2w_v_tb/dut/my_dec File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# Test sequence ended, no failed assertions detected, this DOES NOT guarantee that DUT is perfect
+# Number of failed assertions:           0
+# ------------------------------------------------------------
+# 
+# 
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(183)
+#    Time: 34140 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 183
+do lhn_cache_2w_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:48:22 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v 
+# -- Compiling module lhn_cache_2w_v
+# 
+# Top level modules:
+# 	lhn_cache_2w_v
+# End time: 18:48:22 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:48:22 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v 
+# -- Compiling module lhn_3to8_dec
+# 
+# Top level modules:
+# 	lhn_3to8_dec
+# End time: 18:48:23 on Nov 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:48:23 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 18:48:23 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:48:23 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v 
+# -- Compiling module lhn_cache_v
+# 
+# Top level modules:
+# 	lhn_cache_v
+# End time: 18:48:23 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:48:23 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v 
+# -- Compiling module lhn_pll_3_v
+# 
+# Top level modules:
+# 	lhn_pll_3_v
+# End time: 18:48:23 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:48:23 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v 
+# -- Compiling module lhnRISC621_ram
+# 
+# Top level modules:
+# 	lhnRISC621_ram
+# End time: 18:48:23 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:48:23 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v 
+# -- Compiling module lhn_pll_3_v_altpll
+# 
+# Top level modules:
+# 	lhn_pll_3_v_altpll
+# End time: 18:48:23 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:48:23 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v 
+# -- Compiling module lhn_cache_2w_v_tb
+# 
+# Top level modules:
+# 	lhn_cache_2w_v_tb
+# End time: 18:48:23 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb
+# End time: 18:48:27 on Nov 14,2022, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_cache_2w_v_tb 
+# Start time: 18:48:27 on Nov 14,2022
+# Loading work.lhn_cache_2w_v_tb
+# Loading work.lhn_cache_2w_v
+# Loading work.lhn_pll_3_v
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.lhn_CAM_v
+# Loading work.lhnRISC621_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.lhn_cache_v
+# Loading work.lhn_3to8_dec
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v(96): [PCDPC] - Port size (14) does not match connection size (8) for port 'eq'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_cache_2w_v_tb/dut/my_dec File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# Model check failed for address   168 expected data   168 recieved data     0
+# Model check failed for address   168 expected data   168 recieved data     0
+# Model check failed for address 15991 expected data     0 recieved data 15646
+# Model check failed for address 15991 expected data     0 recieved data 15646
+# Model check failed for address   511 expected data   160 recieved data     0
+# Model check failed for address   511 expected data   160 recieved data     0
+# Model check failed for address 15990 expected data     0 recieved data   589
+# Model check failed for address 15990 expected data     0 recieved data   589
+# Model check failed for address   306 expected data 16082 recieved data     0
+# Model check failed for address   306 expected data 16082 recieved data     0
+# Model check failed for address 15990 expected data     0 recieved data   589
+# Model check failed for address 15990 expected data     0 recieved data   589
+# Model check failed for address   142 expected data 16198 recieved data     0
+# Model check failed for address   142 expected data 16198 recieved data     0
+# Model check failed for address   141 expected data   768 recieved data 15788
+# Model check failed for address   141 expected data   768 recieved data 15788
+# Test sequence ended, check failed assertions
+# Number of failed assertions:          16
+# ------------------------------------------------------------
+# 
+# 
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(183)
+#    Time: 1226340 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 183
+do lhn_cache_2w_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:50:39 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v 
+# -- Compiling module lhn_cache_2w_v
+# 
+# Top level modules:
+# 	lhn_cache_2w_v
+# End time: 18:50:39 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:50:39 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v 
+# -- Compiling module lhn_3to8_dec
+# 
+# Top level modules:
+# 	lhn_3to8_dec
+# End time: 18:50:39 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:50:39 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 18:50:39 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:50:39 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v 
+# -- Compiling module lhn_cache_v
+# 
+# Top level modules:
+# 	lhn_cache_v
+# End time: 18:50:39 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:50:39 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v 
+# -- Compiling module lhn_pll_3_v
+# 
+# Top level modules:
+# 	lhn_pll_3_v
+# End time: 18:50:39 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:50:40 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v 
+# -- Compiling module lhnRISC621_ram
+# 
+# Top level modules:
+# 	lhnRISC621_ram
+# End time: 18:50:40 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:50:40 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v 
+# -- Compiling module lhn_pll_3_v_altpll
+# 
+# Top level modules:
+# 	lhn_pll_3_v_altpll
+# End time: 18:50:40 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:50:40 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v 
+# -- Compiling module lhn_cache_2w_v_tb
+# 
+# Top level modules:
+# 	lhn_cache_2w_v_tb
+# End time: 18:50:40 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb
+# End time: 18:50:41 on Nov 14,2022, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_cache_2w_v_tb 
+# Start time: 18:50:41 on Nov 14,2022
+# Loading work.lhn_cache_2w_v_tb
+# Loading work.lhn_cache_2w_v
+# Loading work.lhn_pll_3_v
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.lhn_CAM_v
+# Loading work.lhnRISC621_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.lhn_cache_v
+# Loading work.lhn_3to8_dec
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v(96): [PCDPC] - Port size (14) does not match connection size (8) for port 'eq'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_cache_2w_v_tb/dut/my_dec File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+#            278980000: Model check failed for address   168 expected data   168 recieved data     0
+#            279020000: Model check failed for address   168 expected data   168 recieved data     0
+#            308780000: Model check failed for address 15991 expected data     0 recieved data 15646
+#            308820000: Model check failed for address 15991 expected data     0 recieved data 15646
+#            613460000: Model check failed for address   511 expected data   160 recieved data     0
+#            613500000: Model check failed for address   511 expected data   160 recieved data     0
+#            869940000: Model check failed for address 15990 expected data     0 recieved data   589
+#            869980000: Model check failed for address 15990 expected data     0 recieved data   589
+#            887220000: Model check failed for address   306 expected data 16082 recieved data     0
+#            887260000: Model check failed for address   306 expected data 16082 recieved data     0
+#            892580000: Model check failed for address 15990 expected data     0 recieved data   589
+#            892620000: Model check failed for address 15990 expected data     0 recieved data   589
+#           1062780000: Model check failed for address   142 expected data 16198 recieved data     0
+#           1062820000: Model check failed for address   142 expected data 16198 recieved data     0
+#           1104300000: Model check failed for address   141 expected data   768 recieved data 15788
+#           1104340000: Model check failed for address   141 expected data   768 recieved data 15788
+# Test sequence ended, check failed assertions
+# Number of failed assertions:          16
+# ------------------------------------------------------------
+# 
+# 
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(183)
+#    Time: 1226340 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 183
+do lhn_cache_2w_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:53:02 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v 
+# -- Compiling module lhn_cache_2w_v
+# 
+# Top level modules:
+# 	lhn_cache_2w_v
+# End time: 18:53:02 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:53:02 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v 
+# -- Compiling module lhn_3to8_dec
+# 
+# Top level modules:
+# 	lhn_3to8_dec
+# End time: 18:53:02 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:53:02 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 18:53:02 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:53:02 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v 
+# -- Compiling module lhn_cache_v
+# 
+# Top level modules:
+# 	lhn_cache_v
+# End time: 18:53:02 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:53:02 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v 
+# -- Compiling module lhn_pll_3_v
+# 
+# Top level modules:
+# 	lhn_pll_3_v
+# End time: 18:53:02 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:53:03 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v 
+# -- Compiling module lhnRISC621_ram
+# 
+# Top level modules:
+# 	lhnRISC621_ram
+# End time: 18:53:03 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:53:03 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v 
+# -- Compiling module lhn_pll_3_v_altpll
+# 
+# Top level modules:
+# 	lhn_pll_3_v_altpll
+# End time: 18:53:03 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:53:03 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v 
+# -- Compiling module lhn_cache_2w_v_tb
+# 
+# Top level modules:
+# 	lhn_cache_2w_v_tb
+# End time: 18:53:03 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb
+# End time: 18:53:04 on Nov 14,2022, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_cache_2w_v_tb 
+# Start time: 18:53:04 on Nov 14,2022
+# Loading work.lhn_cache_2w_v_tb
+# Loading work.lhn_cache_2w_v
+# Loading work.lhn_pll_3_v
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.lhn_CAM_v
+# Loading work.lhnRISC621_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.lhn_cache_v
+# Loading work.lhn_3to8_dec
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v(96): [PCDPC] - Port size (14) does not match connection size (8) for port 'eq'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_cache_2w_v_tb/dut/my_dec File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+#            278980000: Model check failed for address   168 expected data   168 recieved data     0
+#            279020000: Model check failed for address   168 expected data   168 recieved data     0
+#            308780000: Model check failed for address 15991 expected data     0 recieved data 15646
+#            308820000: Model check failed for address 15991 expected data     0 recieved data 15646
+#            613460000: Model check failed for address   511 expected data   160 recieved data     0
+#            613500000: Model check failed for address   511 expected data   160 recieved data     0
+#            869940000: Model check failed for address 15990 expected data     0 recieved data   589
+#            869980000: Model check failed for address 15990 expected data     0 recieved data   589
+#            887220000: Model check failed for address   306 expected data 16082 recieved data     0
+#            887260000: Model check failed for address   306 expected data 16082 recieved data     0
+#            892580000: Model check failed for address 15990 expected data     0 recieved data   589
+#            892620000: Model check failed for address 15990 expected data     0 recieved data   589
+#           1062780000: Model check failed for address   142 expected data 16198 recieved data     0
+#           1062820000: Model check failed for address   142 expected data 16198 recieved data     0
+#           1104300000: Model check failed for address   141 expected data   768 recieved data 15788
+#           1104340000: Model check failed for address   141 expected data   768 recieved data 15788
+# Test sequence ended, check failed assertions
+# Number of failed assertions:          16
+# ------------------------------------------------------------
+# 
+# 
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(183)
+#    Time: 1226340 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 183
+add wave -position insertpoint sim:/lhn_cache_2w_v_tb/dut/*
 restart
 # ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v(96): [PCDPC] - Port size (14) does not match connection size (8) for port 'eq'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v(1).
 #    Time: 0 ps  Iteration: 0  Instance: /lhn_cache_2w_v_tb/dut/my_dec File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
 run -all
 #  Note : Cyclone IV E PLL locked to incoming clock
 # Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
-# Note : Cyclone IV E PLL lost lock due to loss of input clock or the input clock is not detected within the allowed time frame.
-# Note : Please run timing simulation to check whether the input clock is operating within the supported VCO range or not.
-# Time: 6780000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
-# End time: 10:39:57 on Nov 04,2022, Elapsed time: 0:40:05
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+#            278980000: Model check failed for address   168 expected data   168 recieved data     0
+#            279020000: Model check failed for address   168 expected data   168 recieved data     0
+#            308780000: Model check failed for address 15991 expected data     0 recieved data 15646
+#            308820000: Model check failed for address 15991 expected data     0 recieved data 15646
+#            613460000: Model check failed for address   511 expected data   160 recieved data     0
+#            613500000: Model check failed for address   511 expected data   160 recieved data     0
+#            869940000: Model check failed for address 15990 expected data     0 recieved data   589
+#            869980000: Model check failed for address 15990 expected data     0 recieved data   589
+#            887220000: Model check failed for address   306 expected data 16082 recieved data     0
+#            887260000: Model check failed for address   306 expected data 16082 recieved data     0
+#            892580000: Model check failed for address 15990 expected data     0 recieved data   589
+#            892620000: Model check failed for address 15990 expected data     0 recieved data   589
+#           1062780000: Model check failed for address   142 expected data 16198 recieved data     0
+#           1062820000: Model check failed for address   142 expected data 16198 recieved data     0
+#           1104300000: Model check failed for address   141 expected data   768 recieved data 15788
+#           1104340000: Model check failed for address   141 expected data   768 recieved data 15788
+# Test sequence ended, check failed assertions
+# Number of failed assertions:          16
+# ------------------------------------------------------------
+# 
+# 
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(183)
+#    Time: 1226340 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 183
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/wave.do
+do lhn_cache_2w_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:28 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v 
+# -- Compiling module lhn_cache_2w_v
+# 
+# Top level modules:
+# 	lhn_cache_2w_v
+# End time: 19:21:28 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:28 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v 
+# -- Compiling module lhn_3to8_dec
+# 
+# Top level modules:
+# 	lhn_3to8_dec
+# End time: 19:21:28 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:28 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 19:21:28 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:28 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v 
+# -- Compiling module lhn_cache_v
+# 
+# Top level modules:
+# 	lhn_cache_v
+# End time: 19:21:28 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:28 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v 
+# -- Compiling module lhn_pll_3_v
+# 
+# Top level modules:
+# 	lhn_pll_3_v
+# End time: 19:21:28 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:28 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v 
+# -- Compiling module lhnRISC621_ram
+# 
+# Top level modules:
+# 	lhnRISC621_ram
+# End time: 19:21:28 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:28 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v 
+# -- Compiling module lhn_pll_3_v_altpll
+# 
+# Top level modules:
+# 	lhn_pll_3_v_altpll
+# End time: 19:21:28 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:21:28 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v 
+# -- Compiling module lhn_cache_2w_v_tb
+# 
+# Top level modules:
+# 	lhn_cache_2w_v_tb
+# End time: 19:21:28 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb
+# End time: 19:21:29 on Nov 14,2022, Elapsed time: 0:28:25
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_cache_2w_v_tb 
+# Start time: 19:21:29 on Nov 14,2022
+# Loading work.lhn_cache_2w_v_tb
+# Loading work.lhn_cache_2w_v
+# Loading work.lhn_pll_3_v
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.lhn_CAM_v
+# Loading work.lhnRISC621_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.lhn_cache_v
+# Loading work.lhn_3to8_dec
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v(96): [PCDPC] - Port size (14) does not match connection size (8) for port 'eq'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_cache_2w_v_tb/dut/my_dec File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(171)
+#    Time: 34140 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 171
+run -all
+#            278980000: Model check failed for address   168 expected data   168 recieved data     0
+#            279020000: Model check failed for address   168 expected data   168 recieved data     0
+#            308780000: Model check failed for address 15991 expected data     0 recieved data 15646
+#            308820000: Model check failed for address 15991 expected data     0 recieved data 15646
+#            613460000: Model check failed for address   511 expected data   160 recieved data     0
+#            613500000: Model check failed for address   511 expected data   160 recieved data     0
+#            869940000: Model check failed for address 15990 expected data     0 recieved data   589
+#            869980000: Model check failed for address 15990 expected data     0 recieved data   589
+#            887220000: Model check failed for address   306 expected data 16082 recieved data     0
+#            887260000: Model check failed for address   306 expected data 16082 recieved data     0
+#            892580000: Model check failed for address 15990 expected data     0 recieved data   589
+#            892620000: Model check failed for address 15990 expected data     0 recieved data   589
+#           1062780000: Model check failed for address   142 expected data 16198 recieved data     0
+#           1062820000: Model check failed for address   142 expected data 16198 recieved data     0
+#           1104300000: Model check failed for address   141 expected data   768 recieved data 15788
+#           1104340000: Model check failed for address   141 expected data   768 recieved data 15788
+# Test sequence ended, check failed assertions
+# Number of failed assertions:          16
+# ------------------------------------------------------------
+# 
+# 
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(183)
+#    Time: 1226340 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 183
+restart
+do lhn_cache_2w_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:23:04 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v 
+# -- Compiling module lhn_cache_2w_v
+# 
+# Top level modules:
+# 	lhn_cache_2w_v
+# End time: 19:23:04 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:23:04 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v 
+# -- Compiling module lhn_3to8_dec
+# 
+# Top level modules:
+# 	lhn_3to8_dec
+# End time: 19:23:04 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:23:04 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 19:23:04 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:23:04 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v 
+# -- Compiling module lhn_cache_v
+# 
+# Top level modules:
+# 	lhn_cache_v
+# End time: 19:23:04 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:23:04 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v 
+# -- Compiling module lhn_pll_3_v
+# 
+# Top level modules:
+# 	lhn_pll_3_v
+# End time: 19:23:04 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:23:05 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v 
+# -- Compiling module lhnRISC621_ram
+# 
+# Top level modules:
+# 	lhnRISC621_ram
+# End time: 19:23:05 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:23:05 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v 
+# -- Compiling module lhn_pll_3_v_altpll
+# 
+# Top level modules:
+# 	lhn_pll_3_v_altpll
+# End time: 19:23:05 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:23:05 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v 
+# -- Compiling module lhn_cache_2w_v_tb
+# 
+# Top level modules:
+# 	lhn_cache_2w_v_tb
+# End time: 19:23:05 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb
+# End time: 19:23:06 on Nov 14,2022, Elapsed time: 0:01:37
 # Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_cache_2w_v_tb 
+# Start time: 19:23:06 on Nov 14,2022
+# Loading work.lhn_cache_2w_v_tb
+# Loading work.lhn_cache_2w_v
+# Loading work.lhn_pll_3_v
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.lhn_CAM_v
+# Loading work.lhnRISC621_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.lhn_cache_v
+# Loading work.lhn_3to8_dec
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v(96): [PCDPC] - Port size (14) does not match connection size (8) for port 'eq'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_cache_2w_v_tb/dut/my_dec File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(172)
+#    Time: 34140 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 172
+run -all
+#            278980000: Model check failed for address   168 expected data   168 recieved data     0
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(69)
+#    Time: 278980 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 69
+run -all
+#            279020000: Model check failed for address   168 expected data   168 recieved data     0
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(69)
+#    Time: 279020 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 69
+do lhn_cache_2w_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:34 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v 
+# -- Compiling module lhn_cache_2w_v
+# 
+# Top level modules:
+# 	lhn_cache_2w_v
+# End time: 19:27:34 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:34 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v 
+# -- Compiling module lhn_3to8_dec
+# 
+# Top level modules:
+# 	lhn_3to8_dec
+# End time: 19:27:34 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:34 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 19:27:34 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:34 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v 
+# -- Compiling module lhn_cache_v
+# 
+# Top level modules:
+# 	lhn_cache_v
+# End time: 19:27:34 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:34 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v 
+# -- Compiling module lhn_pll_3_v
+# 
+# Top level modules:
+# 	lhn_pll_3_v
+# End time: 19:27:35 on Nov 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:35 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v 
+# -- Compiling module lhnRISC621_ram
+# 
+# Top level modules:
+# 	lhnRISC621_ram
+# End time: 19:27:35 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:35 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v 
+# -- Compiling module lhn_pll_3_v_altpll
+# 
+# Top level modules:
+# 	lhn_pll_3_v_altpll
+# End time: 19:27:35 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:27:35 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v 
+# -- Compiling module lhn_cache_2w_v_tb
+# 
+# Top level modules:
+# 	lhn_cache_2w_v_tb
+# End time: 19:27:35 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb
+# End time: 19:27:36 on Nov 14,2022, Elapsed time: 0:04:30
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_cache_2w_v_tb 
+# Start time: 19:27:36 on Nov 14,2022
+# Loading work.lhn_cache_2w_v_tb
+# Loading work.lhn_cache_2w_v
+# Loading work.lhn_pll_3_v
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.lhn_CAM_v
+# Loading work.lhnRISC621_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.lhn_cache_v
+# Loading work.lhn_3to8_dec
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v(96): [PCDPC] - Port size (14) does not match connection size (8) for port 'eq'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_cache_2w_v_tb/dut/my_dec File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(180)
+#    Time: 34140 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 180
+run -all
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(77)
+#    Time: 278620 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 77
+do wave.do
+restart -f
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v(96): [PCDPC] - Port size (14) does not match connection size (8) for port 'eq'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /lhn_cache_2w_v_tb/dut/my_dec File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v
+run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(180)
+#    Time: 34140 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 180
+run -all
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(77)
+#    Time: 278620 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 77
+do lhn_cache_2w_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:48:43 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v 
+# -- Compiling module lhn_cache_2w_v
+# 
+# Top level modules:
+# 	lhn_cache_2w_v
+# End time: 19:48:43 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:48:43 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v 
+# -- Compiling module lhn_3to8_dec
+# 
+# Top level modules:
+# 	lhn_3to8_dec
+# End time: 19:48:43 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:48:43 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 19:48:43 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:48:43 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v 
+# -- Compiling module lhn_cache_v
+# 
+# Top level modules:
+# 	lhn_cache_v
+# End time: 19:48:43 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:48:43 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v 
+# -- Compiling module lhn_pll_3_v
+# 
+# Top level modules:
+# 	lhn_pll_3_v
+# End time: 19:48:43 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:48:43 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v 
+# -- Compiling module lhnRISC621_ram
+# 
+# Top level modules:
+# 	lhnRISC621_ram
+# End time: 19:48:43 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:48:43 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v 
+# -- Compiling module lhn_pll_3_v_altpll
+# 
+# Top level modules:
+# 	lhn_pll_3_v_altpll
+# End time: 19:48:43 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:48:43 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v 
+# -- Compiling module lhn_cache_2w_v_tb
+# 
+# Top level modules:
+# 	lhn_cache_2w_v_tb
+# End time: 19:48:43 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb
+# End time: 19:48:44 on Nov 14,2022, Elapsed time: 0:21:08
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_cache_2w_v_tb 
+# Start time: 19:48:44 on Nov 14,2022
+# Loading work.lhn_cache_2w_v_tb
+# Loading work.lhn_cache_2w_v
+# Loading work.lhn_pll_3_v
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.lhn_CAM_v
+# Loading work.lhnRISC621_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.lhn_cache_v
+# Loading work.lhn_3to8_dec
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(180)
+#    Time: 32900 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 180
+do lhn_cache_2w_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:49:40 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v 
+# -- Compiling module lhn_cache_2w_v
+# 
+# Top level modules:
+# 	lhn_cache_2w_v
+# End time: 19:49:40 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:49:40 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v 
+# -- Compiling module lhn_3to8_dec
+# 
+# Top level modules:
+# 	lhn_3to8_dec
+# End time: 19:49:40 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:49:40 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v 
+# -- Compiling module lhn_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	lhn_CAM_v
+# End time: 19:49:41 on Nov 14,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:49:41 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v 
+# -- Compiling module lhn_cache_v
+# 
+# Top level modules:
+# 	lhn_cache_v
+# End time: 19:49:41 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:49:41 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v 
+# -- Compiling module lhn_pll_3_v
+# 
+# Top level modules:
+# 	lhn_pll_3_v
+# End time: 19:49:41 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:49:41 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v 
+# -- Compiling module lhnRISC621_ram
+# 
+# Top level modules:
+# 	lhnRISC621_ram
+# End time: 19:49:41 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:49:41 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v 
+# -- Compiling module lhn_pll_3_v_altpll
+# 
+# Top level modules:
+# 	lhn_pll_3_v_altpll
+# End time: 19:49:41 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:49:41 on Nov 14,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v 
+# -- Compiling module lhn_cache_2w_v_tb
+# 
+# Top level modules:
+# 	lhn_cache_2w_v_tb
+# End time: 19:49:41 on Nov 14,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhn_cache_2w_v_tb
+# End time: 19:49:42 on Nov 14,2022, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhn_cache_2w_v_tb 
+# Start time: 19:49:42 on Nov 14,2022
+# Loading work.lhn_cache_2w_v_tb
+# Loading work.lhn_cache_2w_v
+# Loading work.lhn_pll_3_v
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.lhn_CAM_v
+# Loading work.lhnRISC621_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.lhn_cache_v
+# Loading work.lhn_3to8_dec
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone IV E PLL locked to incoming clock
+# Time: 180000  Instance: lhn_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v(180)
+#    Time: 34140 ns  Iteration: 1  Instance: /lhn_cache_2w_v_tb
+# Break in Module lhn_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v_tb.v line 180
+# End time: 22:01:33 on Nov 14,2022, Elapsed time: 2:11:51
+# Errors: 0, Warnings: 0

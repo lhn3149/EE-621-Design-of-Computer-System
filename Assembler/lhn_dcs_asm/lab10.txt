@@ -1,0 +1,63 @@
+; 	dxp's second assembly test program.
+;------------------------------------------------------------------------------
+;	Assembler directives:
+;------------------------------------------------------------------------------
+;
+;
+;
+	.directives;
+	;
+	.equ	constOne	0x1;
+	.equ	constTwo	0x2;
+	;
+	.enddirectives;
+;------------------------------------------------------------------------------
+;	Constant segment:
+;------------------------------------------------------------------------------
+; These values are initialized in the locations at the end of the code segment.
+; For now, .word is the only constant initialization assembly directive.
+; After assembling the code, during the final run, the constant name is 
+;   replaced with its location address in the program memory.
+	.constants;
+;
+	.word	firstConstWord	0xFFFF;
+	.word	datasegment	0x0140;
+	.word	uppercase	0x0240;
+	.word	lowercase	0x0280;
+	.word	decimal		0x02C0;	
+	.word	caseconversion	0x013F;
+;----at this location will store 0x1020  -----; 
+	.word	numconversion	0x013E;
+;---- at this location will store 0x1830 ----- ;
+	.word 	loopcount	0x013D;
+;----- store 64 (0x40) ----; 
+	.endconstants;
+;------------------------------------------------------------------------------
+;	Code segment:
+;------------------------------------------------------------------------------
+	.code;
+		SUB	R2, R2;	
+		SUB 	R3, R3;
+		LD	R1, M[R2, 0x013D];
+
+;----Loop count == Array Size------;
+@Segment	LD	R4, M[R2, 0x0140];
+		ADDC	R2, 0x1;
+		LD	R5, M[R2, 0x0140];
+		ADDC	R2, 0x1;
+		LD	R6, M[R2, 0x0140];
+		ADDC	R2, 0x1;
+
+		ST	R4, M[R3, 0x0240];
+;---0240 start of uppercase ---;
+		ST	R5, M[R3, 0x0280];
+; ----0280 start of lowercase ---;
+		ST	R6, M[R3, 0x02C0];
+;-----02c0 start of numeric character ----;
+; ----- skip the ,. part ----- ; 
+		ADDC	R2, 0x1;
+		ADDC	R3, 0x1;
+		SUBC	R1, 0x1;
+		JMP	Z0, @Segment;
+
+	.endcode;
