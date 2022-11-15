@@ -99,14 +99,7 @@ FILE *int1_fname; FILE *int2_fname; FILE *int3_fname; FILE	*out1_fname;
 /*---------------------------------------------------------------------------*/
 		sscanf(crt_line, "%3u %s %s %s %s %s", &asf_line_number, first_syllable, \
 		&second_syllable, &third_syllable, &fourth_syllable, &fifth_syllable);
-#ifdef dxpDEBUG
-		printf("\n asf_line_number is := %3u", asf_line_number);
-		printf("\n \t first_syllable is := %s", first_syllable);
-		printf("\n \t \t second_syllable is := %s", second_syllable);
-		printf("\n \t \t \t third_syllable is := %s", third_syllable);
-		printf("\n \t \t \t \t fourth_syllable is := %s", fourth_syllable);
-		printf("\n \t \t \t \t \t fifth_syllable is := %s\n", fifth_syllable);
-#endif
+
 	match1 = 0;	match2 = 0; match3 = 0;	match4 = 0;	//++i;
 	
 
@@ -124,6 +117,9 @@ JUMP Label Check and Update
 			strcpy(jca[crt_iw1].jca_label, first_syllable); // jca label and number
 			jca[crt_iw1].jca_num = crt_mif_addrs;
 			++crt_iw1;
+			/*printf("%% Detect JUMP @ LABEL: %s %% \n", first_syllable);
+			printf("Line number: %d \n ", crt_mif_addrs);
+			printf("IW1: %s \n", crt_iw1);*/
 /*---------------------------------------------------------------------------*/
 /* Shift syllables to account for the label
 /*---------------------------------------------------------------------------*/
@@ -296,8 +292,10 @@ Assemble NOT IN OUT
 ===========================================================================*/
 i = 11;
 while(i != 29){
+	printf("First syllable of NOT, IN, OUT: %s", first_syllable);
 	if (strcmp(first_syllable, crt_im[i]) == 0)
-		{ strcpy(crt_iw0, crt_opcode[i]); match1 = 1; k = 0; 
+		{	printf("First syllable of NOT, IN, OUT: %s", first_syllable); 
+			strcpy(crt_iw0, crt_opcode[i]); match1 = 1; k = 0; 
 			while (k < 16 && match2 == 0)
 			{if (strcmp(second_syllable, crt_rj[k]) == 0) /* Use crt_rj for comparison because of the ; */
 				{ strcat(crt_iw0, crt_rifv[k]); match2 = 1; } ++k; }

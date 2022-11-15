@@ -1,5 +1,5 @@
 Archive Project report for lhnRISC621_v
-Wed Sep 21 10:05:16 2022
+Fri Oct 14 10:32:38 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -35,7 +35,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Wed Sep 21 10:05:16 2022 ;
+; Archive Project Status ; Successful - Fri Oct 14 10:32:38 2022 ;
 ; Revision Name          ; lhnRISC621_v                          ;
 ; Top-level Entity Name  ; lhnRISC621_v                          ;
 ; Family                 ; Cyclone V                             ;
@@ -49,27 +49,18 @@ Info: File Set 'Source control' contains:
     Info: Project source and settings files
     Info: Automatically detected source files
 Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
-Warning: Excluding 'Automatically detected source files' The Quartus Prime software may not be able to automatically locate all project files.
-Info: Parsing: lhnRISC621_v.v
-Info: Parsing: lhnRISC621_v_tb.v
-Info: Parsing: lhn_ir2assembly_v.v
-Info: Parsing: lhn_mm.v
-Info: Discovered: ./lab3_v.mif
-Info: Discovered: ./lhnRISC621_v.mif
-Info: Parsing: lhn_mm_bb.v
-Info: Discovered: ./lhnRISC621_v.mif
 Info: Archive will store files relative to the closest common parent directory
-Info (13213): Using common directory E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/
+Info (13213): Using common directory C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
-Info: Generated archive 'E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_lab3_v.qar'
+Info: Generated archive 'C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621pipe_v.qar'
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'lhnRISC621_v.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga_lite/18.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
-Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4823 megabytes
-    Info: Processing ended: Wed Sep 21 10:05:16 2022
+    Info: Processing ended: Fri Oct 14 10:32:38 2022
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

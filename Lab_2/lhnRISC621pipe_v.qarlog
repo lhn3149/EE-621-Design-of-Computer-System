@@ -1,0 +1,23 @@
+Quartus Prime Archive log --	C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621pipe_v.qarlog
+
+Archive:	C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621pipe_v.qar
+Date:		Fri Oct 14 10:32:38 2022
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lab3_v.mif
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.mif
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.qpf
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.qsf
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v.v
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhnRISC621_v_tb.v
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhn_ir2assembly_v.v
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.bsf
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.qip
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhn_mm.v
+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_2/lhn_mm_bb.v
+c:/intelfpga_lite/18.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

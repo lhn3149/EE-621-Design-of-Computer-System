@@ -1,0 +1,188 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/simulation/modelsim
+vdxp_4to16_dec
+Z1 !s110 1667395227
+!i10b 1
+!s100 KzG=oj4eZ^Q@41Z8CON@:2
+I:6`mc<M8O_B^e;BBclnP<1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1414696360
+8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_4to16_dec.v
+FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_4to16_dec.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1667395227.000000
+!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_4to16_dec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_4to16_dec.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored}
+Z7 tCvgOpt 0
+vdxp_cache_2w_v
+R1
+!i10b 1
+!s100 TF6f=PH1VaE8@ZQJ2KS8T0
+IiMhkJ20g`z:L^J_;2o>g?3
+R2
+R0
+w1510409609
+8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v
+FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v|
+!i113 1
+R5
+R6
+R7
+vdxp_cache_2w_v_tb
+R1
+!i10b 1
+!s100 kZ;XAJ]2RgZR=mAFSVej:1
+I2lGilGOFfi^BDcOU[b>701
+R2
+R0
+w1510521413
+8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v
+FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v|
+!i113 1
+R5
+R6
+R7
+vdxp_cache_v
+R1
+!i10b 1
+!s100 fFPVe0zzUB^c7YJe?Y^m63
+IB77hz6jD<FX]h@nANU`Fz3
+R2
+R0
+w1509489676
+8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_v.v
+FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_v.v
+Z8 L0 40
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_v.v|
+!i113 1
+R5
+R6
+R7
+vdxp_CAM_v
+R1
+!i10b 1
+!s100 D6eV?XSE@C=X64c;gS;A51
+IJT`C]`ZIZOhe=lDLz@fEJ2
+R2
+R0
+w1509675298
+8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_CAM_v.v
+FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_CAM_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1667395226.000000
+!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_CAM_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_CAM_v.v|
+!i113 1
+R5
+R6
+R7
+ndxp_@c@a@m_v
+vdxp_pll_3_v
+Z10 !s110 1667395226
+!i10b 1
+!s100 =jW@NTX<0:`m4fG96Z6oJ2
+I2zRbZG2Wh<ID0gYGOfTiW3
+R2
+R0
+w1414715670
+8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_pll_3_v.v
+FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_pll_3_v.v
+L0 39
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_pll_3_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_pll_3_v.v|
+!i113 1
+R5
+R6
+R7
+vdxp_pll_3_v_altpll
+R1
+!i10b 1
+!s100 CWMJDhiUfE4=NJ8k^=I`J0
+IH?19@LzT9<dde[lcXoeBR0
+R2
+R0
+w1667319536
+8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db/dxp_pll_3_v_altpll.v
+FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db/dxp_pll_3_v_altpll.v
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db/dxp_pll_3_v_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db/dxp_pll_3_v_altpll.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work {+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db}
+R7
+vdxpRISC521_ram1
+R10
+!i10b 1
+!s100 4^[dO4@dXI4KeKk4JdlG[3
+I0eh`e@EPDa]A[PlnHekQL2
+R2
+R0
+w1509668638
+8C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v
+FC:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v
+R8
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored|C:/Users/Long Nguyen/Documents/RIT/RIT_Fall_22/EE_621/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v|
+!i113 1
+R5
+R6
+R7
+ndxp@r@i@s@c521_ram1

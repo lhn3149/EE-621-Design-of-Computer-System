@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Nov 02 09:17:01 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : dxp_cache_2w_v
+Top-level Entity Name : dxp_cache_2w_v
+Family : Cyclone IV E
+Total logic elements : 595
+    Total combinational functions : 569
+    Dedicated logic registers : 135
+Total registers : 135
+Total pins : 48
+Total virtual pins : 0
+Total memory bits : 81,920
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

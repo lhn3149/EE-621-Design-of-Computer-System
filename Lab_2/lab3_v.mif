@@ -17,13 +17,13 @@ CONTENT BEGIN
 5	:	0008;  % IW1 --> load content of 0xD to R4 %
 6	: 	0144;  % ST IW0 %
 7	:	0022;  % store from R4 to memory location 0x1A %
-8	:	1820;  % JUMP unconditional, Ri=2 CNVZ = 0 %
-9	:	000A;  % should go to 0xB	 %
+8	:	0400;  % JUMP unconditional, Ri=2 CNVZ = 0 %
+9	:	000B;  % should go to 0xB	 %
 A	:	0000;  % skipp %
 B	:	0000; % skip %
 C	:	0644; % SUB R4, R4; Z shoiuld be 1%
-D	:	1821; % JZ1 %
-E	:	000E; %  skip F%
+D	:	0401; % JZ1 %
+E	:	0010; %  skip F%
 F	:	0000;
 10	:	1B40; % IN - IPDR = {9'd0, SW_pin} - R4 %
 11	:	0745; % ADDC R4 0x5 %
