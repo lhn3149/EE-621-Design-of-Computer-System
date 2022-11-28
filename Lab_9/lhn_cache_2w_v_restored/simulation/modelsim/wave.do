@@ -1,58 +1,54 @@
 onerror {resume}
+quietly virtual function -install /lhn_cache_2w_v_tb/dut -env /lhn_cache_2w_v_tb/#INITIAL#103 { &{/lhn_cache_2w_v_tb/dut/we1, /lhn_cache_2w_v_tb/dut/we0 }} we
+quietly virtual function -install /lhn_cache_2w_v_tb/dut -env /lhn_cache_2w_v_tb/#INITIAL#103 { &{/lhn_cache_2w_v_tb/dut/hit1, /lhn_cache_2w_v_tb/dut/hit0 }} hit
 quietly WaveActivateNextPane {} 0
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/MEM_address_tb
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/MEM_in_tb
+add wave -noupdate -radix unsigned -childformat {{{/lhn_cache_2w_v_tb/MEM_address_tb[13]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[12]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[11]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[10]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[9]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[8]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[7]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[6]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[5]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[4]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[3]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[2]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[1]} -radix unsigned} {{/lhn_cache_2w_v_tb/MEM_address_tb[0]} -radix unsigned}} -subitemconfig {{/lhn_cache_2w_v_tb/MEM_address_tb[13]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[12]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[11]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[10]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[9]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[8]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[7]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[6]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[5]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[4]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[3]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[2]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[1]} {-radix unsigned} {/lhn_cache_2w_v_tb/MEM_address_tb[0]} {-radix unsigned}} /lhn_cache_2w_v_tb/MEM_address_tb
+add wave -noupdate -radix hexadecimal /lhn_cache_2w_v_tb/MEM_in_tb
 add wave -noupdate /lhn_cache_2w_v_tb/Resetn_tb
 add wave -noupdate /lhn_cache_2w_v_tb/WR_tb
 add wave -noupdate /lhn_cache_2w_v_tb/Clock_tb
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/MEM_out_tb
-add wave -noupdate /lhn_cache_2w_v_tb/Done_tb
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/MEM_out_check_tb
+add wave -noupdate /lhn_cache_2w_v_tb/address_sample_period
+add wave -noupdate /lhn_cache_2w_v_tb/enable_stop_on_complete
+add wave -noupdate /lhn_cache_2w_v_tb/MEM_out_tb
+add wave -noupdate /lhn_cache_2w_v_tb/MEM_out_check_tb
 add wave -noupdate /lhn_cache_2w_v_tb/i
 add wave -noupdate /lhn_cache_2w_v_tb/failcount
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/MEM_address
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/Resetn
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/WR
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/Clock
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/MEM_in
+add wave -noupdate -divider Cache
+add wave -noupdate -radix hexadecimal /lhn_cache_2w_v_tb/dut/MEM_address
+add wave -noupdate -radix hexadecimal /lhn_cache_2w_v_tb/dut/MEM_in
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/MEM_out
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/Done
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/mbits0
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/mbits1
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/grp
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/MEMint_out
+add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/CACHE_address
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/CACHE_out
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/CACHE_in
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/c0
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/c1
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/c2
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/mem_clk
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/cache_clk
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/dout0
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/dout1
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/wren
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/WRint
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/writeback
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/CACHE_address
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/MEMint_address
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/MEMint_RDaddress
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/MEMint_WRaddress
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/we0
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/we1
+add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/wren
+add wave -noupdate -divider Memory
+add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/WRint
+add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/MEMint_out
+add wave -noupdate -radix hexadecimal -childformat {{{/lhn_cache_2w_v_tb/dut/MEMint_address[13]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[12]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[11]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[10]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[9]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[8]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[7]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[6]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[5]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[4]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[3]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[2]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[1]} -radix hexadecimal} {{/lhn_cache_2w_v_tb/dut/MEMint_address[0]} -radix hexadecimal}} -subitemconfig {{/lhn_cache_2w_v_tb/dut/MEMint_address[13]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[12]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[11]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[10]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[9]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[8]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[7]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[6]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[5]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[4]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[3]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[2]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[1]} {-radix hexadecimal} {/lhn_cache_2w_v_tb/dut/MEMint_address[0]} {-radix hexadecimal}} /lhn_cache_2w_v_tb/dut/MEMint_address
+add wave -noupdate -radix hexadecimal /lhn_cache_2w_v_tb/dut/MEMint_RDaddress
+add wave -noupdate -radix unsigned -childformat {{{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[13]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[12]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[11]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[10]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[9]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[8]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[7]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[6]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[5]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[4]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[3]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[2]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[1]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[0]} -radix unsigned}} -subitemconfig {{/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[13]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[12]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[11]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[10]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[9]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[8]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[7]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[6]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[5]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[4]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[3]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[2]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[1]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/MEMint_WRaddress[0]} {-radix unsigned}} /lhn_cache_2w_v_tb/dut/MEMint_WRaddress
+add wave -noupdate -divider CAM
+add wave -noupdate -radix unsigned -childformat {{{/lhn_cache_2w_v_tb/dut/dout0[7]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout0[6]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout0[5]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout0[4]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout0[3]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout0[2]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout0[1]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout0[0]} -radix unsigned}} -subitemconfig {{/lhn_cache_2w_v_tb/dut/dout0[7]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout0[6]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout0[5]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout0[4]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout0[3]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout0[2]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout0[1]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout0[0]} {-radix unsigned}} /lhn_cache_2w_v_tb/dut/dout0
+add wave -noupdate -radix unsigned -childformat {{{/lhn_cache_2w_v_tb/dut/dout1[7]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout1[6]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout1[5]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout1[4]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout1[3]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout1[2]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout1[1]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/dout1[0]} -radix unsigned}} -subitemconfig {{/lhn_cache_2w_v_tb/dut/dout1[7]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout1[6]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout1[5]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout1[4]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout1[3]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout1[2]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout1[1]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/dout1[0]} {-radix unsigned}} /lhn_cache_2w_v_tb/dut/dout1
+add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/grp_addrs_field
+add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/grp
+add wave -noupdate -radix unsigned -childformat {{{/lhn_cache_2w_v_tb/dut/replace[7]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/replace[6]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/replace[5]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/replace[4]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/replace[3]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/replace[2]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/replace[1]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/replace[0]} -radix unsigned}} -subitemconfig {{/lhn_cache_2w_v_tb/dut/replace[7]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/replace[6]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/replace[5]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/replace[4]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/replace[3]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/replace[2]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/replace[1]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/replace[0]} {-radix unsigned}} /lhn_cache_2w_v_tb/dut/replace
+add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/mbits0
+add wave -noupdate -radix unsigned -childformat {{{/lhn_cache_2w_v_tb/dut/mbits1[7]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/mbits1[6]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/mbits1[5]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/mbits1[4]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/mbits1[3]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/mbits1[2]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/mbits1[1]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/mbits1[0]} -radix unsigned}} -subitemconfig {{/lhn_cache_2w_v_tb/dut/mbits1[7]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/mbits1[6]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/mbits1[5]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/mbits1[4]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/mbits1[3]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/mbits1[2]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/mbits1[1]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/mbits1[0]} {-radix unsigned}} /lhn_cache_2w_v_tb/dut/mbits1
+add wave -noupdate -radix unsigned -childformat {{{/lhn_cache_2w_v_tb/dut/transfer_count[3]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/transfer_count[2]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/transfer_count[1]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/transfer_count[0]} -radix unsigned}} -subitemconfig {{/lhn_cache_2w_v_tb/dut/transfer_count[3]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/transfer_count[2]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/transfer_count[1]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/transfer_count[0]} {-radix unsigned}} /lhn_cache_2w_v_tb/dut/transfer_count
+add wave -noupdate /lhn_cache_2w_v_tb/dut/hit
+add wave -noupdate /lhn_cache_2w_v_tb/dut/we
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/miss
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/hit0
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/hit1
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/replace
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/din0
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/din1
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/transfer_count
+add wave -noupdate -radix hexadecimal -childformat {{{/lhn_cache_2w_v_tb/dut/din1[7]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/din1[6]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/din1[5]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/din1[4]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/din1[3]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/din1[2]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/din1[1]} -radix unsigned} {{/lhn_cache_2w_v_tb/dut/din1[0]} -radix unsigned}} -subitemconfig {{/lhn_cache_2w_v_tb/dut/din1[7]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/din1[6]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/din1[5]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/din1[4]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/din1[3]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/din1[2]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/din1[1]} {-radix unsigned} {/lhn_cache_2w_v_tb/dut/din1[0]} {-radix unsigned}} /lhn_cache_2w_v_tb/dut/din1
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/cam0_init
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/cam1_init
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/cam0_dirty_bit
 add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/cam1_dirty_bit
-add wave -noupdate -radix unsigned /lhn_cache_2w_v_tb/dut/grp_addrs_field
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {219943500 ps} 0}
+WaveRestoreCursors {{Cursor 1} {762923129 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
@@ -68,4 +64,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {219700 ns} {220018118 ps}
+WaveRestoreZoom {762582056 ps} {763771776 ps}

@@ -36,7 +36,7 @@ module lhn_CAM_v (we, rd, din, argin, addrs, dout, mbits);
 //----------------------------------------------------------------------------
 //-- The READ procedural block
 //----------------------------------------------------------------------------
-	always @ (rd, addrs)
+	always @ (rd, addrs, we)
 		begin
 			int_addrs = addrs;
 			if (rd == 1)
@@ -51,7 +51,7 @@ module lhn_CAM_v (we, rd, din, argin, addrs, dout, mbits);
 //----------------------------------------------------------------------------
 //-- The MATCH procedural block
 //----------------------------------------------------------------------------
-	always @ (argin, cam_mem)
+	always @ (argin, cam_mem, addrs)
 		begin
 			mbits = {bl_max{1'b0}};
 				for (i=0; i <= bl_max-1; i=i+1)

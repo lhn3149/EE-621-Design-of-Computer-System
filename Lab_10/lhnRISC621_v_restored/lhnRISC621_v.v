@@ -53,9 +53,11 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 
 		assign	Clock_not = ~Clock_pin;
 		//assign 	Display_pin = OPDR[7:0]; //Display not used all the bits from output.
-		always @(posedge Clock_pin) IPDR = {9'd0, SW_pin};
-		// Von Neumann architecture
 		
+		
+		always @(posedge Clock_pin) IPDR = {9'd0, SW_pin};
+
+		// Von Neumann architecture
 		// lhn_cache_2w_v	main_memory(MAeff[9:0], Clock_not, DM_in, WR_DM, PM_out);
 		lhn_cache_2w_v	my_cache(Resetn_pin, MAeff, DM_in, 	WR_DM, Clock_not, PM_out, cache_done);
 		// 							Resetn, MEM_address,MEM_in, WR, Clock, MEM_out, Done

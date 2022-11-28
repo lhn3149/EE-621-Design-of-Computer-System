@@ -59,5 +59,22 @@
 		ADDC	R3, 0x1;
 		SUBC	R1, 0x1;
 		JMP	Z0, @Segment;
+; --- Processing the data loop ---;	
+		
+		LD 	R2, M[R1, 0x013F];
+;---- Load case conversion to R2----;
+		LD	R1, M[R1, 0x013E];
+;---- Load number conversion to R1 ------;  
+@Process	SUBC 	R3, 0x1;
+		LD	R4, M[R3, 0x0240];
+		LD	R5, M[R3, 0x0280];
+		LD	R6, M[R3, 0x02C0];
+		VADD	R4, R2;
+		VSUB	R5, R2;
+		VSUB	R6, R1;
+		ST	R4, M[R3, 0x0240];
+		ST	R5, M[R3, 0x0280];
+		ST	R6, M[R3, 0x02C0];
+		JMP	Z0, @Process;
 
 	.endcode;

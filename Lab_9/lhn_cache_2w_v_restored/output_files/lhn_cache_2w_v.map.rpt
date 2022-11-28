@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lhn_cache_2w_v
-Mon Nov 14 18:45:57 2022
+Thu Nov 17 12:16:48 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -18,7 +18,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  10. User-Specified and Inferred Latches
  11. General Register Statistics
  12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Source assignments for lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_13j1:auto_generated
+ 13. Source assignments for lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_abg1:auto_generated
  14. Source assignments for lhn_cache_v:my_cache|altsyncram:altsyncram_component|altsyncram_h6g1:auto_generated
  15. Parameter Settings for User Entity Instance: Top-level Entity: |lhn_cache_2w_v
  16. Parameter Settings for User Entity Instance: lhn_pll_3_v:my_pll|altpll:altpll_component
@@ -28,12 +28,11 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  20. Parameter Settings for User Entity Instance: lhn_cache_v:my_cache|altsyncram:altsyncram_component
  21. altpll Parameter Settings by Entity Instance
  22. altsyncram Parameter Settings by Entity Instance
- 23. Port Connectivity Checks: "lhn_3to8_dec:my_dec"
- 24. Port Connectivity Checks: "lhn_CAM_v:my_cam1"
- 25. Port Connectivity Checks: "lhn_CAM_v:my_cam0"
- 26. Post-Synthesis Netlist Statistics for Top Partition
- 27. Elapsed Time Per Partition
- 28. Analysis & Synthesis Messages
+ 23. Port Connectivity Checks: "lhn_CAM_v:my_cam1"
+ 24. Port Connectivity Checks: "lhn_CAM_v:my_cam0"
+ 25. Post-Synthesis Netlist Statistics for Top Partition
+ 26. Elapsed Time Per Partition
+ 27. Analysis & Synthesis Messages
 
 
 
@@ -59,7 +58,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Nov 14 18:45:57 2022       ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 17 12:16:48 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lhn_cache_2w_v                              ;
 ; Top-level Entity Name              ; lhn_cache_2w_v                              ;
@@ -175,43 +174,41 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-12        ;   0.0%      ;
+;     Processors 2-12        ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                        ;
-+----------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                                          ; Library ;
-+----------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------------------+---------+
-; lhn_cache_2w_v.v                 ; yes             ; User Verilog HDL File                  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v        ;         ;
-; lhn_3to8_dec.v                   ; yes             ; User Verilog HDL File                  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v          ;         ;
-; lhn_CAM_v.v                      ; yes             ; User Verilog HDL File                  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v             ;         ;
-; lhn_cache_v.v                    ; yes             ; User Wizard-Generated File             ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v           ;         ;
-; lhn_pll_3_v.v                    ; yes             ; User Wizard-Generated File             ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v           ;         ;
-; lhnRISC621_ram.v                 ; yes             ; User Wizard-Generated File             ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v        ;         ;
-; altpll.tdf                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf                                     ;         ;
-; aglobal181.inc                   ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc                                 ;         ;
-; stratix_pll.inc                  ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_pll.inc                                ;         ;
-; stratixii_pll.inc                ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratixii_pll.inc                              ;         ;
-; cycloneii_pll.inc                ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc                              ;         ;
-; db/lhn_pll_3_v_altpll.v          ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v ;         ;
-; altsyncram.tdf                   ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf                                 ;         ;
-; stratix_ram_block.inc            ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                          ;         ;
-; lpm_mux.inc                      ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc                                    ;         ;
-; lpm_decode.inc                   ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc                                 ;         ;
-; a_rdenreg.inc                    ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                                  ;         ;
-; altrom.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc                                     ;         ;
-; altram.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc                                     ;         ;
-; altdpram.inc                     ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc                                   ;         ;
-; db/altsyncram_13j1.tdf           ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_13j1.tdf  ;         ;
-; lhnrisc621_rom.mif               ; yes             ; Auto-Found Memory Initialization File  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnrisc621_rom.mif      ;         ;
-; db/decode_jsa.tdf                ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/decode_jsa.tdf       ;         ;
-; db/decode_c8a.tdf                ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/decode_c8a.tdf       ;         ;
-; db/mux_gob.tdf                   ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/mux_gob.tdf          ;         ;
-; db/altsyncram_h6g1.tdf           ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_h6g1.tdf  ;         ;
-+----------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                              ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                          ; Library ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------------------------+---------+
+; lhn_cache_2w_v.v                 ; yes             ; User Verilog HDL File        ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v        ;         ;
+; lhn_3to8_dec.v                   ; yes             ; User Verilog HDL File        ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_3to8_dec.v          ;         ;
+; lhn_CAM_v.v                      ; yes             ; User Verilog HDL File        ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v             ;         ;
+; lhn_cache_v.v                    ; yes             ; User Wizard-Generated File   ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v           ;         ;
+; lhn_pll_3_v.v                    ; yes             ; User Wizard-Generated File   ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_pll_3_v.v           ;         ;
+; lhnRISC621_ram.v                 ; yes             ; User Wizard-Generated File   ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v        ;         ;
+; altpll.tdf                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf                                     ;         ;
+; aglobal181.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/aglobal181.inc                                 ;         ;
+; stratix_pll.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_pll.inc                                ;         ;
+; stratixii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratixii_pll.inc                              ;         ;
+; cycloneii_pll.inc                ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc                              ;         ;
+; db/lhn_pll_3_v_altpll.v          ; yes             ; Auto-Generated Megafunction  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/lhn_pll_3_v_altpll.v ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf                                 ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc                          ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc                                    ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.inc                                 ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/a_rdenreg.inc                                  ;         ;
+; altrom.inc                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc                                     ;         ;
+; altram.inc                       ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc                                     ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                 ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc                                   ;         ;
+; db/altsyncram_abg1.tdf           ; yes             ; Auto-Generated Megafunction  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_abg1.tdf  ;         ;
+; db/decode_jsa.tdf                ; yes             ; Auto-Generated Megafunction  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/decode_jsa.tdf       ;         ;
+; db/decode_c8a.tdf                ; yes             ; Auto-Generated Megafunction  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/decode_c8a.tdf       ;         ;
+; db/mux_gob.tdf                   ; yes             ; Auto-Generated Megafunction  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/mux_gob.tdf          ;         ;
+; db/altsyncram_h6g1.tdf           ; yes             ; Auto-Generated Megafunction  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_h6g1.tdf  ;         ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------+
@@ -224,8 +221,8 @@ refer to the applicable agreement for further details.
 ; Total combinational functions               ; 525                                                                                           ;
 ; Logic element usage by number of LUT inputs ;                                                                                               ;
 ;     -- 4 input functions                    ; 278                                                                                           ;
-;     -- 3 input functions                    ; 236                                                                                           ;
-;     -- <=2 input functions                  ; 11                                                                                            ;
+;     -- 3 input functions                    ; 235                                                                                           ;
+;     -- <=2 input functions                  ; 12                                                                                            ;
 ;                                             ;                                                                                               ;
 ; Logic elements by mode                      ;                                                                                               ;
 ;     -- normal mode                          ; 525                                                                                           ;
@@ -245,7 +242,7 @@ refer to the applicable agreement for further details.
 ;                                             ;                                                                                               ;
 ; Maximum fan-out node                        ; lhn_pll_3_v:my_pll|altpll:altpll_component|lhn_pll_3_v_altpll:auto_generated|wire_pll1_clk[0] ;
 ; Maximum fan-out                             ; 107                                                                                           ;
-; Total fan-out                               ; 2844                                                                                          ;
+; Total fan-out                               ; 2843                                                                                          ;
 ; Average fan-out                             ; 3.72                                                                                          ;
 +---------------------------------------------+-----------------------------------------------------------------------------------------------+
 
@@ -258,8 +255,8 @@ refer to the applicable agreement for further details.
 ; |lhn_cache_2w_v                              ; 525 (371)           ; 105 (104)                 ; 231168      ; 0            ; 0       ; 0         ; 46   ; 0            ; |lhn_cache_2w_v                                                                                                         ; lhn_cache_2w_v     ; work         ;
 ;    |lhnRISC621_ram:my_ram|                   ; 2 (0)               ; 1 (0)                     ; 229376      ; 0            ; 0       ; 0         ; 0    ; 0            ; |lhn_cache_2w_v|lhnRISC621_ram:my_ram                                                                                   ; lhnRISC621_ram     ; work         ;
 ;       |altsyncram:altsyncram_component|      ; 2 (0)               ; 1 (0)                     ; 229376      ; 0            ; 0       ; 0         ; 0    ; 0            ; |lhn_cache_2w_v|lhnRISC621_ram:my_ram|altsyncram:altsyncram_component                                                   ; altsyncram         ; work         ;
-;          |altsyncram_13j1:auto_generated|    ; 2 (0)               ; 1 (1)                     ; 229376      ; 0            ; 0       ; 0         ; 0    ; 0            ; |lhn_cache_2w_v|lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_13j1:auto_generated                    ; altsyncram_13j1    ; work         ;
-;             |decode_jsa:decode3|             ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lhn_cache_2w_v|lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_13j1:auto_generated|decode_jsa:decode3 ; decode_jsa         ; work         ;
+;          |altsyncram_abg1:auto_generated|    ; 2 (0)               ; 1 (1)                     ; 229376      ; 0            ; 0       ; 0         ; 0    ; 0            ; |lhn_cache_2w_v|lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_abg1:auto_generated                    ; altsyncram_abg1    ; work         ;
+;             |decode_jsa:decode3|             ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lhn_cache_2w_v|lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_abg1:auto_generated|decode_jsa:decode3 ; decode_jsa         ; work         ;
 ;    |lhn_3to8_dec:my_dec|                     ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lhn_cache_2w_v|lhn_3to8_dec:my_dec                                                                                     ; lhn_3to8_dec       ; work         ;
 ;    |lhn_CAM_v:my_cam0|                       ; 72 (72)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lhn_cache_2w_v|lhn_CAM_v:my_cam0                                                                                       ; lhn_CAM_v          ; work         ;
 ;    |lhn_CAM_v:my_cam1|                       ; 72 (72)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lhn_cache_2w_v|lhn_CAM_v:my_cam1                                                                                       ; lhn_CAM_v          ; work         ;
@@ -273,14 +270,14 @@ refer to the applicable agreement for further details.
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                               ;
-+-------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------+--------------------+
-; Name                                                                                            ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size   ; MIF                ;
-+-------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------+--------------------+
-; lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_13j1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 16384        ; 14           ; --           ; --           ; 229376 ; lhnRISC621_rom.mif ;
-; lhn_cache_v:my_cache|altsyncram:altsyncram_component|altsyncram_h6g1:auto_generated|ALTSYNCRAM  ; AUTO ; Single Port ; 128          ; 14           ; --           ; --           ; 1792   ; None               ;
-+-------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------+--------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                 ;
++-------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------+------+
+; Name                                                                                            ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size   ; MIF  ;
++-------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------+------+
+; lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_abg1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 16384        ; 14           ; --           ; --           ; 229376 ; None ;
+; lhn_cache_v:my_cache|altsyncram:altsyncram_component|altsyncram_h6g1:auto_generated|ALTSYNCRAM  ; AUTO ; Single Port ; 128          ; 14           ; --           ; --           ; 1792   ; None ;
++-------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+--------+------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -433,7 +430,7 @@ Table restricted to first 100 entries. Note: All latches listed above may not be
 
 
 +-------------------------------------------------------------------------------------------------------------+
-; Source assignments for lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_13j1:auto_generated ;
+; Source assignments for lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_abg1:auto_generated ;
 +---------------------------------+--------------------+------+-----------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                            ;
 +---------------------------------+--------------------+------+-----------------------------------------------+
@@ -907,7 +904,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                ;
-; INIT_FILE                          ; lhnRISC621_rom.mif   ; Untyped                                ;
+; INIT_FILE                          ; UNUSED               ; Untyped                                ;
 ; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                ;
 ; MAXIMUM_DEPTH                      ; 0                    ; Untyped                                ;
 ; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                                ;
@@ -920,7 +917,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                ;
 ; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                                ;
 ; DEVICE_FAMILY                      ; Cyclone IV E         ; Untyped                                ;
-; CBXI_PARAMETER                     ; altsyncram_13j1      ; Untyped                                ;
+; CBXI_PARAMETER                     ; altsyncram_abg1      ; Untyped                                ;
 +------------------------------------+----------------------+----------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1034,15 +1031,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+-------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "lhn_3to8_dec:my_dec"                                                                                                    ;
-+------+--------+----------+-------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                                 ;
-+------+--------+----------+-------------------------------------------------------------------------------------------------------------------------+
-; eq   ; Output ; Warning  ; Output or bidir port (14 bits) is wider than the port expression (8 bits) it drives; bit(s) "eq[13..8]" have no fanouts ;
-+------+--------+----------+-------------------------------------------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------+
 ; Port Connectivity Checks: "lhn_CAM_v:my_cam1" ;
 +------+-------+----------+---------------------+
@@ -1077,14 +1065,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; cycloneiii_io_obuf    ; 14                          ;
 ; cycloneiii_lcell_comb ; 525                         ;
 ;     normal            ; 525                         ;
-;         2 data inputs ; 11                          ;
-;         3 data inputs ; 236                         ;
+;         2 data inputs ; 12                          ;
+;         3 data inputs ; 235                         ;
 ;         4 data inputs ; 278                         ;
 ; cycloneiii_pll        ; 1                           ;
 ; cycloneiii_ram_block  ; 42                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 15.00                       ;
-; Average LUT depth     ; 7.78                        ;
+; Average LUT depth     ; 7.80                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1093,7 +1081,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -1103,7 +1091,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Nov 14 18:45:48 2022
+    Info: Processing started: Thu Nov 17 12:16:41 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lhn_cache_2w_v -c lhn_cache_2w_v
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -1262,7 +1250,6 @@ Info (12130): Elaborated megafunction instantiation "lhnRISC621_ram:my_ram|altsy
 Info (12133): Instantiated megafunction "lhnRISC621_ram:my_ram|altsyncram:altsyncram_component" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhnRISC621_ram.v Line: 85
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
-    Info (12134): Parameter "init_file" = "lhnRISC621_rom.mif"
     Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "altsyncram"
@@ -1275,19 +1262,19 @@ Info (12133): Instantiated megafunction "lhnRISC621_ram:my_ram|altsyncram:altsyn
     Info (12134): Parameter "widthad_a" = "14"
     Info (12134): Parameter "width_a" = "14"
     Info (12134): Parameter "width_byteena_a" = "1"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_13j1.tdf
-    Info (12023): Found entity 1: altsyncram_13j1 File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_13j1.tdf Line: 33
-Info (12128): Elaborating entity "altsyncram_13j1" for hierarchy "lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_13j1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_abg1.tdf
+    Info (12023): Found entity 1: altsyncram_abg1 File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_abg1.tdf Line: 33
+Info (12128): Elaborating entity "altsyncram_abg1" for hierarchy "lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_abg1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_jsa.tdf
     Info (12023): Found entity 1: decode_jsa File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/decode_jsa.tdf Line: 22
-Info (12128): Elaborating entity "decode_jsa" for hierarchy "lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_13j1:auto_generated|decode_jsa:decode3" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_13j1.tdf Line: 43
+Info (12128): Elaborating entity "decode_jsa" for hierarchy "lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_abg1:auto_generated|decode_jsa:decode3" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_abg1.tdf Line: 43
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_c8a.tdf
     Info (12023): Found entity 1: decode_c8a File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/decode_c8a.tdf Line: 22
-Info (12128): Elaborating entity "decode_c8a" for hierarchy "lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_13j1:auto_generated|decode_c8a:rden_decode" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_13j1.tdf Line: 44
+Info (12128): Elaborating entity "decode_c8a" for hierarchy "lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_abg1:auto_generated|decode_c8a:rden_decode" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_abg1.tdf Line: 44
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_gob.tdf
     Info (12023): Found entity 1: mux_gob File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/mux_gob.tdf Line: 22
-Info (12128): Elaborating entity "mux_gob" for hierarchy "lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_13j1:auto_generated|mux_gob:mux2" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_13j1.tdf Line: 45
-Info (12128): Elaborating entity "lhn_cache_v" for hierarchy "lhn_cache_v:my_cache" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v Line: 90
+Info (12128): Elaborating entity "mux_gob" for hierarchy "lhnRISC621_ram:my_ram|altsyncram:altsyncram_component|altsyncram_abg1:auto_generated|mux_gob:mux2" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_abg1.tdf Line: 45
+Info (12128): Elaborating entity "lhn_cache_v" for hierarchy "lhn_cache_v:my_cache" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v Line: 91
 Info (12128): Elaborating entity "altsyncram" for hierarchy "lhn_cache_v:my_cache|altsyncram:altsyncram_component" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v Line: 85
 Info (12130): Elaborated megafunction instantiation "lhn_cache_v:my_cache|altsyncram:altsyncram_component" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v Line: 85
 Info (12133): Instantiated megafunction "lhn_cache_v:my_cache|altsyncram:altsyncram_component" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_v.v Line: 85
@@ -1308,7 +1295,7 @@ Info (12133): Instantiated megafunction "lhn_cache_v:my_cache|altsyncram:altsync
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_h6g1.tdf
     Info (12023): Found entity 1: altsyncram_h6g1 File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/db/altsyncram_h6g1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_h6g1" for hierarchy "lhn_cache_v:my_cache|altsyncram:altsyncram_component|altsyncram_h6g1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Info (12128): Elaborating entity "lhn_3to8_dec" for hierarchy "lhn_3to8_dec:my_dec" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v Line: 96
+Info (12128): Elaborating entity "lhn_3to8_dec" for hierarchy "lhn_3to8_dec:my_dec" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v Line: 97
 Warning (19016): Clock multiplexers are found and protected
     Warning (19017): Found clock multiplexer cache_clk File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v Line: 39
     Warning (19017): Found clock multiplexer mem_clk File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_cache_2w_v.v Line: 39
@@ -1329,7 +1316,6 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13049): Converted tri-state buffer "lhn_CAM_v:my_cam0|dout[2]" feeding internal logic into a wire File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v Line: 13
     Warning (13049): Converted tri-state buffer "lhn_CAM_v:my_cam0|dout[1]" feeding internal logic into a wire File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v Line: 13
     Warning (13049): Converted tri-state buffer "lhn_CAM_v:my_cam0|dout[0]" feeding internal logic into a wire File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/lhn_cache_2w_v_restored/lhn_CAM_v.v Line: 13
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 1 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
@@ -1339,10 +1325,10 @@ Info (21057): Implemented 657 device resources after synthesis - the final resou
     Info (21061): Implemented 568 logic cells
     Info (21064): Implemented 42 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 22 warnings
-    Info: Peak virtual memory: 4833 megabytes
-    Info: Processing ended: Mon Nov 14 18:45:57 2022
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:16
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
+    Info: Peak virtual memory: 4834 megabytes
+    Info: Processing ended: Thu Nov 17 12:16:48 2022
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:15
 
 

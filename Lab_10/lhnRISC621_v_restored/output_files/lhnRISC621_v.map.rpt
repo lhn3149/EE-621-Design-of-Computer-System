@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lhnRISC621_v
-Mon Nov 14 22:48:08 2022
+Fri Nov 18 15:40:55 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -21,7 +21,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  13. Removed Registers Triggering Further Register Optimizations
  14. General Register Statistics
  15. Multiplexer Restructuring Statistics (Restructuring Performed)
- 16. Source assignments for lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component|altsyncram_upo1:auto_generated
+ 16. Source assignments for lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component|altsyncram_n7o1:auto_generated
  17. Source assignments for lhn_cache_2w_v:my_cache|lhn_cache_v:my_cache|altsyncram:altsyncram_component|altsyncram_1dm1:auto_generated
  18. Parameter Settings for User Entity Instance: Top-level Entity: |lhnRISC621_v
  19. Parameter Settings for User Entity Instance: lhn_cache_2w_v:my_cache
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Nov 14 22:48:07 2022       ;
+; Analysis & Synthesis Status     ; Successful - Fri Nov 18 15:40:55 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; lhnRISC621_v                                ;
 ; Top-level Entity Name           ; lhnRISC621_v                                ;
@@ -224,8 +224,8 @@ refer to the applicable agreement for further details.
 ; altrom.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc                                       ;         ;
 ; altram.inc                       ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc                                       ;         ;
 ; altdpram.inc                     ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc                                     ;         ;
-; db/altsyncram_upo1.tdf           ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db/altsyncram_upo1.tdf     ;         ;
-; lhn_part1.mif                    ; yes             ; Auto-Found Memory Initialization File  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_part1.mif              ;         ;
+; db/altsyncram_n7o1.tdf           ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db/altsyncram_n7o1.tdf     ;         ;
+; lhn.mif                          ; yes             ; Auto-Found Memory Initialization File  ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn.mif                    ;         ;
 ; db/altsyncram_1dm1.tdf           ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db/altsyncram_1dm1.tdf     ;         ;
 ; lpm_divide.tdf                   ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_divide.tdf                                   ;         ;
 ; abs_divider.inc                  ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/abs_divider.inc                                  ;         ;
@@ -284,7 +284,7 @@ refer to the applicable agreement for further details.
 ;             |altsyncram_1dm1:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 1792              ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_cache_2w_v:my_cache|lhn_cache_v:my_cache|altsyncram:altsyncram_component|altsyncram_1dm1:auto_generated ; altsyncram_1dm1     ; work         ;
 ;       |lhn_mm:my_ram|                           ; 0 (0)               ; 0 (0)                     ; 14336             ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_cache_2w_v:my_cache|lhn_mm:my_ram                                                                       ; lhn_mm              ; work         ;
 ;          |altsyncram:altsyncram_component|      ; 0 (0)               ; 0 (0)                     ; 14336             ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component                                       ; altsyncram          ; work         ;
-;             |altsyncram_upo1:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 14336             ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component|altsyncram_upo1:auto_generated        ; altsyncram_upo1     ; work         ;
+;             |altsyncram_n7o1:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 14336             ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component|altsyncram_n7o1:auto_generated        ; altsyncram_n7o1     ; work         ;
 ;       |lhn_pll_3_v:my_pll|                      ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_cache_2w_v:my_cache|lhn_pll_3_v:my_pll                                                                  ; lhn_pll_3_v         ; work         ;
 ;          |altpll:altpll_component|              ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_cache_2w_v:my_cache|lhn_pll_3_v:my_pll|altpll:altpll_component                                          ; altpll              ; work         ;
 ;             |lhn_pll_3_v_altpll:auto_generated| ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |lhnRISC621_v|lhn_cache_2w_v:my_cache|lhn_pll_3_v:my_pll|altpll:altpll_component|lhn_pll_3_v_altpll:auto_generated        ; lhn_pll_3_v_altpll  ; work         ;
@@ -301,14 +301,14 @@ refer to the applicable agreement for further details.
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis RAM Summary                                                                                                                                                                                                ;
-+------------------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+---------------+
-; Name                                                                                                                   ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF           ;
-+------------------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+---------------+
-; lhn_cache_2w_v:my_cache|lhn_cache_v:my_cache|altsyncram:altsyncram_component|altsyncram_1dm1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 128          ; 14           ; --           ; --           ; 1792  ; None          ;
-; lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component|altsyncram_upo1:auto_generated|ALTSYNCRAM        ; AUTO ; Single Port ; 1024         ; 14           ; --           ; --           ; 14336 ; lhn_part1.mif ;
-+------------------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+---------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                          ;
++------------------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+---------+
+; Name                                                                                                                   ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF     ;
++------------------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+---------+
+; lhn_cache_2w_v:my_cache|lhn_cache_v:my_cache|altsyncram:altsyncram_component|altsyncram_1dm1:auto_generated|ALTSYNCRAM ; AUTO ; Single Port ; 128          ; 14           ; --           ; --           ; 1792  ; None    ;
+; lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component|altsyncram_n7o1:auto_generated|ALTSYNCRAM        ; AUTO ; Single Port ; 1024         ; 14           ; --           ; --           ; 14336 ; lhn.mif ;
++------------------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+---------+
 
 
 +-----------------------------------------------+
@@ -547,7 +547,7 @@ Table restricted to first 100 entries. Note: All latches listed above may not be
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component|altsyncram_upo1:auto_generated ;
+; Source assignments for lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component|altsyncram_n7o1:auto_generated ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                            ;
 +---------------------------------+--------------------+------+---------------------------------------------------------------+
@@ -1073,7 +1073,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                                ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                                ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                                ;
-; INIT_FILE                          ; lhn_part1.mif        ; Untyped                                                ;
+; INIT_FILE                          ; lhn.mif              ; Untyped                                                ;
 ; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                                ;
 ; MAXIMUM_DEPTH                      ; 0                    ; Untyped                                                ;
 ; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                                                ;
@@ -1086,7 +1086,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                                ;
 ; WIDTH_ECCSTATUS                    ; 3                    ; Untyped                                                ;
 ; DEVICE_FAMILY                      ; Cyclone V            ; Untyped                                                ;
-; CBXI_PARAMETER                     ; altsyncram_upo1      ; Untyped                                                ;
+; CBXI_PARAMETER                     ; altsyncram_n7o1      ; Untyped                                                ;
 +------------------------------------+----------------------+--------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1332,7 +1332,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:10     ;
+; Top            ; 00:00:12     ;
 +----------------+--------------+
 
 
@@ -1342,7 +1342,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Nov 14 22:47:49 2022
+    Info: Processing started: Fri Nov 18 15:40:35 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lhnRISC621_v -c lhnRISC621_v
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -1510,7 +1510,7 @@ Info (12130): Elaborated megafunction instantiation "lhn_cache_2w_v:my_cache|lhn
 Info (12133): Instantiated megafunction "lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v Line: 85
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
-    Info (12134): Parameter "init_file" = "lhn_part1.mif"
+    Info (12134): Parameter "init_file" = "lhn.mif"
     Info (12134): Parameter "intended_device_family" = "Cyclone V"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "altsyncram"
@@ -1523,9 +1523,9 @@ Info (12133): Instantiated megafunction "lhn_cache_2w_v:my_cache|lhn_mm:my_ram|a
     Info (12134): Parameter "widthad_a" = "10"
     Info (12134): Parameter "width_a" = "14"
     Info (12134): Parameter "width_byteena_a" = "1"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_upo1.tdf
-    Info (12023): Found entity 1: altsyncram_upo1 File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db/altsyncram_upo1.tdf Line: 27
-Info (12128): Elaborating entity "altsyncram_upo1" for hierarchy "lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component|altsyncram_upo1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_n7o1.tdf
+    Info (12023): Found entity 1: altsyncram_n7o1 File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db/altsyncram_n7o1.tdf Line: 27
+Info (12128): Elaborating entity "altsyncram_n7o1" for hierarchy "lhn_cache_2w_v:my_cache|lhn_mm:my_ram|altsyncram:altsyncram_component|altsyncram_n7o1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "lhn_cache_v" for hierarchy "lhn_cache_2w_v:my_cache|lhn_cache_v:my_cache" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v Line: 76
 Info (12128): Elaborating entity "altsyncram" for hierarchy "lhn_cache_2w_v:my_cache|lhn_cache_v:my_cache|altsyncram:altsyncram_component" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_v.v Line: 85
 Info (12130): Elaborated megafunction instantiation "lhn_cache_2w_v:my_cache|lhn_cache_v:my_cache|altsyncram:altsyncram_component" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_v.v Line: 85
@@ -1631,9 +1631,9 @@ Info (21057): Implemented 3341 device resources after synthesis - the final reso
     Info (21065): Implemented 3 PLLs
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 48 warnings
-    Info: Peak virtual memory: 4924 megabytes
-    Info: Processing ended: Mon Nov 14 22:48:08 2022
-    Info: Elapsed time: 00:00:19
+    Info: Peak virtual memory: 4931 megabytes
+    Info: Processing ended: Fri Nov 18 15:40:55 2022
+    Info: Elapsed time: 00:00:20
     Info: Total CPU time (on all processors): 00:00:25
 
 

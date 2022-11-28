@@ -7,9 +7,9 @@ module lhn_cache_2w_v_tb;
 /*-----------------------------------
 * Params:
 * - 14 bit architecture
-* - Fully Associative
+* - 2 -way
 * - 16 Blocks
-* - 16 Words per Block
+* - 8 Words per Block
 -----------------------------------*/
 
 // DUT intputs:
@@ -18,7 +18,8 @@ reg  [13:0] MEM_in_tb;
 reg         Resetn_tb;
 reg         WR_tb;
 reg         Clock_tb;
-reg address_sample_period;
+reg 			address_sample_period;
+reg         enable_stop_on_complete;
 // DUT outputs:
 wire [13:0] MEM_out_tb;
 wire        Done_tb;
@@ -31,7 +32,7 @@ integer     failcount;
 *                DUT
 -----------------------------------*/
 lhn_cache_2w_v dut (Resetn_tb, MEM_address_tb, MEM_in_tb, WR_tb, Clock_tb, MEM_out_tb, Done_tb); // Should be port matched for clarity
-// 					(Resetn, MEM_address, MEM_in, WR, Clock, MEM_out, Done)
+// 					(Resetn, 	MEM_address, 			MEM_in, WR, Clock, MEM_out, Done)
 
 /*-----------------------------------
 *       TB Reference Memory
@@ -67,22 +68,41 @@ always @(posedge Clock_tb) begin
         // Look in the transcript to see if this assertion is tripped
             $display("%t: Model check failed for address %d expected data %d recieved data %d",$time, MEM_address_tb, MEM_out_check_tb, MEM_out_tb);
             failcount = failcount + 1;
-	     $stop; // take a look at mem_browser
+	     //$stop; // take a look at mem_browser
         end
     end
 end
  
 always @(posedge Clock_tb) begin
 	if(address_sample_period) begin
-		if(MEM_address_tb == 168) $stop; //	 take a look at mem_browser
+//		if(MEM_address_tb == 168) $stop; //	 take a look at mem_browser
+		end
+	end
+	
+// Assertion to find when din != address <- means cache is doing something weird
+//lhnRISC621_ram	my_ram	(MEMint_address[ma_max-1:0], mem_clk, CACHE_out, WRint, MEMint_out);
+always @(posedge dut.mem_clk) begin
+	if((dut.CACHE_out != dut.MEMint_address) & dut.WRint & (|dut.CACHE_out)) begin
+		$display("%t: Address and Data expected to be equal: expected data %d recieved data %d",$time, dut.MEMint_address, dut.CACHE_out);
+      failcount = failcount + 1;
+		enable_stop_on_complete = 1;
 	end
 end
 
+initial begin
+	wait (enable_stop_on_complete);
+	repeat (2) @(posedge dut.mem_clk);
+	wait (Done_tb);
+	repeat (2) @(posedge dut.mem_clk);
+	$stop;
+end
+	
 /*-----------------------------------
 *       Test Sequence
 -----------------------------------*/
 initial begin
 	address_sample_period = 0;
+	enable_stop_on_complete = 0;
     failcount = 0;
 // reset the dut
     Resetn_tb = 1'd0;
@@ -99,13 +119,13 @@ initial begin
 // Now block 0 is loaded
 // Demo a read hit in block 0:
     @(posedge Clock_tb);
-    MEM_address_tb = 14'd15;
+    MEM_address_tb = 14'd7;
     @(posedge Clock_tb);
 
 // Demo a write miss:
     @(posedge Clock_tb);
     MEM_address_tb = 14'd8;
-    MEM_in_tb = 14'd21;
+    MEM_in_tb = 14'd8;
     WR_tb = 1'd1;
     @(posedge Clock_tb);
     wait (Done_tb);
@@ -201,9 +221,9 @@ task apply_random_test;
 begin
     @(posedge Clock_tb)
     //2^14 is ~16000, so we'll constrain this to 0-999 to make it more likely to re-use an address.
-    MEM_address_tb = $random % 1000;
-    MEM_in_tb = $random % 1000;
-    WR_tb = $random;
+    MEM_address_tb = $urandom_range(0,1000);
+	 MEM_in_tb = MEM_address_tb;
+    WR_tb = $urandom_range(0,1);
     @(posedge Clock_tb);
     wait (Done_tb);
     @(posedge Clock_tb);

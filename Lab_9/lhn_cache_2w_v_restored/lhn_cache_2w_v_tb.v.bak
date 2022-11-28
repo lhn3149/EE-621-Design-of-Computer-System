@@ -7,9 +7,9 @@ module lhn_cache_2w_v_tb;
 /*-----------------------------------
 * Params:
 * - 14 bit architecture
-* - Fully Associative
+* - 2 -way
 * - 16 Blocks
-* - 16 Words per Block
+* - 8 Words per Block
 -----------------------------------*/
 
 // DUT intputs:
@@ -18,6 +18,7 @@ reg  [13:0] MEM_in_tb;
 reg         Resetn_tb;
 reg         WR_tb;
 reg         Clock_tb;
+reg 			address_sample_period;
 // DUT outputs:
 wire [13:0] MEM_out_tb;
 wire        Done_tb;
@@ -66,24 +67,22 @@ always @(posedge Clock_tb) begin
         // Look in the transcript to see if this assertion is tripped
             $display("%t: Model check failed for address %d expected data %d recieved data %d",$time, MEM_address_tb, MEM_out_check_tb, MEM_out_tb);
             failcount = failcount + 1;
-	    $stop; // take a look at mem_browser
+	     //$stop; // take a look at mem_browser
         end
     end
 end
-
-always @(posedge Clock_tb) begin
-        if(MEM_out_tb != MEM_out_check_tb) begin
-        // Look in the transcript to see if this assertion is tripped
-            $display("%t: Model check failed for address %d expected data %d recieved data %d",$time, MEM_address_tb, MEM_out_check_tb, MEM_out_tb);
-            failcount = failcount + 1;
-	    $stop; // take a look at mem_browser
-        end
-end
+ 
+// always @(posedge Clock_tb) begin
+//	if(address_sample_period) begin
+//		if(MEM_address_tb == 168) $stop; //	 take a look at mem_browser
+//	end
+//end
 
 /*-----------------------------------
 *       Test Sequence
 -----------------------------------*/
 initial begin
+	address_sample_period = 0;
     failcount = 0;
 // reset the dut
     Resetn_tb = 1'd0;
@@ -100,7 +99,7 @@ initial begin
 // Now block 0 is loaded
 // Demo a read hit in block 0:
     @(posedge Clock_tb);
-    MEM_address_tb = 14'd15;
+    MEM_address_tb = 14'd7;
     @(posedge Clock_tb);
 
 // Demo a write miss:
@@ -179,6 +178,7 @@ initial begin
 
     repeat (10) @(posedge Clock_tb);
 $stop;// Take a look at mem_browser 
+address_sample_period = 1;
 // Random read/write test:
 // Comment this out until you pass the endurance test
     repeat (2000) apply_random_test();

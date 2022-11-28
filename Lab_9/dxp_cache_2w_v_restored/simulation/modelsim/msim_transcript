@@ -12,90 +12,90 @@
 # 
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:46:50 on Nov 03,2022
+# Start time: 09:59:29 on Nov 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v 
 # -- Compiling module dxpRISC521_ram1
 # 
 # Top level modules:
 # 	dxpRISC521_ram1
-# End time: 03:46:50 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 09:59:29 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_pll_3_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:46:50 on Nov 03,2022
+# Start time: 09:59:29 on Nov 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_pll_3_v.v 
 # -- Compiling module dxp_pll_3_v
 # 
 # Top level modules:
 # 	dxp_pll_3_v
-# End time: 03:46:50 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 09:59:29 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_CAM_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:46:50 on Nov 03,2022
+# Start time: 09:59:29 on Nov 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_CAM_v.v 
 # -- Compiling module dxp_CAM_v
 # ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
 # 
 # Top level modules:
 # 	dxp_CAM_v
-# End time: 03:46:50 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 09:59:29 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:46:50 on Nov 03,2022
+# Start time: 09:59:29 on Nov 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_v.v 
 # -- Compiling module dxp_cache_v
 # 
 # Top level modules:
 # 	dxp_cache_v
-# End time: 03:46:50 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 09:59:29 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:46:50 on Nov 03,2022
+# Start time: 09:59:29 on Nov 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v 
 # -- Compiling module dxp_cache_2w_v
 # 
 # Top level modules:
 # 	dxp_cache_2w_v
-# End time: 03:46:50 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 09:59:29 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_4to16_dec.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:46:50 on Nov 03,2022
+# Start time: 09:59:29 on Nov 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_4to16_dec.v 
 # -- Compiling module dxp_4to16_dec
 # 
 # Top level modules:
 # 	dxp_4to16_dec
-# End time: 03:46:50 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 09:59:29 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db/dxp_pll_3_v_altpll.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:46:50 on Nov 03,2022
+# Start time: 09:59:29 on Nov 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db/dxp_pll_3_v_altpll.v 
 # -- Compiling module dxp_pll_3_v_altpll
 # 
 # Top level modules:
 # 	dxp_pll_3_v_altpll
-# End time: 03:46:50 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 09:59:30 on Nov 17,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:46:50 on Nov 03,2022
+# Start time: 09:59:30 on Nov 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v 
 # -- Compiling module dxp_cache_2w_v_tb
 # 
 # Top level modules:
 # 	dxp_cache_2w_v_tb
-# End time: 03:46:50 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 09:59:30 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  dxp_cache_2w_v_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" dxp_cache_2w_v_tb 
-# Start time: 03:46:51 on Nov 03,2022
+# Start time: 09:59:30 on Nov 17,2022
 # Loading work.dxp_cache_2w_v_tb
 # Loading work.dxp_cache_2w_v
 # Loading work.dxp_pll_3_v
@@ -113,6 +113,10 @@
 # Loading altera_mf_ver.cda_scale_cntr
 # Loading altera_mf_ver.altsyncram_body
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v(33): [PCDPC] - Port size (12) does not match connection size (16) for port 'MEM_address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /dxp_cache_2w_v_tb/dut File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v(39): [PCDPC] - Port size (12) does not match connection size (16) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /dxp_cache_2w_v_tb/model File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v
 # 
 # add wave *
 # view structure
@@ -122,41 +126,215 @@
 # run -all
 #  Note : Cyclone IV E PLL locked to incoming clock
 # Time: 180000  Instance: dxp_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
-# Note : Cyclone IV E PLL lost lock due to loss of input clock or the input clock is not detected within the allowed time frame.
-# Note : Please run timing simulation to check whether the input clock is operating within the supported VCO range or not.
-# Time: 9500000  Instance: dxp_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
-do reload.do
-# Cannot open macro file: reload.do
-do lab9.do
-# Cannot open macro file: lab9.do
-do lab9.do
-do reload.do
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v(180)
+#    Time: 59260 ns  Iteration: 1  Instance: /dxp_cache_2w_v_tb
+# Break in Module dxp_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v line 180
+run -all
+# Test sequence ended, no failed assertions detected, this DOES NOT guarantee that DUT is perfect
+# Number of failed assertions:           0
+# ------------------------------------------------------------
+# 
+# 
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v(193)
+#    Time: 2383500 ns  Iteration: 1  Instance: /dxp_cache_2w_v_tb
+# Break in Module dxp_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v line 193
+run
+do dxp_cache_2w_v_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:52:13 on Nov 03,2022
+# Start time: 10:22:45 on Nov 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v 
+# -- Compiling module dxpRISC521_ram1
+# 
+# Top level modules:
+# 	dxpRISC521_ram1
+# End time: 10:22:45 on Nov 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_pll_3_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:22:45 on Nov 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_pll_3_v.v 
+# -- Compiling module dxp_pll_3_v
+# 
+# Top level modules:
+# 	dxp_pll_3_v
+# End time: 10:22:45 on Nov 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_CAM_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:22:46 on Nov 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_CAM_v.v 
+# -- Compiling module dxp_CAM_v
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
+# 
+# Top level modules:
+# 	dxp_CAM_v
+# End time: 10:22:46 on Nov 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:22:46 on Nov 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_v.v 
+# -- Compiling module dxp_cache_v
+# 
+# Top level modules:
+# 	dxp_cache_v
+# End time: 10:22:46 on Nov 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:22:46 on Nov 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v 
+# -- Compiling module dxp_cache_2w_v
+# 
+# Top level modules:
+# 	dxp_cache_2w_v
+# End time: 10:22:46 on Nov 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_4to16_dec.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:22:46 on Nov 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_4to16_dec.v 
+# -- Compiling module dxp_4to16_dec
+# 
+# Top level modules:
+# 	dxp_4to16_dec
+# End time: 10:22:47 on Nov 17,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db/dxp_pll_3_v_altpll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:22:47 on Nov 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/db/dxp_pll_3_v_altpll.v 
+# -- Compiling module dxp_pll_3_v_altpll
+# 
+# Top level modules:
+# 	dxp_pll_3_v_altpll
+# End time: 10:22:47 on Nov 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:22:47 on Nov 17,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v 
 # -- Compiling module dxp_cache_2w_v_tb
 # 
 # Top level modules:
 # 	dxp_cache_2w_v_tb
-# End time: 03:52:13 on Nov 03,2022, Elapsed time: 0:00:00
+# End time: 10:22:47 on Nov 17,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-do reload.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:54:58 on Nov 03,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v 
-# -- Compiling module dxp_cache_2w_v_tb
 # 
-# Top level modules:
-# 	dxp_cache_2w_v_tb
-# End time: 03:54:58 on Nov 03,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  dxp_cache_2w_v_tb
+# End time: 10:22:48 on Nov 17,2022, Elapsed time: 0:23:18
+# Errors: 0, Warnings: 3
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" dxp_cache_2w_v_tb 
+# Start time: 10:22:48 on Nov 17,2022
 # Loading work.dxp_cache_2w_v_tb
+# Loading work.dxp_cache_2w_v
+# Loading work.dxp_pll_3_v
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading work.dxp_CAM_v
+# Loading work.dxpRISC521_ram1
+# Loading altera_mf_ver.altsyncram
+# Loading work.dxp_cache_v
+# Loading work.dxp_4to16_dec
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v(33): [PCDPC] - Port size (12) does not match connection size (16) for port 'MEM_address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /dxp_cache_2w_v_tb/dut File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v.v
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v(39): [PCDPC] - Port size (12) does not match connection size (16) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /dxp_cache_2w_v_tb/model File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxpRISC521_ram1.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
 #  Note : Cyclone IV E PLL locked to incoming clock
 # Time: 180000  Instance: dxp_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
-# Note : Cyclone IV E PLL lost lock due to loss of input clock or the input clock is not detected within the allowed time frame.
-# Note : Please run timing simulation to check whether the input clock is operating within the supported VCO range or not.
-# Time: 9500000  Instance: dxp_cache_2w_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
-# End time: 05:35:17 on Nov 03,2022, Elapsed time: 1:48:26
-# Errors: 2, Warnings: 0
+# 
+# 
+# ------------------------------------------------------------
+# Start of Test Sequence:
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v(180)
+#    Time: 59260 ns  Iteration: 1  Instance: /dxp_cache_2w_v_tb
+# Break in Module dxp_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v line 180
+run -all
+#           3790900000: Model check failed for address 64568 expected data 64661 recieved data     0
+#           3790940000: Model check failed for address 64568 expected data 64661 recieved data     0
+#           3790980000: Model check failed for address 64568 expected data 64661 recieved data     0
+#           3982020000: Model check failed for address 64554 expected data     0 recieved data   275
+#           3982060000: Model check failed for address 64554 expected data     0 recieved data   275
+#           3982100000: Model check failed for address 64554 expected data     0 recieved data   275
+#           4441140000: Model check failed for address 64544 expected data     0 recieved data 65182
+#           4441180000: Model check failed for address 64544 expected data     0 recieved data 65182
+#           4441220000: Model check failed for address 64544 expected data     0 recieved data 65182
+#           4726820000: Model check failed for address 65449 expected data 65261 recieved data     0
+#           4726860000: Model check failed for address 65449 expected data 65261 recieved data     0
+#           4774140000: Model check failed for address 64545 expected data     0 recieved data 64940
+#           4774180000: Model check failed for address 64545 expected data     0 recieved data 64940
+#           4774220000: Model check failed for address 64545 expected data     0 recieved data 64940
+#           4777100000: Model check failed for address 64544 expected data     0 recieved data 65182
+#           4777140000: Model check failed for address 64544 expected data     0 recieved data 65182
+#           4777180000: Model check failed for address 64544 expected data     0 recieved data 65182
+#           4849100000: Model check failed for address 65453 expected data 64707 recieved data   603
+#           4849140000: Model check failed for address 65453 expected data 64707 recieved data   603
+#           4849180000: Model check failed for address 65453 expected data 64707 recieved data   603
+#           5045020000: Model check failed for address 65470 expected data     0 recieved data 65198
+#           5045060000: Model check failed for address 65470 expected data     0 recieved data 65198
+#           5196460000: Model check failed for address 65467 expected data    16 recieved data     0
+#           5196500000: Model check failed for address 65467 expected data    16 recieved data     0
+#           5196540000: Model check failed for address 65467 expected data    16 recieved data     0
+#           5221860000: Model check failed for address 65452 expected data   749 recieved data     0
+#           5221900000: Model check failed for address 65452 expected data   749 recieved data     0
+#           5298940000: Model check failed for address 65441 expected data     0 recieved data 65207
+#           5298980000: Model check failed for address 65441 expected data     0 recieved data 65207
+#           5389260000: Model check failed for address 65464 expected data 65467 recieved data 64560
+#           5389300000: Model check failed for address 65464 expected data 65467 recieved data 64560
+#           5389340000: Model check failed for address 65464 expected data 65467 recieved data 64560
+#           5507460000: Model check failed for address   806 expected data 65045 recieved data   334
+#           5507500000: Model check failed for address   806 expected data 65045 recieved data   334
+#           5537860000: Model check failed for address   814 expected data   748 recieved data    45
+#           5537900000: Model check failed for address   814 expected data   748 recieved data    45
+#           5537940000: Model check failed for address   814 expected data   748 recieved data    45
+#           5589820000: Model check failed for address   801 expected data     0 recieved data   636
+#           5589860000: Model check failed for address   801 expected data     0 recieved data   636
+#           5589900000: Model check failed for address   801 expected data     0 recieved data   636
+#           5602140000: Model check failed for address 65471 expected data   372 recieved data   937
+#           5602180000: Model check failed for address 65471 expected data   372 recieved data   937
+#           5837580000: Model check failed for address 65454 expected data     0 recieved data   808
+#           5837620000: Model check failed for address 65454 expected data     0 recieved data   808
+#           5837660000: Model check failed for address 65454 expected data     0 recieved data   808
+#           5939540000: Model check failed for address   828 expected data     0 recieved data 65136
+#           5939580000: Model check failed for address   828 expected data     0 recieved data 65136
+#           5945180000: Model check failed for address 65447 expected data 64819 recieved data     0
+#           5945220000: Model check failed for address 65447 expected data 64819 recieved data     0
+# Test sequence ended, check failed assertions
+# Number of failed assertions:          49
+# ------------------------------------------------------------
+# 
+# 
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v(193)
+#    Time: 5985260 ns  Iteration: 1  Instance: /dxp_cache_2w_v_tb
+# Break in Module dxp_cache_2w_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_9/dxp_cache_2w_v_restored/dxp_cache_2w_v_tb.v line 193
+# End time: 11:07:38 on Nov 17,2022, Elapsed time: 0:44:50
+# Errors: 0, Warnings: 2

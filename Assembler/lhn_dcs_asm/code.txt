@@ -16,5 +16,18 @@
  58   		ADDC	R3, 0x1;
  59   		SUBC	R1, 0x1;
  60   		JMP	Z0, @Segment;
- 61   
+ 63   		LD 	R2, M[R1, 0x013F];
+ 65   		LD	R1, M[R1, 0x013E];
+ 67   @Process	SUBC 	R3, 0x1;
+ 68   		LD	R4, M[R3, 0x0240];
+ 69   		LD	R5, M[R3, 0x0280];
+ 70   		LD	R6, M[R3, 0x02C0];
+ 71   		VADD	R4, R2;
+ 72   		VSUB	R5, R2;
+ 73   		VSUB	R6, R1;
+ 74   		ST	R4, M[R3, 0x0240];
+ 75   		ST	R5, M[R3, 0x0280];
+ 76   		ST	R6, M[R3, 0x02C0];
+ 77   		JMP	Z0, @Process;
+ 78   
 
