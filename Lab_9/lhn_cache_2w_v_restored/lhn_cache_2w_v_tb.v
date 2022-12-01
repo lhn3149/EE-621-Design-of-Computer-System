@@ -198,6 +198,9 @@ initial begin
 
     repeat (10) @(posedge Clock_tb);
 $stop;// Take a look at mem_browser 
+
+
+
 address_sample_period = 1;
 // Random read/write test:
 // Comment this out until you pass the endurance test
@@ -240,12 +243,8 @@ endtask
     # Start of Test Sequence:
     # Model check failed for address     6 expected data   503 recieved data     0
     # Model check failed for address     6 expected data   503 recieved data     0
-    # Model check failed for address    13 expected data 11776 recieved data     0
-    # Model check failed for address    13 expected data 11776 recieved data     0
-    # Model check failed for address 15961 expected data     0 recieved data 15415
-    # Model check failed for address 15961 expected data     0 recieved data 15415
     # Test sequence ended, check failed assertions
-    # Number of failed assertions:           6
+    # Number of failed assertions:           2
     # ------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------*/
 endmodule

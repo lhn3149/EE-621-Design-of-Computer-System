@@ -1,0 +1,194 @@
+; 	lhn's second assembly test program.
+;------------------------------------------------------------------------------
+;	Assembler directives:
+;------------------------------------------------------------------------------
+;
+;
+;
+	.directives;
+	;
+	.equ	constOne	0x1;
+	.equ	constTwo	0x2;
+	;
+	.enddirectives;
+;------------------------------------------------------------------------------
+;	Constant segment:
+;------------------------------------------------------------------------------
+; These values are initialized in the locations at the end of the code segment.
+; For now, .word is the only constant initialization assembly directive.
+; After assembling the code, during the final run, the constant name is 
+;   replaced with its location address in the program memory.
+	.constants;
+;
+	.word	rowsize		0x013E;
+;-------------- store 0x04 ------------------;
+	.word	arraysize	0x013F;
+;----at this location will store 0x000F (16)-----; 
+	.word	array1		0x0140;
+	.word	array2		0x0150;
+	.word 	result		0x0160;
+	.endconstants;
+;------------------------------------------------------------------------------
+;	Code segment:
+;------------------------------------------------------------------------------
+	.code;
+		ADDC	R1, 0x4;
+		SUB	R6, R6;
+		SUB	R7, R7;
+		SUB	R8, R8;
+@by4element	LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R12, R3;
+		ADDC	R6, 0x1; 
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R13, R3;
+		ADDC	R6, 0x1; 
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R14, R3;
+		ADDC	R6, 0x1;
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R15, R3;
+		ADD	R12, R13;
+		ADD	R14, R15;
+		ADD	R12, R14;
+		ST	R12, M[R8, 0x0160];
+		SUBC	R6, 0x3;
+		SUBC	R7, 0x4;
+		SUBC	R7, 0x4;
+		SUBC	R7, 0x4;
+
+		ADDC	R8, 0x1;
+		ADDC	R7, 0x1;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R12, R3;
+		ADDC	R6, 0x1; 
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R13, R3;
+		ADDC	R6, 0x1; 
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R14, R3;
+		ADDC	R6, 0x1;
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R15, R3;
+		ADD	R12, R13;
+		ADD	R14, R15;
+		ADD	R12, R14;
+		ST	R12, M[R8, 0x0160];
+		SUBC	R6, 0x3;
+		SUBC	R7, 0x4;
+		SUBC	R7, 0x4;
+		SUBC	R7, 0x4;
+		
+		ADDC	R8, 0x1;
+		ADDC	R7, 0x1;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R12, R3;
+		ADDC	R6, 0x1; 
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R13, R3;
+		ADDC	R6, 0x1; 
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R14, R3;
+		ADDC	R6, 0x1;
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R15, R3;
+		ADD	R12, R13;
+		ADD	R14, R15;
+		ADD	R12, R14;
+		ST	R12, M[R8, 0x0160];
+		SUBC	R6, 0x3;
+		SUBC	R7, 0x4;
+		SUBC	R7, 0x4;
+		SUBC	R7, 0x4;
+
+		ADDC	R8, 0x1;
+		ADDC	R7, 0x1;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R12, R3;
+		ADDC	R6, 0x1; 
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R13, R3;
+		ADDC	R6, 0x1; 
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R14, R3;
+		ADDC	R6, 0x1;
+		ADDC	R7, 0x4;
+		LD	R3, M[R6, 0x0140];
+		LD	R4, M[R7, 0x0150];
+		MUL	R3, R4;
+		CPY	R15, R3;
+		ADD	R12, R13;
+		ADD	R14, R15;
+		ADD	R12, R14;
+		ST	R12, M[R8, 0x0160];
+		SUBC	R6, 0x3;
+		SUBC	R7, 0x4;
+		SUBC	R7, 0x4;
+		SUBC	R7, 0x4;
+		
+		ADDC	R8, 0x1;
+		ADDC	R6, 0x1;
+		SUBC	R7, R7;
+		SUBC	R1, 0x1;
+		JMP	Z0, @by4element;
+;  ------ Finish multiplication - Displaying result ----- ;
+		SUBC	R11, 0x1;
+		SUB 	R8, R8;
+		LD	R1, M[R2, 0x013F];
+		
+@Detect1to04	IN	R2;	
+		RRC	R2, 0x1;
+		OUT	R1;
+		JMP	C1, @Detect1to04;
+
+@Detect0to14	IN	R3;
+		RRC	R3, 0x1;
+		JMP	C0, @Detect0to14;
+		LD	R4, M[R8, 0x0160];
+		OUT	R4;
+		ADDC	R8, 0x1;
+		SUBC 	R1, 0x1;
+		JMP	Z0, @Detect1to04;
+; ------- Display performance counter ----------------;
+		ADDC	R10, 0x1;
+	.endcode;

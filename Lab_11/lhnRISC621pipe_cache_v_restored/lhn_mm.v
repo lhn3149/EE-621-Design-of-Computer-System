@@ -34,7 +34,7 @@
 
 
 // synopsys translate_off
-`timescale 1 ps / 1 ps
+`timescale 1 ns / 1 ps
 // synopsys translate_on
 module lhn_mm (
 	address,
@@ -86,7 +86,7 @@ module lhn_mm (
 	defparam
 		altsyncram_component.clock_enable_input_a = "BYPASS",
 		altsyncram_component.clock_enable_output_a = "BYPASS",
-		altsyncram_component.init_file = "lhn.mif",
+		altsyncram_component.init_file = "lab11.mif",
 		altsyncram_component.intended_device_family = "Cyclone V",
 		altsyncram_component.lpm_hint = "ENABLE_RUNTIME_MOD=NO",
 		altsyncram_component.lpm_type = "altsyncram",

@@ -1,5 +1,5 @@
 Flow report for lhnRISC621_v
-Fri Nov 18 15:40:55 2022
+Mon Nov 28 02:40:38 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Fri Nov 18 15:40:55 2022       ;
+; Flow Status                     ; Successful - Mon Nov 28 02:40:38 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; lhnRISC621_v                                ;
 ; Top-level Entity Name           ; lhnRISC621_v                                ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/18/2022 15:40:36 ;
+; Start date & time ; 11/28/2022 02:40:19 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lhnRISC621_v        ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id      ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------+
-; COMPILER_SIGNATURE_ID                ; 79602623345315.166880403606784         ; --            ; --          ; --              ;
+; COMPILER_SIGNATURE_ID                ; 79602623345315.166962121924876         ; --            ; --          ; --              ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; lhnRISC621_v_tb ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; lhnRISC621_v_tb                        ; --            ; --          ; eda_simulation  ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation  ;
@@ -108,8 +108,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:20     ; 1.0                     ; 4931 MB             ; 00:00:25                           ;
-; Total                ; 00:00:20     ; --                      ; --                  ; 00:00:25                           ;
+; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4922 MB             ; 00:00:24                           ;
+; Total                ; 00:00:18     ; --                      ; --                  ; 00:00:24                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

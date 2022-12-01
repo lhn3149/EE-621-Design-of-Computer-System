@@ -1,0 +1,256 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/simulation/modelsim
+vFPGA_Top_Wrapper
+Z1 !s110 1669876546
+!i10b 1
+!s100 ;mXWmWh5Ahk9QG0b0GeCc2
+In5UIEBDzcOX3I`06PRhPS0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1669876449
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/FPGA_Top_Wrapper.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/FPGA_Top_Wrapper.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1669876546.000000
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/FPGA_Top_Wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/FPGA_Top_Wrapper.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored
+Z7 tCvgOpt 0
+n@f@p@g@a_@top_@wrapper
+vlhn_3to8_dec
+Z8 !s110 1669876545
+!i10b 1
+!s100 AS=VTP_f=?8TA20dZYY561
+Ic]0b:`P<jLO0dJ8VH<JS72
+R2
+R0
+w1668483143
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_3to8_dec.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_3to8_dec.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1669876545.000000
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_3to8_dec.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_3to8_dec.v|
+!i113 1
+R5
+R6
+R7
+vlhn_cache_2w_v
+R1
+!i10b 1
+!s100 hX5:<fJC9B9Aj94aeB^S91
+IJGgScjB5QZQB_A]fgdgM61
+R2
+R0
+w1669802609
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v|
+!i113 1
+R5
+R6
+R7
+vlhn_cache_v
+R8
+!i10b 1
+!s100 ^3XkD=g6JgG<nTabNd1I73
+IPf`GRcI`Rdm6?8]=XTnVV3
+R2
+R0
+w1667962927
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_v.v
+Z10 L0 39
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_v.v|
+!i113 1
+R5
+R6
+R7
+vlhn_CAM_v
+R8
+!i10b 1
+!s100 16NiMMWjdTF;O>kPZc@[F1
+I:LGS`2MoMSM_>YRol:dk62
+R2
+R0
+w1668715155
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v|
+!i113 1
+R5
+R6
+R7
+nlhn_@c@a@m_v
+vlhn_ir2assembly_v
+R8
+!i10b 1
+!s100 nU4CkeGLPCYmzSW`CVF?o1
+Ig4AgO3`WTOCTdBlKFQM[Y1
+R2
+R0
+w1669701039
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v|
+!i113 1
+R5
+R6
+R7
+vlhn_mm
+R8
+!i10b 1
+!s100 6V?j0B55ob_<Fi00XKgV12
+IVbJe2^JjiWPC@3jmR4emS2
+R2
+R0
+w1669785520
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
+R10
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v|
+!i113 1
+R5
+R6
+R7
+vlhn_pll_3_v
+R8
+!i10b 1
+!s100 fmC2j:4]mC_W8ahkHDnhH3
+I[0aToc7QJZEFkIGA97A=V1
+R2
+R0
+w1667890750
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_pll_3_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_pll_3_v.v
+R10
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_pll_3_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_pll_3_v.v|
+!i113 1
+R5
+R6
+R7
+vlhn_pll_3_v_altpll
+R1
+!i10b 1
+!s100 <SSa`5o1g<i2UFWD?L^QH1
+ImFoFM1ho9H4:=zSDl4WBG1
+R2
+R0
+w1669822855
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db/lhn_pll_3_v_altpll.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db/lhn_pll_3_v_altpll.v
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db/lhn_pll_3_v_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db/lhn_pll_3_v_altpll.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db
+R7
+vlhnRISC621_v
+R8
+!i10b 1
+!s100 I<GE?WcQYkC7ODD?463Sd0
+IV>^o@B_UBzBZHE`3X`0EA1
+R2
+R0
+w1669874017
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v|
+!i113 1
+R5
+R6
+R7
+nlhn@r@i@s@c621_v
+vlhnRISC621_v_tb
+R1
+!i10b 1
+!s100 eCQo5i_<:za4dZah9O7@c1
+IR`m7gX@oLb7FlAl<zKi1Z3
+R2
+R0
+w1669873690
+8E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v
+FE:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored|E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v|
+!i113 1
+R5
+R6
+R7
+nlhn@r@i@s@c621_v_tb

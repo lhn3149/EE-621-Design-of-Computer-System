@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Nov 30 17:13:13 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : lhnRISC621_v
+Top-level Entity Name : lhnRISC621_v
+Family : Cyclone IV E
+Total logic elements : 4,103
+    Total combinational functions : 4,062
+    Dedicated logic registers : 678
+Total registers : 678
+Total pins : 111
+Total virtual pins : 0
+Total memory bits : 16,128
+Embedded Multiplier 9-bit elements : 2
+Total PLLs : 1

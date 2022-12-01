@@ -1,4 +1,4 @@
-`timescale 1 ps / 1 ps
+`timescale 1 ns / 1 ps
 
 module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 
@@ -33,8 +33,7 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 		JZ1=4'b0001, JC0=4'b0111, JN0=4'b1011, JV0=4'b1101, JZ0=4'b1110; //definition(s)
 	reg [13:0] R [15:0]; //Register File (RF) 16 14-bit registers
 	reg [13:0] IP[16:0]; // I/O P Map 16 14-bit registers
-	reg [13:0] IPDR;
-	reg [7:0]  OPDR; // for this lab, input is the Switches and output is 7-bit Display
+	reg [13:0] IPDR, OPDR; // for this lab, input is the Switches and output is 7-bit Display
 								// it's small so we don't need to use a separate map.
 	reg	WR_DM, stall_mc0, stall_mc1, stall_mc2, stall_mc3;
 	//reg [1:0] MC;
@@ -45,6 +44,7 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 	reg [11:0] TSR, SR;
 	reg [7:0] Display_pin;
 	reg [14:0]	TALUout;
+	reg [13:0] perf_counter; 
 	wire [13:0]	PM_out, DM_out;
 	wire 	C, Clock_not, cache_done;
 	//integer Call_count;
@@ -53,35 +53,34 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 	integer k;
 
 		assign	Clock_not = ~Clock_pin;
-		assign 	Display_pin = OPDR[7:0]; //Display not used all the bits from output.
 		
+		always @(posedge Clock_not) IPDR = {9'd0, SW_pin};
 		
-		always @(posedge Clock_pin) IPDR = {9'd0, SW_pin};
-		
-		
-		
+		always @(posedge Clock_not) begin
+			if (R[4'd11] == 1'd1) begin
+				perf_counter = perf_counter + 1'd1; end 
+		end
 		// Von Neumann architecture
 		// lhn_cache_2w_v	main_memory(MAeff[9:0], Clock_not, DM_in, WR_DM, PM_out);
-		lhn_cache_2w_v	my_cache(Resetn_pin, MAeff, DM_in, 	WR_DM, Clock_not, PM_out, cache_done);
+		lhn_cache_2w_v	my_cache(Resetn_pin, MAeff, DM_in, 	WR_DM, Clock_pin, PM_out, cache_done);
 		// 							Resetn, MEM_address,MEM_in, WR, Clock, MEM_out, Done
 
-		lhn_ir2assembly_v IWdecode (IR1, Resetn_pin, Clock_pin, ICis); //IR, Resetn_pin, Clock_pin, ICis
+		lhn_ir2assembly_v IWdecode (IR1, Resetn_pin, Clock_not, ICis); //IR, Resetn_pin, Clock_pin, ICis
 
-		always@(posedge Clock_pin)
+		always@(posedge Clock_not)
 			if (Resetn_pin == 0)
 				begin	
 				PC = 14'h0000; // Initialize the PC to point to the location of 
 				// the FIRST instruction to be executed; loaction 0000 is arbitrary!
 				// 64 16-bit: R[0] = 0; R[1] = 0; R[2] = 0; R[3] = 0; // Necessary for sim
-				for (k = 0; k < 15; k = k+1) begin R[k] = 0; end
-					
+				for (k = 0; k < 16; k = k+1) begin R[k] = 0; end
 				stall_mc0=0; stall_mc1=1; stall_mc2=1; stall_mc3=1;
 				IR1 = 14'h3fff; IR2 = 14'h3fff; IR3 = 14'h3fff; // oxffff Don't care opCode
 				Ri1 = 0; Rj1 = 0; Ri2 = 0; Rj2 = 0; Ri3 = 0; Rj3 = 0;
 				MAB = 14'h0000; MAX = 14'h0000; DM_in = 14'h0000;
 				TA = 14'h0000; TB = 14'h0000; MAeff = 14'h0000; TALUH = 14'h0000; TALUL = 14'h0000;
 				TSR = 11'b000; SR = 11'b000; TALUout = 15'h00000;
-				SP = 14'h3FFF;
+				SP = 14'h3FFF; perf_counter = 14'd0;
 				end
 			else if (cache_done)	begin
 				if ( stall_mc3 == 0) begin
@@ -135,7 +134,9 @@ module lhnRISC621_v (Resetn_pin, Clock_pin, SW_pin, Display_pin, ICis);
 							R[IR3[7:4]] = TALUH; end
 							//R[IR3[7:4]] = TALUH; end
 					IN_IC: begin R[IR3[7:4]] = TA; end
-					OUT_IC: begin OPDR = TA[7:0]; end
+					OUT_IC: begin
+							OPDR = R[IR3[7:4]];
+							Display_pin = OPDR[7:0]; end
 					default: ;
 				endcase
 				WR_DM = 1'b0;	

@@ -34,7 +34,7 @@
 
 
 // synopsys translate_off
-`timescale 1 ps / 1 ps
+`timescale 1 ns / 1 ps
 // synopsys translate_on
 module lhn_cache_v (
 	address,

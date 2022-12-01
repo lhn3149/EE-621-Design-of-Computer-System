@@ -1,0 +1,79 @@
+-- Memory File
+-- This is Test Program 1 for single core,
+-- non-pipelined dxpRISC521 test
+
+WIDTH = 14;
+DEPTH = 1024;
+
+ADDRESS_RADIX = HEX;	% Can be HEX, BIN or DEC %
+DATA_RADIX = HEX;	% Can be HEX, BIN or DEC %
+% old Op 4 bit, Ri 6 bit, Rj 6 bit%
+CONTENT BEGIN
+0	:	0622; % SUB R2, R2; R2 = 0  0110 0000 10 00 0010 | b 0000 0110 0010 0010 %
+1	:	0633; % SUB R3, R3; R3 = 0  0110 0000 11 00 0011 | b 0000 0110 0011 0011 %
+2	:	0723; % ADDC R2, #0x3; R2 = 0x3  1000 0000 10 00 0011 | b 0000 0111 0010 0011 %
+3	:	0722; % ADDC R2, #0x2; R2 = 0x5  0111 0000 10 00 0010 | b 0000 0111 0010 0010%
+4	:	0532; % ADD R3, R2; R3 = 0x5  0101 0000 11 00 0010    | b 0000 0101 0011 0010%
+5	:	0832; % SUBC R3, #0x2; R3 = 0x3 %
+6	: 	0932; % MUL R3, R2, R3 = 0xF %
+7	:	0A32; % DIV R3, R2, R3 = 0x3 %
+8	:	0732; % ADDC R3. #0x2, R3 = 0x5%
+9	:	0B20; % NOT R2; R2 = 0x3FFA  1001 0000 10 00 0000     | b 0000 1011 0010 0000%
+A	:	0D32; % OR R3, R2; R3 = 0x3FFF b 0000 1101 0011 0010 %
+B	:	0632; % SUB R3, R2; R3 = 0x5 %
+C	:	0C32; % AND R3, R2; R3 = 0x0 %
+D	:	0E32; % XOR R3, R2 --> R3 3FFA %
+E	:	1031; % SHRA R3, #0x1; R3 = 0x3FFD  0011 1111 1111 1101| b 0001 0000 0011 0001%
+F	:	0F32; % SLRL R3, #0x2  R3 = 0x3FF4  rotate %
+10	:	1121; % ROTL R2, #0x1  R2 = 3FF5; 0011 1111 1111 1010 %
+11	:	1221; % ROTR R2, #0x1; R2 = 0x3FFA| b 0001 0010 0010 0001 %
+12	:	1322; % RLN R2, #0x2 through N [0110] 3FEB:  0011 1111 1110 1011 %
+13	: 	1422; % RLZ R2, #0x2 through Z [0111] 3FAF:  0011 1111 1010 1111 % 
+14	:	1522; % RRC R2, #0x2 rotate through C [1111]  2FEB 0010 1111 1111 1010%
+15	:	1622; % RRV R2, #0x2 rotate through V [1111]  R2 =  3BFA %
+16	:	0332; % SWAP R3, R2; R3 = 0x, R3BFA R2 = 0x3FF4 %
+17	:	0232; % CPY R3, R2 R2 = R3 = 0x3FF4%
+18	:	0644; % SUB R4, R4; R2 = 0  0110 0000 10 00 0010 | b 0000 0110 0010 0010 %
+19	:	0004; % LD IW0 Ri, Rj  %
+1A	:	0023; % IW1 --> load content of 0x23 to R4 %
+1B	:	0633; % SUB R3, R3; R3 = 0  0110 0000 11 00 0011 | b 0000 0110 0011 0011 %
+1C	:	0733; % ADDC R3, #0x3; R2 = 0x3  1000 0000 10 00 0011 | b 0000 0111 0010 0011 %
+1D	:	0722; % ADDC R2, #0x2; R2 = 0x5  0111 0000 10 00 0010 | b 0000 0111 0010 0010%
+1E	: 	0104; % ST IW0 %
+1F	:	0034; % store from R4 to memory location 0x1A %
+20	:	0400; % JUMP unconditional, Ri=2 CNVZ = 0 %
+21	:	0024; % should go to 0x24%
+22	:	0641; % should skipp %
+23	:	0841; % SUBC R4 0x1 %
+24	:	0644; % SUB R4, R4; Z shoiuld be 1%
+25	:	0401; % JZ1 %
+26	:	0028; % skip F%
+27	:	0401; % NOP%
+28	:	1B40; % IN - IPDR = {9'd0, SW_pin} - R4 %
+29	:	0745; % ADDC R4 0x5 %
+2A	:	1C40; % OUT Display R4 %
+2B	:	1910; % CALL Ri=1 --> Ri=PC --> emulates PC-relative % 
+2C	: 	0003 ;
+2D	:	0715; % ADDC R1 5 % 
+2E	:	0812; % SUBC R1 2 % 
+2F	:	0002; % LD R2 uppercase %
+30	:	003D; % address % 
+31	:	0003; % LD R3 lowercase % 
+32	:	003E; % address % 
+33	:	0004; % LD R4 decimal string % 
+34	:	003F; % address % 
+35	:	0005; % LD R5 upper_lower conversion %
+36	:	0040; % address % 
+37	:	0006; % LD R6 string-number conversion %
+38	:	0041; % address % 
+39	:	1725; % VADD R2 R5 %	
+3A	:	1835; % VSUB R3 R5 %
+3B	:	1846; % VSUB R4 R6 %
+3C	:	1A00; % RETurn to h'15%
+3D	: 	2C4F; % upper case: XO %
+3E	:	3C6F; % lower case: xo %
+3F	:	1935; % decimal string %
+40	:	1020; % value 0x20 %
+41	:	1830; % value 0x30 %
+[42 .. 3FF] : 0; % Fill all other locations with 0, 1K memory %
+END;

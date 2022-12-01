@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Display_pin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display_pin[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Resetn_pin",
+					"strict" : false
+				},
+				{
+					"name" : "SW_pin[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_pin[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_pin[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_pin[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SW_pin[4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

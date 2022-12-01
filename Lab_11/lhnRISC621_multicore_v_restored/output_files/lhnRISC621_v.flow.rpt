@@ -1,0 +1,129 @@
+Flow report for lhnRISC621_v
+Thu Dec 01 00:53:46 2022
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Thu Dec 01 00:53:46 2022       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; lhnRISC621_v                                ;
+; Top-level Entity Name              ; FPGA_Top_Wrapper                            ;
+; Family                             ; Cyclone IV E                                ;
+; Device                             ; EP4CE22F17C6                                ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 0                                           ;
+;     Total combinational functions  ; 0                                           ;
+;     Dedicated logic registers      ; 0                                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 15                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 12/01/2022 00:53:38 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; lhnRISC621_v        ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                   ;
++--------------------------------------+----------------------------------------+---------------+------------------+-----------------+
+; Assignment Name                      ; Value                                  ; Default Value ; Entity Name      ; Section Id      ;
++--------------------------------------+----------------------------------------+---------------+------------------+-----------------+
+; COMPILER_SIGNATURE_ID                ; 79602623345315.166987401804260         ; --            ; --               ; --              ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --               ; lhnRISC621_v_tb ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; lhnRISC621_v_tb                        ; --            ; --               ; eda_simulation  ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --               ; eda_simulation  ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --               ; --              ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --               ; eda_simulation  ;
+; EDA_TEST_BENCH_FILE                  ; lhnRISC621_v_tb.v                      ; --            ; --               ; lhnRISC621_v_tb ;
+; EDA_TEST_BENCH_MODULE_NAME           ; lhnRISC621_v_tb                        ; --            ; --               ; lhnRISC621_v_tb ;
+; EDA_TEST_BENCH_NAME                  ; lhnRISC621_v_tb                        ; --            ; --               ; eda_simulation  ;
+; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --               ; eda_simulation  ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --               ; --              ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --               ; --              ;
+; MISC_FILE                            ; lhn_mm.bsf                             ; --            ; --               ; --              ;
+; MISC_FILE                            ; lhn_mm_bb.v                            ; --            ; --               ; --              ;
+; MISC_FILE                            ; lhn_cache_v.bsf                        ; --            ; --               ; --              ;
+; MISC_FILE                            ; lhn_cache_v_bb.v                       ; --            ; --               ; --              ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; FPGA_Top_Wrapper ; Top             ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; FPGA_Top_Wrapper ; Top             ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; FPGA_Top_Wrapper ; Top             ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --               ; --              ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --               ; --              ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --               ; --              ;
+; TOP_LEVEL_ENTITY                     ; FPGA_Top_Wrapper                       ; lhnRISC621_v  ; --               ; --              ;
++--------------------------------------+----------------------------------------+---------------+------------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4754 MB             ; 00:00:14                           ;
+; Total                ; 00:00:07     ; --                      ; --                  ; 00:00:14                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-25GGG2Q  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off lhnRISC621_v -c lhnRISC621_v
+
+
+

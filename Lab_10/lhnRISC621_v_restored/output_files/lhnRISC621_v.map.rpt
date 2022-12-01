@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lhnRISC621_v
-Fri Nov 18 15:40:55 2022
+Mon Nov 28 02:40:38 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Nov 18 15:40:55 2022       ;
+; Analysis & Synthesis Status     ; Successful - Mon Nov 28 02:40:38 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; lhnRISC621_v                                ;
 ; Top-level Entity Name           ; lhnRISC621_v                                ;
@@ -1332,7 +1332,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:12     ;
+; Top            ; 00:00:11     ;
 +----------------+--------------+
 
 
@@ -1342,7 +1342,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Nov 18 15:40:35 2022
+    Info: Processing started: Mon Nov 28 02:40:19 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lhnRISC621_v -c lhnRISC621_v
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -1367,9 +1367,9 @@ Info (12021): Found 1 design units, including 1 entities, in source file lhn_3to
 Info (12021): Found 1 design units, including 1 entities, in source file lhn_cache_2w_v.v
     Info (12023): Found entity 1: lhn_cache_2w_v File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v Line: 1
 Info (12127): Elaborating entity "lhnRISC621_v" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at lhnRISC621_v.v(135): truncated value with size 14 to match size of target (8) File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 135
-Warning (10230): Verilog HDL assignment warning at lhnRISC621_v.v(383): truncated value with size 14 to match size of target (12) File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 383
-Info (12128): Elaborating entity "lhn_cache_2w_v" for hierarchy "lhn_cache_2w_v:my_cache" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 60
+Warning (10230): Verilog HDL assignment warning at lhnRISC621_v.v(137): truncated value with size 14 to match size of target (8) File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 137
+Warning (10230): Verilog HDL assignment warning at lhnRISC621_v.v(385): truncated value with size 14 to match size of target (12) File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 385
+Info (12128): Elaborating entity "lhn_cache_2w_v" for hierarchy "lhn_cache_2w_v:my_cache" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 62
 Info (12128): Elaborating entity "lhn_pll_3_v" for hierarchy "lhn_cache_2w_v:my_cache|lhn_pll_3_v:my_pll" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v Line: 61
 Info (12128): Elaborating entity "altpll" for hierarchy "lhn_cache_2w_v:my_cache|lhn_pll_3_v:my_pll|altpll:altpll_component" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_pll_3_v.v Line: 98
 Info (12130): Elaborated megafunction instantiation "lhn_cache_2w_v:my_cache|lhn_pll_3_v:my_pll|altpll:altpll_component" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_pll_3_v.v Line: 98
@@ -1548,7 +1548,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_1dm1 File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db/altsyncram_1dm1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_1dm1" for hierarchy "lhn_cache_2w_v:my_cache|lhn_cache_v:my_cache|altsyncram:altsyncram_component|altsyncram_1dm1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "lhn_3to8_dec" for hierarchy "lhn_cache_2w_v:my_cache|lhn_3to8_dec:my_dec" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v Line: 80
-Info (12128): Elaborating entity "lhn_ir2assembly_v" for hierarchy "lhn_ir2assembly_v:IWdecode" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 63
+Info (12128): Elaborating entity "lhn_ir2assembly_v" for hierarchy "lhn_ir2assembly_v:IWdecode" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 65
 Warning (19016): Clock multiplexers are found and protected
     Warning (19017): Found clock multiplexer lhn_cache_2w_v:my_cache|cache_clk File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v Line: 39
     Warning (19017): Found clock multiplexer lhn_cache_2w_v:my_cache|mem_clk File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v Line: 39
@@ -1576,10 +1576,10 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13049): Converted tri-state buffer "lhn_cache_2w_v:my_cache|lhn_CAM_v:my_cam0|dout[1]" feeding internal logic into a wire File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_CAM_v.v Line: 13
     Warning (13049): Converted tri-state buffer "lhn_cache_2w_v:my_cache|lhn_CAM_v:my_cam0|dout[0]" feeding internal logic into a wire File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_CAM_v.v Line: 13
 Info (278001): Inferred 2 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 225
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 226
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 225
-Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 225
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 227
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Mod0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 228
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 227
+Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 227
     Info (12134): Parameter "LPM_WIDTHN" = "14"
     Info (12134): Parameter "LPM_WIDTHD" = "14"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1590,8 +1590,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/sign
     Info (12023): Found entity 1: sign_div_unsign_9nh File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db/sign_div_unsign_9nh.tdf Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_o2f.tdf
     Info (12023): Found entity 1: alt_u_div_o2f File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db/alt_u_div_o2f.tdf Line: 22
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 226
-Info (12133): Instantiated megafunction "lpm_divide:Mod0" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 226
+Info (12130): Elaborated megafunction instantiation "lpm_divide:Mod0" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 228
+Info (12133): Instantiated megafunction "lpm_divide:Mod0" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v Line: 228
     Info (12134): Parameter "LPM_WIDTHN" = "14"
     Info (12134): Parameter "LPM_WIDTHD" = "14"
     Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
@@ -1631,9 +1631,9 @@ Info (21057): Implemented 3341 device resources after synthesis - the final reso
     Info (21065): Implemented 3 PLLs
     Info (21062): Implemented 1 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 48 warnings
-    Info: Peak virtual memory: 4931 megabytes
-    Info: Processing ended: Fri Nov 18 15:40:55 2022
-    Info: Elapsed time: 00:00:20
+    Info: Peak virtual memory: 4922 megabytes
+    Info: Processing ended: Mon Nov 28 02:40:38 2022
+    Info: Elapsed time: 00:00:19
     Info: Total CPU time (on all processors): 00:00:25
 
 

@@ -12,115 +12,115 @@
 # 
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:37:59 on Nov 18,2022
+# Start time: 02:40:52 on Nov 28,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v 
 # -- Compiling module lhnRISC621_v
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(82): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(190): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(196): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(204): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(210): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(80): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(188): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(194): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(202): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(208): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	lhnRISC621_v
-# End time: 16:37:59 on Nov 18,2022, Elapsed time: 0:00:00
+# End time: 02:40:52 on Nov 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 5
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:37:59 on Nov 18,2022
+# Start time: 02:40:52 on Nov 28,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v 
 # -- Compiling module lhn_ir2assembly_v
 # 
 # Top level modules:
 # 	lhn_ir2assembly_v
-# End time: 16:37:59 on Nov 18,2022, Elapsed time: 0:00:00
+# End time: 02:40:52 on Nov 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:37:59 on Nov 18,2022
+# Start time: 02:40:52 on Nov 28,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v 
 # -- Compiling module lhn_mm
 # 
 # Top level modules:
 # 	lhn_mm
-# End time: 16:37:59 on Nov 18,2022, Elapsed time: 0:00:00
+# End time: 02:40:52 on Nov 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_pll_3_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:37:59 on Nov 18,2022
+# Start time: 02:40:52 on Nov 28,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_pll_3_v.v 
 # -- Compiling module lhn_pll_3_v
 # 
 # Top level modules:
 # 	lhn_pll_3_v
-# End time: 16:37:59 on Nov 18,2022, Elapsed time: 0:00:00
+# End time: 02:40:52 on Nov 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:37:59 on Nov 18,2022
+# Start time: 02:40:52 on Nov 28,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_v.v 
 # -- Compiling module lhn_cache_v
 # 
 # Top level modules:
 # 	lhn_cache_v
-# End time: 16:37:59 on Nov 18,2022, Elapsed time: 0:00:00
+# End time: 02:40:52 on Nov 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_CAM_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:37:59 on Nov 18,2022
+# Start time: 02:40:52 on Nov 28,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_CAM_v.v 
 # -- Compiling module lhn_CAM_v
 # ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
 # 
 # Top level modules:
 # 	lhn_CAM_v
-# End time: 16:37:59 on Nov 18,2022, Elapsed time: 0:00:00
+# End time: 02:40:52 on Nov 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_3to8_dec.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:38:00 on Nov 18,2022
+# Start time: 02:40:52 on Nov 28,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_3to8_dec.v 
 # -- Compiling module lhn_3to8_dec
 # 
 # Top level modules:
 # 	lhn_3to8_dec
-# End time: 16:38:00 on Nov 18,2022, Elapsed time: 0:00:00
+# End time: 02:40:52 on Nov 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:38:00 on Nov 18,2022
+# Start time: 02:40:52 on Nov 28,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v 
 # -- Compiling module lhn_cache_2w_v
 # 
 # Top level modules:
 # 	lhn_cache_2w_v
-# End time: 16:38:00 on Nov 18,2022, Elapsed time: 0:00:00
+# End time: 02:40:52 on Nov 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db/lhn_pll_3_v_altpll.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:38:00 on Nov 18,2022
+# Start time: 02:40:53 on Nov 28,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/db/lhn_pll_3_v_altpll.v 
 # -- Compiling module lhn_pll_3_v_altpll
 # 
 # Top level modules:
 # 	lhn_pll_3_v_altpll
-# End time: 16:38:00 on Nov 18,2022, Elapsed time: 0:00:00
+# End time: 02:40:53 on Nov 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:38:00 on Nov 18,2022
+# Start time: 02:40:53 on Nov 28,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v_tb.v 
 # -- Compiling module lhnRISC621_v_tb
 # 
 # Top level modules:
 # 	lhnRISC621_v_tb
-# End time: 16:38:00 on Nov 18,2022, Elapsed time: 0:00:00
+# End time: 02:40:53 on Nov 28,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  lhnRISC621_v_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" lhnRISC621_v_tb 
-# Start time: 16:38:00 on Nov 18,2022
+# Start time: 02:40:53 on Nov 28,2022
 # Loading work.lhnRISC621_v_tb
 # Loading work.lhnRISC621_v
 # Loading work.lhn_cache_2w_v
@@ -142,7 +142,7 @@
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
 # ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v(71): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v(40).
 #    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(67): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v(1).
+# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(65): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v(1).
 #    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v
 # 
 # add wave *
@@ -156,83 +156,5 @@
 # Note : Cyclone IV E PLL lost lock due to loss of input clock or the input clock is not detected within the allowed time frame.
 # Note : Please run timing simulation to check whether the input clock is operating within the supported VCO range or not.
 # Time: 600040000  Instance: lhnRISC621_v_tb.dut.my_cache.my_pll.altpll_component.cycloneiii_pll.pll3
-do reload.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:38:36 on Nov 18,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v 
-# -- Compiling module lhnRISC621_v
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(82): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(190): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(196): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(204): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(210): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# 
-# Top level modules:
-# 	lhnRISC621_v
-# End time: 16:38:36 on Nov 18,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 5
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:38:36 on Nov 18,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v 
-# -- Compiling module lhn_ir2assembly_v
-# 
-# Top level modules:
-# 	lhn_ir2assembly_v
-# End time: 16:38:36 on Nov 18,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:38:36 on Nov 18,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v 
-# -- Compiling module lhn_mm
-# 
-# Top level modules:
-# 	lhn_mm
-# End time: 16:38:36 on Nov 18,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:38:36 on Nov 18,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v_tb.v 
-# -- Compiling module lhnRISC621_v_tb
-# 
-# Top level modules:
-# 	lhnRISC621_v_tb
-# End time: 16:38:36 on Nov 18,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 16:38:37 on Nov 18,2022, Elapsed time: 0:00:37
-# Errors: 0, Warnings: 7
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" lhnRISC621_v_tb 
-# Start time: 16:38:37 on Nov 18,2022
-# Loading work.lhnRISC621_v_tb
-# Loading work.lhnRISC621_v
-# Loading work.lhn_cache_2w_v
-# Loading work.lhn_pll_3_v
-# Loading altera_mf_ver.altpll
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.pll_iobuf
-# Loading work.lhn_CAM_v
-# Loading work.lhn_mm
-# Loading altera_mf_ver.altsyncram
-# Loading work.lhn_cache_v
-# Loading work.lhn_3to8_dec
-# Loading work.lhn_ir2assembly_v
-# Loading altera_mf_ver.MF_cycloneiii_pll
-# Loading altera_mf_ver.cda_m_cntr
-# Loading altera_mf_ver.cda_n_cntr
-# Loading altera_mf_ver.cda_scale_cntr
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v(71): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v(40).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(67): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_cache_2w_v.v(71): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v(40).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhnRISC621_v.v(67): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_10/lhnRISC621_v_restored/lhn_ir2assembly_v.v
-#  Note : Cyclone IV E PLL locked to incoming clock
-# Time: 160000  Instance: lhnRISC621_v_tb.dut.my_cache.my_pll.altpll_component.cycloneiii_pll.pll3
-# Note : Cyclone IV E PLL lost lock due to loss of input clock or the input clock is not detected within the allowed time frame.
-# Note : Please run timing simulation to check whether the input clock is operating within the supported VCO range or not.
-# Time: 600040000  Instance: lhnRISC621_v_tb.dut.my_cache.my_pll.altpll_component.cycloneiii_pll.pll3
-# End time: 16:41:22 on Nov 18,2022, Elapsed time: 0:02:45
-# Errors: 0, Warnings: 4
+# End time: 02:41:22 on Nov 28,2022, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 2

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Dec 01 01:41:38 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : lhnRISC621_v
+Top-level Entity Name : FPGA_TopWraper
+Family : Cyclone IV E
+Total logic elements : 3,881
+    Total combinational functions : 3,846
+    Dedicated logic registers : 596
+Total registers : 596
+Total pins : 15
+Total virtual pins : 0
+Total memory bits : 16,128
+Embedded Multiplier 9-bit elements : 2
+Total PLLs : 1
