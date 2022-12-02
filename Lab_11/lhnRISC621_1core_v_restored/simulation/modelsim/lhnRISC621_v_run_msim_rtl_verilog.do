@@ -14,7 +14,7 @@ vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-S
 vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/lhn_3to8_dec.v}
 vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/lhn_cache_2w_v.v}
 vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/FPGA_TopWraper.v}
-vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/db/lhn_pll_3_v_altpll1.v}
+vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/db/lhn_pll_3_v_altpll.v}
 
 vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/lhnRISC621_v_tb.v}
 

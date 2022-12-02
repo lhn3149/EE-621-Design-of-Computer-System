@@ -86,7 +86,7 @@
 		JMP	C0, @Detect0to13;
 ; ------- Performing matrix multiplication -------;
 		ADDC	R11, 0x1;
-		ADDC	R1, 0x2;
+		ADDC	R1, 0x1;
 		SUB	R6, R6;
 		SUB	R7, R7;
 		SUB	R8, R8;

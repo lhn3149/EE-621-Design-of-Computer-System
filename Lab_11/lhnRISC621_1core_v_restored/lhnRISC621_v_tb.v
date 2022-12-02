@@ -68,7 +68,7 @@ end
 task apply_random_test;
 // This task will do random SW input and mimic push botton push
 	begin
-		SW_in_tb[4:1] = 	i;
+		SW_in_tb[4:1] = 	i;	
 		 @(posedge Clock_tb)
 		 repeat (100) @(posedge Clock_tb);
 		 SW_in_tb[0] = 0;
@@ -76,6 +76,7 @@ task apply_random_test;
 		 SW_in_tb[0] = 1;
 		 repeat (100) @(posedge Clock_tb);
 		 i = i + 1'b1;
+		 if (i==8) i = 0;
 	end
 
 endtask

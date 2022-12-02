@@ -7,7 +7,7 @@ add wave -noupdate /lhnRISC621_v_tb/start_multiplication
 add wave -noupdate -radix unsigned /lhnRISC621_v_tb/Display_out_tb
 add wave -noupdate /lhnRISC621_v_tb/ICis_tb
 add wave -noupdate /lhnRISC621_v_tb/i
-add wave -noupdate /lhnRISC621_v_tb/dut/risc_inst_0/perf_counter
+add wave -noupdate -radix unsigned /lhnRISC621_v_tb/dut/risc_inst_0/perf_counter
 add wave -noupdate -radix hexadecimal /lhnRISC621_v_tb/dut/risc_inst_0/MAB
 add wave -noupdate -radix hexadecimal /lhnRISC621_v_tb/dut/risc_inst_0/MAeff
 add wave -noupdate -radix hexadecimal /lhnRISC621_v_tb/dut/risc_inst_0/MAX
@@ -31,7 +31,7 @@ add wave -noupdate -radix unsigned {/lhnRISC621_v_tb/dut/risc_inst_0/R[13]}
 add wave -noupdate -radix unsigned {/lhnRISC621_v_tb/dut/risc_inst_0/R[14]}
 add wave -noupdate -radix unsigned {/lhnRISC621_v_tb/dut/risc_inst_0/R[15]}
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {333865509 ps} 0}
+WaveRestoreCursors {{Cursor 1} {479496949 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100

@@ -86,11 +86,12 @@
 		JMP	C0, @Detect0to13;
 ; ------- Performing matrix multiplication -------;
 		ADDC	R11, 0x1;
-		ADDC	R1, 0x2;
+		ADDC	R1, 0x1;
 		SUB	R6, R6;
 		SUB	R7, R7;
 		SUB	R8, R8;
 		ADDC	R8, 0x4;
+		ADDC	R6, 0x4;
 @by4element	LD	R3, M[R6, 0x0140];
 		LD	R4, M[R7, 0x0150];
 		MUL	R3, R4;
@@ -231,6 +232,7 @@
 ;  ------ Finish multiplication - Displaying result ----- ;
 		SUBC	R11, 0x1;
 		SUB 	R8, R8;
+		ADDC	R8, 0x4;
 		LD	R1, M[R2, 0x013F];		
 @Detect1to04	IN	R2;	
 		RRC	R2, 0x1;

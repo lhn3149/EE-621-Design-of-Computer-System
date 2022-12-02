@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lhnRISC621_v
-Thu Dec 01 01:41:38 2022
+Fri Dec 02 09:33:14 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Dec 01 01:41:38 2022       ;
+; Analysis & Synthesis Status        ; Successful - Fri Dec 02 09:33:14 2022       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lhnRISC621_v                                ;
 ; Top-level Entity Name              ; FPGA_TopWraper                              ;
@@ -229,7 +229,7 @@ refer to the applicable agreement for further details.
 ; stratix_pll.inc                  ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_pll.inc                                        ;         ;
 ; stratixii_pll.inc                ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratixii_pll.inc                                      ;         ;
 ; cycloneii_pll.inc                ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cycloneii_pll.inc                                      ;         ;
-; db/lhn_pll_3_v_altpll1.v         ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/db/lhn_pll_3_v_altpll1.v   ;         ;
+; db/lhn_pll_3_v_altpll.v          ; yes             ; Auto-Generated Megafunction            ; E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/db/lhn_pll_3_v_altpll.v    ;         ;
 ; lpm_add_sub.tdf                  ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_add_sub.tdf                                        ;         ;
 ; addcore.inc                      ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/addcore.inc                                            ;         ;
 ; look_add.inc                     ; yes             ; Megafunction                           ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/look_add.inc                                           ;         ;
@@ -252,40 +252,40 @@ refer to the applicable agreement for further details.
 +----------------------------------+-----------------+----------------------------------------+---------------------------------------------------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                                                                                  ;
-+---------------------------------------------+------------------------------------------------------------------------------------------------+
-; Resource                                    ; Usage                                                                                          ;
-+---------------------------------------------+------------------------------------------------------------------------------------------------+
-; Estimated Total logic elements              ; 3,881                                                                                          ;
-;                                             ;                                                                                                ;
-; Total combinational functions               ; 3846                                                                                           ;
-; Logic element usage by number of LUT inputs ;                                                                                                ;
-;     -- 4 input functions                    ; 2476                                                                                           ;
-;     -- 3 input functions                    ; 1136                                                                                           ;
-;     -- <=2 input functions                  ; 234                                                                                            ;
-;                                             ;                                                                                                ;
-; Logic elements by mode                      ;                                                                                                ;
-;     -- normal mode                          ; 3471                                                                                           ;
-;     -- arithmetic mode                      ; 375                                                                                            ;
-;                                             ;                                                                                                ;
-; Total registers                             ; 596                                                                                            ;
-;     -- Dedicated logic registers            ; 596                                                                                            ;
-;     -- I/O registers                        ; 0                                                                                              ;
-;                                             ;                                                                                                ;
-; I/O pins                                    ; 15                                                                                             ;
-; Total memory bits                           ; 16128                                                                                          ;
-;                                             ;                                                                                                ;
-; Embedded Multiplier 9-bit elements          ; 2                                                                                              ;
-;                                             ;                                                                                                ;
-; Total PLLs                                  ; 1                                                                                              ;
-;     -- PLLs                                 ; 1                                                                                              ;
-;                                             ;                                                                                                ;
-; Maximum fan-out node                        ; lhn_pll_3_v:my_pll|altpll:altpll_component|lhn_pll_3_v_altpll1:auto_generated|wire_pll1_clk[0] ;
-; Maximum fan-out                             ; 599                                                                                            ;
-; Total fan-out                               ; 16006                                                                                          ;
-; Average fan-out                             ; 3.55                                                                                           ;
-+---------------------------------------------+------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                                                                 ;
++---------------------------------------------+-----------------------------------------------------------------------------------------------+
+; Resource                                    ; Usage                                                                                         ;
++---------------------------------------------+-----------------------------------------------------------------------------------------------+
+; Estimated Total logic elements              ; 3,881                                                                                         ;
+;                                             ;                                                                                               ;
+; Total combinational functions               ; 3846                                                                                          ;
+; Logic element usage by number of LUT inputs ;                                                                                               ;
+;     -- 4 input functions                    ; 2476                                                                                          ;
+;     -- 3 input functions                    ; 1136                                                                                          ;
+;     -- <=2 input functions                  ; 234                                                                                           ;
+;                                             ;                                                                                               ;
+; Logic elements by mode                      ;                                                                                               ;
+;     -- normal mode                          ; 3471                                                                                          ;
+;     -- arithmetic mode                      ; 375                                                                                           ;
+;                                             ;                                                                                               ;
+; Total registers                             ; 596                                                                                           ;
+;     -- Dedicated logic registers            ; 596                                                                                           ;
+;     -- I/O registers                        ; 0                                                                                             ;
+;                                             ;                                                                                               ;
+; I/O pins                                    ; 15                                                                                            ;
+; Total memory bits                           ; 16128                                                                                         ;
+;                                             ;                                                                                               ;
+; Embedded Multiplier 9-bit elements          ; 2                                                                                             ;
+;                                             ;                                                                                               ;
+; Total PLLs                                  ; 1                                                                                             ;
+;     -- PLLs                                 ; 1                                                                                             ;
+;                                             ;                                                                                               ;
+; Maximum fan-out node                        ; lhn_pll_3_v:my_pll|altpll:altpll_component|lhn_pll_3_v_altpll:auto_generated|wire_pll1_clk[0] ;
+; Maximum fan-out                             ; 599                                                                                           ;
+; Total fan-out                               ; 16006                                                                                         ;
+; Average fan-out                             ; 3.55                                                                                          ;
++---------------------------------------------+-----------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -323,7 +323,7 @@ refer to the applicable agreement for further details.
 ;          |mult_7dt:auto_generated|              ; 0 (0)               ; 0 (0)                     ; 0           ; 2            ; 0       ; 1         ; 0    ; 0            ; |FPGA_TopWraper|lhnRISC621_v:risc_inst_0|lpm_mult:Mult0|mult_7dt:auto_generated                                                                      ; mult_7dt            ; work         ;
 ;    |lhn_pll_3_v:my_pll|                         ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FPGA_TopWraper|lhn_pll_3_v:my_pll                                                                                                                   ; lhn_pll_3_v         ; work         ;
 ;       |altpll:altpll_component|                 ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FPGA_TopWraper|lhn_pll_3_v:my_pll|altpll:altpll_component                                                                                           ; altpll              ; work         ;
-;          |lhn_pll_3_v_altpll1:auto_generated|   ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FPGA_TopWraper|lhn_pll_3_v:my_pll|altpll:altpll_component|lhn_pll_3_v_altpll1:auto_generated                                                        ; lhn_pll_3_v_altpll1 ; work         ;
+;          |lhn_pll_3_v_altpll:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |FPGA_TopWraper|lhn_pll_3_v:my_pll|altpll:altpll_component|lhn_pll_3_v_altpll:auto_generated                                                         ; lhn_pll_3_v_altpll  ; work         ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -870,9 +870,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; CLK5_DIVIDE_BY                ; 1                             ; Untyped                 ;
 ; CLK4_DIVIDE_BY                ; 1                             ; Untyped                 ;
 ; CLK3_DIVIDE_BY                ; 1                             ; Untyped                 ;
-; CLK2_DIVIDE_BY                ; 50                            ; Signed Integer          ;
-; CLK1_DIVIDE_BY                ; 50                            ; Signed Integer          ;
-; CLK0_DIVIDE_BY                ; 50                            ; Signed Integer          ;
+; CLK2_DIVIDE_BY                ; 1                             ; Signed Integer          ;
+; CLK1_DIVIDE_BY                ; 1                             ; Signed Integer          ;
+; CLK0_DIVIDE_BY                ; 1                             ; Signed Integer          ;
 ; CLK9_PHASE_SHIFT              ; 0                             ; Untyped                 ;
 ; CLK8_PHASE_SHIFT              ; 0                             ; Untyped                 ;
 ; CLK7_PHASE_SHIFT              ; 0                             ; Untyped                 ;
@@ -880,8 +880,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; CLK5_PHASE_SHIFT              ; 0                             ; Untyped                 ;
 ; CLK4_PHASE_SHIFT              ; 0                             ; Untyped                 ;
 ; CLK3_PHASE_SHIFT              ; 0                             ; Untyped                 ;
-; CLK2_PHASE_SHIFT              ; 166667                        ; Untyped                 ;
-; CLK1_PHASE_SHIFT              ; 83333                         ; Untyped                 ;
+; CLK2_PHASE_SHIFT              ; 3333                          ; Untyped                 ;
+; CLK1_PHASE_SHIFT              ; 1667                          ; Untyped                 ;
 ; CLK0_PHASE_SHIFT              ; 0                             ; Untyped                 ;
 ; CLK5_TIME_DELAY               ; 0                             ; Untyped                 ;
 ; CLK4_TIME_DELAY               ; 0                             ; Untyped                 ;
@@ -1177,7 +1177,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; C7_TEST_SOURCE                ; 5                             ; Untyped                 ;
 ; C8_TEST_SOURCE                ; 5                             ; Untyped                 ;
 ; C9_TEST_SOURCE                ; 5                             ; Untyped                 ;
-; CBXI_PARAMETER                ; lhn_pll_3_v_altpll1           ; Untyped                 ;
+; CBXI_PARAMETER                ; lhn_pll_3_v_altpll            ; Untyped                 ;
 ; VCO_FREQUENCY_CONTROL         ; AUTO                          ; Untyped                 ;
 ; VCO_PHASE_SHIFT_STEP          ; 0                             ; Untyped                 ;
 ; WIDTH_CLOCK                   ; 5                             ; Signed Integer          ;
@@ -1521,7 +1521,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Dec 01 01:41:20 2022
+    Info: Processing started: Fri Dec 02 09:32:55 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lhnRISC621_v -c lhnRISC621_v
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -1667,18 +1667,18 @@ Info (12128): Elaborating entity "altpll" for hierarchy "lhn_pll_3_v:my_pll|altp
 Info (12130): Elaborated megafunction instantiation "lhn_pll_3_v:my_pll|altpll:altpll_component" File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/lhn_pll_3_v.v Line: 98
 Info (12133): Instantiated megafunction "lhn_pll_3_v:my_pll|altpll:altpll_component" with the following parameter: File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/lhn_pll_3_v.v Line: 98
     Info (12134): Parameter "bandwidth_type" = "AUTO"
-    Info (12134): Parameter "clk0_divide_by" = "50"
+    Info (12134): Parameter "clk0_divide_by" = "1"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
     Info (12134): Parameter "clk0_multiply_by" = "1"
     Info (12134): Parameter "clk0_phase_shift" = "0"
-    Info (12134): Parameter "clk1_divide_by" = "50"
+    Info (12134): Parameter "clk1_divide_by" = "1"
     Info (12134): Parameter "clk1_duty_cycle" = "50"
     Info (12134): Parameter "clk1_multiply_by" = "1"
-    Info (12134): Parameter "clk1_phase_shift" = "83333"
-    Info (12134): Parameter "clk2_divide_by" = "50"
+    Info (12134): Parameter "clk1_phase_shift" = "1667"
+    Info (12134): Parameter "clk2_divide_by" = "1"
     Info (12134): Parameter "clk2_duty_cycle" = "50"
     Info (12134): Parameter "clk2_multiply_by" = "1"
-    Info (12134): Parameter "clk2_phase_shift" = "166667"
+    Info (12134): Parameter "clk2_phase_shift" = "3333"
     Info (12134): Parameter "compensate_clock" = "CLK0"
     Info (12134): Parameter "inclk0_input_frequency" = "20000"
     Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
@@ -1728,9 +1728,9 @@ Info (12133): Instantiated megafunction "lhn_pll_3_v:my_pll|altpll:altpll_compon
     Info (12134): Parameter "port_extclk2" = "PORT_UNUSED"
     Info (12134): Parameter "port_extclk3" = "PORT_UNUSED"
     Info (12134): Parameter "width_clock" = "5"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lhn_pll_3_v_altpll1.v
-    Info (12023): Found entity 1: lhn_pll_3_v_altpll1 File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/db/lhn_pll_3_v_altpll1.v Line: 29
-Info (12128): Elaborating entity "lhn_pll_3_v_altpll1" for hierarchy "lhn_pll_3_v:my_pll|altpll:altpll_component|lhn_pll_3_v_altpll1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
+Info (12021): Found 1 design units, including 1 entities, in source file db/lhn_pll_3_v_altpll.v
+    Info (12023): Found entity 1: lhn_pll_3_v_altpll File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/db/lhn_pll_3_v_altpll.v Line: 29
+Info (12128): Elaborating entity "lhn_pll_3_v_altpll" for hierarchy "lhn_pll_3_v:my_pll|altpll:altpll_component|lhn_pll_3_v_altpll:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altpll.tdf Line: 897
 Warning (19016): Clock multiplexers are found and protected
     Warning (19017): Found clock multiplexer lhnRISC621_v:risc_inst_0|lhn_cache_2w_v:my_cache|cache_clk File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/lhn_cache_2w_v.v Line: 39
     Warning (19017): Found clock multiplexer lhnRISC621_v:risc_inst_0|lhn_cache_2w_v:my_cache|mem_clk File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_1core_v_restored/lhn_cache_2w_v.v Line: 39
@@ -1825,9 +1825,9 @@ Info (21057): Implemented 3960 device resources after synthesis - the final reso
     Info (21065): Implemented 1 PLLs
     Info (21062): Implemented 2 DSP elements
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 30 warnings
-    Info: Peak virtual memory: 4811 megabytes
-    Info: Processing ended: Thu Dec 01 01:41:38 2022
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:25
+    Info: Peak virtual memory: 4812 megabytes
+    Info: Processing ended: Fri Dec 02 09:33:14 2022
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:26
 
 

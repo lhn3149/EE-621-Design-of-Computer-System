@@ -1998,8 +1998,8 @@ c2 <= altpll:altpll_component.clk
 
 
 |FPGA_TopWraper|lhn_pll_3_v:my_pll|altpll:altpll_component
-inclk[0] => lhn_pll_3_v_altpll1:auto_generated.inclk[0]
-inclk[1] => lhn_pll_3_v_altpll1:auto_generated.inclk[1]
+inclk[0] => lhn_pll_3_v_altpll:auto_generated.inclk[0]
+inclk[1] => lhn_pll_3_v_altpll:auto_generated.inclk[1]
 fbin => ~NO_FANOUT~
 pllena => ~NO_FANOUT~
 clkswitch => ~NO_FANOUT~
@@ -2057,7 +2057,7 @@ fref <= <GND>
 icdrclk <= <GND>
 
 
-|FPGA_TopWraper|lhn_pll_3_v:my_pll|altpll:altpll_component|lhn_pll_3_v_altpll1:auto_generated
+|FPGA_TopWraper|lhn_pll_3_v:my_pll|altpll:altpll_component|lhn_pll_3_v_altpll:auto_generated
 clk[0] <= pll1.CLK
 clk[1] <= pll1.CLK1
 clk[2] <= pll1.CLK2

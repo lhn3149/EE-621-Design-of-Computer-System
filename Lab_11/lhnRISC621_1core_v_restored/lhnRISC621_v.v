@@ -58,7 +58,7 @@ module lhnRISC621_v (Resetn_pin, c0, c1, c2, SW_pin, Display_pin, ICis);
 		always @(posedge Clock_not) IPDR = {9'd0, SW_pin};
 		
 		always @(posedge Clock_not) begin
-			if (R[4'd10] == 1'd1) begin
+			if (R[4'd11] == 1'd1) begin
 				perf_counter = perf_counter + 1; end 
 		end
 		// Von Neumann architecture

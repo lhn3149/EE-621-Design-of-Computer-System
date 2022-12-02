@@ -13,7 +13,7 @@
 # 
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v 
 # -- Compiling module lhnRISC621_v
 # ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(85): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
@@ -24,114 +24,114 @@
 # 
 # Top level modules:
 # 	lhnRISC621_v
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 5
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v 
 # -- Compiling module lhn_ir2assembly_v
 # 
 # Top level modules:
 # 	lhn_ir2assembly_v
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v 
 # -- Compiling module lhn_mm
 # 
 # Top level modules:
 # 	lhn_mm
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_pll_3_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_pll_3_v.v 
 # -- Compiling module lhn_pll_3_v
 # 
 # Top level modules:
 # 	lhn_pll_3_v
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_v.v 
 # -- Compiling module lhn_cache_v
 # 
 # Top level modules:
 # 	lhn_cache_v
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v 
 # -- Compiling module lhn_CAM_v
 # ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
 # 
 # Top level modules:
 # 	lhn_CAM_v
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_3to8_dec.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_3to8_dec.v 
 # -- Compiling module lhn_3to8_dec
 # 
 # Top level modules:
 # 	lhn_3to8_dec
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v 
 # -- Compiling module lhn_cache_2w_v
 # 
 # Top level modules:
 # 	lhn_cache_2w_v
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:43 on Dec 02,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/FPGA_Top_Wrapper.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:43 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/FPGA_Top_Wrapper.v 
 # -- Compiling module FPGA_Top_Wrapper
 # 
 # Top level modules:
 # 	FPGA_Top_Wrapper
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:43 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db/lhn_pll_3_v_altpll.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:43 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db/lhn_pll_3_v_altpll.v 
 # -- Compiling module lhn_pll_3_v_altpll
 # 
 # Top level modules:
 # 	lhn_pll_3_v_altpll
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:43 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored {E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 00:53:58 on Dec 01,2022
+# Start time: 10:36:43 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v 
 # -- Compiling module lhnRISC621_v_tb
 # 
 # Top level modules:
 # 	lhnRISC621_v_tb
-# End time: 00:53:58 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:36:43 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  lhnRISC621_v_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhnRISC621_v_tb 
-# Start time: 00:53:59 on Dec 01,2022
+# Start time: 10:36:43 on Dec 02,2022
 # Loading work.lhnRISC621_v_tb
 # Loading work.FPGA_Top_Wrapper
 # Loading work.lhnRISC621_v
@@ -167,20 +167,6 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "lab11_core1.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read lab11_core1.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "lab11_core1.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "lab11_core2.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read lab11_core2.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "lab11_core2.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
 #  Note : Cyclone IV E PLL locked to incoming clock
 # Time: 180000  Instance: lhnRISC621_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
 # 
@@ -201,81 +187,16 @@
 # 
 # 
 # ------------------------------------------------------------
-# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v(61)
-#    Time: 478900 ns  Iteration: 1  Instance: /lhnRISC621_v_tb
-# Break in Module lhnRISC621_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v line 61
-add wave -position insertpoint  \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/Display_pin \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/Done \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/IPDR \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/MAB \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/MAeff \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/MAX \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/OPDR \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/SR \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/SW_pin
-add wave -position insertpoint  \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/Display_pin \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/Done \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/ICis \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/IPDR \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/MAB \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/MAeff \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/MAX \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/OPDR \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/perf_counter \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/PM_out \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[0]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[1]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[2]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[3]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[4]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[5]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[6]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[7]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[8]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[9]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[10]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[11]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[12]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[13]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[14]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_1/R[15]} \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/SR \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/SW_pin
-add wave -position insertpoint  \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/ICis \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[0]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[1]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[2]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[3]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[4]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[5]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[6]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[7]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[8]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[9]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[10]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[11]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[12]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[13]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[14]} \
-{sim:/lhnRISC621_v_tb/dut/risc_inst_0/R[15]}
-add wave -position insertpoint  \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/perf_counter
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/simulation/modelsim/wave.do
-add wave -position insertpoint  \
-sim:/lhnRISC621_v_tb/dut/core_order \
-sim:/lhnRISC621_v_tb/dut/Display_core0 \
-sim:/lhnRISC621_v_tb/dut/Display_core1 \
-sim:/lhnRISC621_v_tb/dut/Done_core0 \
-sim:/lhnRISC621_v_tb/dut/Done_core1 \
-sim:/lhnRISC621_v_tb/dut/SW_pin_0 \
-sim:/lhnRISC621_v_tb/dut/SW_pin_1
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/simulation/modelsim/wave.do
+# Checking result?
+# 
+# 
+# ------------------------------------------------------------
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v(65)
+#    Time: 675540 ns  Iteration: 1  Instance: /lhnRISC621_v_tb
+# Break in Module lhnRISC621_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v line 65
 do reload.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:16 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v 
 # -- Compiling module lhnRISC621_v
 # ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(85): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
@@ -286,103 +207,103 @@ do reload.do
 # 
 # Top level modules:
 # 	lhnRISC621_v
-# End time: 01:07:16 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 5
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:16 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v 
 # -- Compiling module lhn_ir2assembly_v
 # 
 # Top level modules:
 # 	lhn_ir2assembly_v
-# End time: 01:07:16 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:16 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v 
 # -- Compiling module lhn_mm
 # 
 # Top level modules:
 # 	lhn_mm
-# End time: 01:07:16 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:16 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_pll_3_v.v 
 # -- Compiling module lhn_pll_3_v
 # 
 # Top level modules:
 # 	lhn_pll_3_v
-# End time: 01:07:16 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:16 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_v.v 
 # -- Compiling module lhn_cache_v
 # 
 # Top level modules:
 # 	lhn_cache_v
-# End time: 01:07:16 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:16 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v 
 # -- Compiling module lhn_CAM_v
 # ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
 # 
 # Top level modules:
 # 	lhn_CAM_v
-# End time: 01:07:16 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:16 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_3to8_dec.v 
 # -- Compiling module lhn_3to8_dec
 # 
 # Top level modules:
 # 	lhn_3to8_dec
-# End time: 01:07:17 on Dec 01,2022, Elapsed time: 0:00:01
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:17 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v 
 # -- Compiling module lhn_cache_2w_v
 # 
 # Top level modules:
 # 	lhn_cache_2w_v
-# End time: 01:07:17 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:17 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/FPGA_Top_Wrapper.v 
 # -- Compiling module FPGA_Top_Wrapper
 # 
 # Top level modules:
 # 	FPGA_Top_Wrapper
-# End time: 01:07:17 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:17 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db/lhn_pll_3_v_altpll.v 
 # -- Compiling module lhn_pll_3_v_altpll
 # 
 # Top level modules:
 # 	lhn_pll_3_v_altpll
-# End time: 01:07:17 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:07:17 on Dec 01,2022
+# Start time: 10:38:42 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v 
 # -- Compiling module lhnRISC621_v_tb
 # 
 # Top level modules:
 # 	lhnRISC621_v_tb
-# End time: 01:07:17 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:38:42 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 01:07:19 on Dec 01,2022, Elapsed time: 0:13:20
-# Errors: 0, Warnings: 14
+# End time: 10:38:44 on Dec 02,2022, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 10
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhnRISC621_v_tb 
-# Start time: 01:07:19 on Dec 01,2022
+# Start time: 10:38:44 on Dec 02,2022
 # Loading work.lhnRISC621_v_tb
 # Loading work.FPGA_Top_Wrapper
 # Loading work.lhnRISC621_v
@@ -420,20 +341,6 @@ do reload.do
 #    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
 # ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(71): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v(1).
 #    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "lab11_core1.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read lab11_core1.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "lab11_core1.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "lab11_core2.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read lab11_core2.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "lab11_core2.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
 #  Note : Cyclone IV E PLL locked to incoming clock
 # Time: 180000  Instance: lhnRISC621_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
 # 
@@ -454,12 +361,16 @@ do reload.do
 # 
 # 
 # ------------------------------------------------------------
-# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v(61)
-#    Time: 478900 ns  Iteration: 1  Instance: /lhnRISC621_v_tb
-# Break in Module lhnRISC621_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v line 61
+# Checking result?
+# 
+# 
+# ------------------------------------------------------------
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v(65)
+#    Time: 675540 ns  Iteration: 1  Instance: /lhnRISC621_v_tb
+# Break in Module lhnRISC621_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v line 65
 do reload.do
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:52 on Dec 01,2022
+# Start time: 10:40:09 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v 
 # -- Compiling module lhnRISC621_v
 # ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(85): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
@@ -470,103 +381,103 @@ do reload.do
 # 
 # Top level modules:
 # 	lhnRISC621_v
-# End time: 01:15:52 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:09 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 5
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:52 on Dec 01,2022
+# Start time: 10:40:10 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v 
 # -- Compiling module lhn_ir2assembly_v
 # 
 # Top level modules:
 # 	lhn_ir2assembly_v
-# End time: 01:15:52 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:10 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:52 on Dec 01,2022
+# Start time: 10:40:10 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v 
 # -- Compiling module lhn_mm
 # 
 # Top level modules:
 # 	lhn_mm
-# End time: 01:15:52 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:10 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:52 on Dec 01,2022
+# Start time: 10:40:10 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_pll_3_v.v 
 # -- Compiling module lhn_pll_3_v
 # 
 # Top level modules:
 # 	lhn_pll_3_v
-# End time: 01:15:52 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:10 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:53 on Dec 01,2022
+# Start time: 10:40:10 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_v.v 
 # -- Compiling module lhn_cache_v
 # 
 # Top level modules:
 # 	lhn_cache_v
-# End time: 01:15:53 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:10 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:53 on Dec 01,2022
+# Start time: 10:40:10 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v 
 # -- Compiling module lhn_CAM_v
 # ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
 # 
 # Top level modules:
 # 	lhn_CAM_v
-# End time: 01:15:53 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:10 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:53 on Dec 01,2022
+# Start time: 10:40:10 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_3to8_dec.v 
 # -- Compiling module lhn_3to8_dec
 # 
 # Top level modules:
 # 	lhn_3to8_dec
-# End time: 01:15:53 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:10 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:53 on Dec 01,2022
+# Start time: 10:40:10 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v 
 # -- Compiling module lhn_cache_2w_v
 # 
 # Top level modules:
 # 	lhn_cache_2w_v
-# End time: 01:15:53 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:10 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:53 on Dec 01,2022
+# Start time: 10:40:10 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/FPGA_Top_Wrapper.v 
 # -- Compiling module FPGA_Top_Wrapper
 # 
 # Top level modules:
 # 	FPGA_Top_Wrapper
-# End time: 01:15:53 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:10 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:53 on Dec 01,2022
+# Start time: 10:40:10 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db/lhn_pll_3_v_altpll.v 
 # -- Compiling module lhn_pll_3_v_altpll
 # 
 # Top level modules:
 # 	lhn_pll_3_v_altpll
-# End time: 01:15:53 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:10 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:15:53 on Dec 01,2022
+# Start time: 10:40:10 on Dec 02,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v 
 # -- Compiling module lhnRISC621_v_tb
 # 
 # Top level modules:
 # 	lhnRISC621_v_tb
-# End time: 01:15:53 on Dec 01,2022, Elapsed time: 0:00:00
+# End time: 10:40:10 on Dec 02,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 01:15:55 on Dec 01,2022, Elapsed time: 0:08:36
-# Errors: 0, Warnings: 19
+# End time: 10:40:15 on Dec 02,2022, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 15
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhnRISC621_v_tb 
-# Start time: 01:15:55 on Dec 01,2022
+# Start time: 10:40:15 on Dec 02,2022
 # Loading work.lhnRISC621_v_tb
 # Loading work.FPGA_Top_Wrapper
 # Loading work.lhnRISC621_v
@@ -604,20 +515,6 @@ do reload.do
 #    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
 # ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(71): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v(1).
 #    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "lab11.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read lab11.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "lab11.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "lab11.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read lab11.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "lab11.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
 #  Note : Cyclone IV E PLL locked to incoming clock
 # Time: 180000  Instance: lhnRISC621_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
 # 
@@ -638,383 +535,12 @@ do reload.do
 # 
 # 
 # ------------------------------------------------------------
-# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v(61)
-#    Time: 478900 ns  Iteration: 1  Instance: /lhnRISC621_v_tb
-# Break in Module lhnRISC621_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v line 61
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/simulation/modelsim/wave.do
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/simulation/modelsim/wave.do
-do reload.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:34 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v 
-# -- Compiling module lhnRISC621_v
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(85): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(193): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(199): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(207): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(213): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# 
-# Top level modules:
-# 	lhnRISC621_v
-# End time: 01:34:34 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 5
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:34 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v 
-# -- Compiling module lhn_ir2assembly_v
-# 
-# Top level modules:
-# 	lhn_ir2assembly_v
-# End time: 01:34:34 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:34 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v 
-# -- Compiling module lhn_mm
-# 
-# Top level modules:
-# 	lhn_mm
-# End time: 01:34:35 on Dec 01,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:35 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_pll_3_v.v 
-# -- Compiling module lhn_pll_3_v
-# 
-# Top level modules:
-# 	lhn_pll_3_v
-# End time: 01:34:35 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:35 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_v.v 
-# -- Compiling module lhn_cache_v
-# 
-# Top level modules:
-# 	lhn_cache_v
-# End time: 01:34:35 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:35 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v 
-# -- Compiling module lhn_CAM_v
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
-# 
-# Top level modules:
-# 	lhn_CAM_v
-# End time: 01:34:35 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:35 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_3to8_dec.v 
-# -- Compiling module lhn_3to8_dec
-# 
-# Top level modules:
-# 	lhn_3to8_dec
-# End time: 01:34:35 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:35 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v 
-# -- Compiling module lhn_cache_2w_v
-# 
-# Top level modules:
-# 	lhn_cache_2w_v
-# End time: 01:34:35 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:35 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/FPGA_Top_Wrapper.v 
-# -- Compiling module FPGA_Top_Wrapper
-# 
-# Top level modules:
-# 	FPGA_Top_Wrapper
-# End time: 01:34:35 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:35 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db/lhn_pll_3_v_altpll.v 
-# -- Compiling module lhn_pll_3_v_altpll
-# 
-# Top level modules:
-# 	lhn_pll_3_v_altpll
-# End time: 01:34:35 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:34:35 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v 
-# -- Compiling module lhnRISC621_v_tb
-# 
-# Top level modules:
-# 	lhnRISC621_v_tb
-# End time: 01:34:35 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 01:34:37 on Dec 01,2022, Elapsed time: 0:18:42
-# Errors: 0, Warnings: 19
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhnRISC621_v_tb 
-# Start time: 01:34:37 on Dec 01,2022
-# Loading work.lhnRISC621_v_tb
-# Loading work.FPGA_Top_Wrapper
-# Loading work.lhnRISC621_v
-# Loading work.lhn_cache_2w_v
-# Loading work.lhn_CAM_v
-# Loading work.lhn_mm
-# Loading altera_mf_ver.altsyncram
-# Loading work.lhn_cache_v
-# Loading work.lhn_3to8_dec
-# Loading work.lhn_ir2assembly_v
-# Loading work.lhn_pll_3_v
-# Loading altera_mf_ver.altpll
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.pll_iobuf
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading altera_mf_ver.MF_cycloneiii_pll
-# Loading altera_mf_ver.cda_m_cntr
-# Loading altera_mf_ver.cda_n_cntr
-# Loading altera_mf_ver.cda_scale_cntr
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v(70): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v(40).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(71): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v(70): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v(40).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(71): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
-# WARNING: No extended dataflow license exists
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v(70): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v(40).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(71): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v(70): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v(40).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(71): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "lab11.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read lab11.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "lab11.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "lab11.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read lab11.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "lab11.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-#  Note : Cyclone IV E PLL locked to incoming clock
-# Time: 180000  Instance: lhnRISC621_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
+# Checking result?
 # 
 # 
 # ------------------------------------------------------------
-# first array inputted
-# 
-# 
-# ------------------------------------------------------------
-# 
-# 
-# ------------------------------------------------------------
-# second array inputted
-# 
-# 
-# ------------------------------------------------------------
-# Checking multiplication?
-# 
-# 
-# ------------------------------------------------------------
-# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v(61)
-#    Time: 478900 ns  Iteration: 1  Instance: /lhnRISC621_v_tb
-# Break in Module lhnRISC621_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v line 61
-add wave -position insertpoint  \
-sim:/lhnRISC621_v_tb/dut/risc_inst_0/c0
-add wave -position insertpoint  \
-sim:/lhnRISC621_v_tb/dut/risc_inst_1/c0
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/simulation/modelsim/wave.do
-do reload.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:45 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v 
-# -- Compiling module lhnRISC621_v
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(85): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(193): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(199): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(207): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(213): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# 
-# Top level modules:
-# 	lhnRISC621_v
-# End time: 01:35:45 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 5
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:45 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v 
-# -- Compiling module lhn_ir2assembly_v
-# 
-# Top level modules:
-# 	lhn_ir2assembly_v
-# End time: 01:35:45 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:45 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v 
-# -- Compiling module lhn_mm
-# 
-# Top level modules:
-# 	lhn_mm
-# End time: 01:35:45 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:45 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_pll_3_v.v 
-# -- Compiling module lhn_pll_3_v
-# 
-# Top level modules:
-# 	lhn_pll_3_v
-# End time: 01:35:45 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:45 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_v.v 
-# -- Compiling module lhn_cache_v
-# 
-# Top level modules:
-# 	lhn_cache_v
-# End time: 01:35:45 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:45 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v 
-# -- Compiling module lhn_CAM_v
-# ** Warning: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_CAM_v.v(54): (vlog-2256) Event expressions should result in a singular type.
-# 
-# Top level modules:
-# 	lhn_CAM_v
-# End time: 01:35:45 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:45 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_3to8_dec.v 
-# -- Compiling module lhn_3to8_dec
-# 
-# Top level modules:
-# 	lhn_3to8_dec
-# End time: 01:35:45 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:46 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v 
-# -- Compiling module lhn_cache_2w_v
-# 
-# Top level modules:
-# 	lhn_cache_2w_v
-# End time: 01:35:46 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:46 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/FPGA_Top_Wrapper.v 
-# -- Compiling module FPGA_Top_Wrapper
-# 
-# Top level modules:
-# 	FPGA_Top_Wrapper
-# End time: 01:35:46 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:46 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/db/lhn_pll_3_v_altpll.v 
-# -- Compiling module lhn_pll_3_v_altpll
-# 
-# Top level modules:
-# 	lhn_pll_3_v_altpll
-# End time: 01:35:46 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:35:46 on Dec 01,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored" E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v 
-# -- Compiling module lhnRISC621_v_tb
-# 
-# Top level modules:
-# 	lhnRISC621_v_tb
-# End time: 01:35:46 on Dec 01,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 01:35:47 on Dec 01,2022, Elapsed time: 0:01:10
-# Errors: 0, Warnings: 19
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" lhnRISC621_v_tb 
-# Start time: 01:35:47 on Dec 01,2022
-# Loading work.lhnRISC621_v_tb
-# Loading work.FPGA_Top_Wrapper
-# Loading work.lhnRISC621_v
-# Loading work.lhn_cache_2w_v
-# Loading work.lhn_CAM_v
-# Loading work.lhn_mm
-# Loading altera_mf_ver.altsyncram
-# Loading work.lhn_cache_v
-# Loading work.lhn_3to8_dec
-# Loading work.lhn_ir2assembly_v
-# Loading work.lhn_pll_3_v
-# Loading altera_mf_ver.altpll
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.pll_iobuf
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
-# Loading altera_mf_ver.MF_cycloneiii_pll
-# Loading altera_mf_ver.cda_m_cntr
-# Loading altera_mf_ver.cda_n_cntr
-# Loading altera_mf_ver.cda_scale_cntr
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v(70): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v(40).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(71): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v(70): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v(40).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(71): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
-# WARNING: No extended dataflow license exists
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v(70): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v(40).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(71): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_cache_2w_v.v(70): [PCDPC] - Port size (10) does not match connection size (14) for port 'address'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v(40).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_mm.v
-# ** Warning: (vsim-3015) E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v.v(71): [PCDPC] - Port size (16) does not match connection size (14) for port 'IR'. The port definition is at: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/IWdecode File: E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhn_ir2assembly_v.v
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "lab11.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read lab11.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "lab11.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_0/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "lab11.mif" for reading.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-# ERROR: cannot read lab11.mif.
-# ** Warning: (vsim-7) Failed to open readmem file "lab11.ver" in read mode.
-# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
-#    Time: 0 ps  Iteration: 0  Instance: /lhnRISC621_v_tb/dut/risc_inst_1/my_cache/my_ram/altsyncram_component/m_default/altsyncram_inst
-#  Note : Cyclone IV E PLL locked to incoming clock
-# Time: 180000  Instance: lhnRISC621_v_tb.dut.my_pll.altpll_component.cycloneiii_pll.pll3
-# 
-# 
-# ------------------------------------------------------------
-# first array inputted
-# 
-# 
-# ------------------------------------------------------------
-# 
-# 
-# ------------------------------------------------------------
-# second array inputted
-# 
-# 
-# ------------------------------------------------------------
-# Checking multiplication?
-# 
-# 
-# ------------------------------------------------------------
-# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v(61)
-#    Time: 478900 ns  Iteration: 1  Instance: /lhnRISC621_v_tb
-# Break in Module lhnRISC621_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v line 61
-# End time: 16:47:20 on Dec 01,2022, Elapsed time: 15:11:33
-# Errors: 0, Warnings: 13
+# ** Note: $stop    : E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v(65)
+#    Time: 675540 ns  Iteration: 1  Instance: /lhnRISC621_v_tb
+# Break in Module lhnRISC621_v_tb at E:/RIT/Fall_22/EE-621-Design-of-Computer-System/Lab_11/lhnRISC621_multicore_v_restored/lhnRISC621_v_tb.v line 65
+# End time: 11:40:58 on Dec 02,2022, Elapsed time: 1:00:43
+# Errors: 0, Warnings: 9
